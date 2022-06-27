@@ -1,4 +1,5 @@
 from django.db import models
+from fundraises.models import Fundraise
 
 # Create your models here.
 class Payment(models.Model):
@@ -20,6 +21,9 @@ class Payment(models.Model):
     )
     email = models.EmailField(
         verbose_name='email',
-        null=True,
-        blank=True
+        blank=True,
+        null=True
     )
+    class Meta:
+        verbose_name="Payment"
+        verbose_name_plural="Payments"
