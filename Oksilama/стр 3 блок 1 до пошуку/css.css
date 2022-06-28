@@ -1,0 +1,127 @@
+
+body{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.main__content{
+    margin: 159px 165px 297px 165px;
+    background: #1B8271;
+    background-image: url(img/map.png);
+    background-repeat: no-repeat;
+    background-position: flex;
+    display: flex;
+    width: 80%;
+    height: 480px;
+}
+
+.main__content_text{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 153px 350px 480px 350px;
+    
+}
+
+.block1__search{
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 584px;
+    left: calc(50% - 1056px/2);
+    width: 1056px;
+    height: 110px;
+    text-align: center;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.block1__search_left{
+    position:absolute;
+    top: 41px;
+    left: 45px;
+    right: 899px;
+    bottom: 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #121E31;
+    
+}
+.arrow{
+    background-image: url(img/arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 48px;
+    left: 184px;
+    right: 851px;
+    bottom: 51px;
+    
+}
+
+.block1__search_right input{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    right: 665px;
+    bottom: 42px;
+    width: 749px;
+    height: 50px;
+    color: #ADADAE;
+    padding: 0px 0px 0px 34px;
+    outline: none;
+    border: none;
+    border-left: 2px solid #EEEEEE;
+    
+}
+
+.search{
+    background-image: url(img/seach.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 46px;
+    left: 991px;
+    right: 47px;
+    bottom: 46px;
+}
+
+.popular_search{
+    display: inline-block;
+    color: #121E31;
+    position: absolute;
+    top: 756px;
+    left: 564px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.technology {
+    display: inline-block;
+    color:#1B8271;
+    position: absolute;
+    top: 756px;
+    left: 741px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cancer {
+    display: inline-block;
+    color: #1B8271;
+    position: absolute;
+    top: 756px;
+    left: 958px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.design {
+    display: inline-block;
+    color: #1B8271;
+    position: absolute;
+    top: 756px;
+    left: 1224px;
+    font-size: 18px;
+    font-weight: 500;
+}
