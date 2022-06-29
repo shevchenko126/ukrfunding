@@ -10,12 +10,12 @@ class FundraiseCategory(models.Model):
         verbose_name_plural="Fundraise Categories"
 
 class Fundraise(models.Model):
-    title = models.CharField(verbose_name="Title",
+    title = models.CharField(verbose_name="Назва",
                             max_length = 100,
                             blank = True,
                             null = True)
 
-    category = models.ForeignKey(FundraiseCategory, verbose_name = "Category",
+    category = models.ForeignKey(FundraiseCategory, verbose_name = "Категорія",
                                                     on_delete = models.SET_NULL,
                                                     null = True,
                                                     blank = True)
