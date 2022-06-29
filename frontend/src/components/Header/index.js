@@ -1,9 +1,9 @@
 import './index.css';
-import SingAp from './img/icons/header_top_singAp_header.svg';
-import Phone from './img/icons/header_top_phone_header.svg';
-import Email from './img/icons/header_top_email_header.svg'; 
-import Logo from './img/logo.png'; 
-import User from './img/icons/header_buttom_user_header.svg'; 
+import singap from './img/icons/header_top_singAp_header.svg';
+import phone from './img/icons/header_top_phone_header.svg';
+import email from './img/icons/header_top_email_header.svg'; 
+import logo from './img/logo.png'; 
+import user from './img/icons/header_buttom_user_header.svg'; 
 
 
 
@@ -18,7 +18,7 @@ const Header = () => {
                         </div>
                         <div className="header__button">
                             <button className="button_sing d-flex align-items-center">
-                                <img src={SingAp}/>
+                                <img src={singap}/>
                                 <div className="buttom_sing-text">
                                     Sing Up Now
                                 </div>
@@ -28,13 +28,13 @@ const Header = () => {
                     <div className="header__top_right-block d-flex justify-content-end">
                         <div className="header__right-block_top d-flex">
                             <div className="header__phone d-flex">
-                                <img src={Phone} />
+                                <img src={phone} />
                                 <div className="header__phone-number">
                                     394-091-3312
                                 </div>
                             </div>
                             <div className="header__email d-flex">
-                                <img src={Email} />
+                                <img src={email} />
                                 <div className="header__email-text">
                                     support@akcel.com
                                 </div>
@@ -46,7 +46,7 @@ const Header = () => {
                 <div className="header__buttom d-flex justify-content-between align-items-center">
                     <div className="header___buttom_left-block d-flex justify-content-start">
                         <div className="header__logo">
-                            <img src={Logo} />
+                            <img src={logo} />
                         </div>
                     </div>
 
@@ -70,7 +70,7 @@ const Header = () => {
                         </nav>
                         <div className="header__right-block_button">
                             <button className="button_account d-flex">
-                                <img src={User} />
+                                <img src={user} />
                                 <div className="buttom_account-text">
                                     My Account
                                 </div>
