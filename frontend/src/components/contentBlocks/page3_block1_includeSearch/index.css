@@ -1,4 +1,5 @@
-body {
+
+.page3block1 {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -7,7 +8,7 @@ body {
 .main__content {
     margin: 159px 165px 297px 165px;
     background: #1B8271;
-    background-image: url(img/map.png);
+    background-image: url(img/map_block1_p3.png);
     background-repeat: no-repeat;
     background-position: flex;
     display: flex;
@@ -52,7 +53,7 @@ body {
 }
 
 .arrow {
-    background-image: url(img/arrow.svg);
+    background-image: url(img/arrow_block1_p3.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 48px;
@@ -79,7 +80,7 @@ body {
 }
 
 .search {
-    background-image: url(img/seach.svg);
+    background-image: url(img/seach_block1_p3.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 46px;
