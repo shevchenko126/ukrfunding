@@ -8,7 +8,7 @@
 .main__content {
     margin: 159px 165px 297px 165px;
     background: #1B8271;
-    background-image: url(img/map_block1_p3.png);
+    background-image: url(/frontend/public/image/map_block1_p3.png);
     background-repeat: no-repeat;
     background-position: flex;
     display: flex;
@@ -53,7 +53,7 @@
 }
 
 .arrow {
-    background-image: url(img/arrow_block1_p3.svg);
+    background-image: url(/frontend/public/image/arrow_block1_p3.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 48px;
@@ -80,7 +80,7 @@
 }
 
 .search {
-    background-image: url(img/seach_block1_p3.svg);
+    background-image: url(/frontend/public/image/seach_block1_p3.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 46px;
