@@ -41,8 +41,8 @@ class Fundraise(models.Model):
     raised = models.DecimalField(
         max_digits=9,
         decimal_places=2,
-        blank=True,
-        null=True,
+        # blank=True,
+        # null=True,
         verbose_name="Зібрано")
     def __str__(self):
         return self.title
