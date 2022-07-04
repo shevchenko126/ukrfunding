@@ -25,6 +25,13 @@ class Payment(models.Model):
         blank=True,
         null=True
     )
+    amount = models.DecimalField(
+        max_digits=9,
+        decimal_places=2,
+        blank=True,
+        null=True,
+        verbose_name="Сума")
+
     class Meta:
         verbose_name="Payment"
         verbose_name_plural="Payments"
