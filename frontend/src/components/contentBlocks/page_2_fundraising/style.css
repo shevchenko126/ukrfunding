@@ -1,0 +1,63 @@
+﻿.fundraising_main {
+    height: 896px;
+    background-color: rgba(27, 130, 113, 0.8);
+}
+
+.fundraising_main__into {
+    max-width: 1620px;
+    height: auto;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    background-color: #ffffff;
+    margin: -647px auto 70px auto;
+    display: flex;
+}
+
+.fundraising_main__into__left-background {
+    width: 598px;
+    height: 852px;
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+
+.fundraising_main__into__right__header {
+    max-width: 798px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #121e31;
+    margin: 165px auto 0 81px;
+}
+
+.fundraising_main__into__right__text {
+    max-width: 805px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #717579;
+    margin: 29px auto 0 81px;
+}
+
+.fundraising_main__into__right__william {
+    margin: 95px auto 0 81px;
+}
+
+.fundraising_main__into__right__name-surname {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #121E31;
+    margin: 24px auto 0 81px;
+}
+
+@media (max-width: 1074px) {
+    .fundraising_main__into {
+        height: 900px;
+    }
+    .fundraising_main__into__left-background {
+        height: 900px;
+    }
+}
