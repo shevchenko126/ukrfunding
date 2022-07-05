@@ -1,0 +1,155 @@
+﻿.contact_us_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #121E31;
+    margin-top: 60px;
+}
+
+.contact_us_text {
+    max-width: 805px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #717579;
+    margin: 25px auto 0 auto;
+}
+
+.contact_us__items {
+    margin: 52px 0 0 220px;
+}
+
+.contact_us__items__text-top {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #121E31;
+    margin: auto 0 auto 24px;
+}
+
+.contact_us__items__text-bottom {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #121E31;
+    margin-left: 89px;
+}
+
+.contact_us__background {
+    background: #C4C4C4;
+    border-radius: 14px;
+    max-width: 1620px;
+    height: 814px;
+    margin: 100px auto 311px auto;
+}
+
+.contact_us__background__dot {
+    margin: 424px 0 0 331px; 
+}
+
+.contact_us__background__form {
+    width: 773px;
+    height: 818px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 14px;
+    margin: -450px 0 0 760px;
+}
+
+.contact_us__background__form__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #121E31;
+    padding: 60px 0 0 60px;
+}
+
+.contact_us__background__form__first-part {
+    width: 390px;
+    height: 300px;
+    margin: 53px 0 0 60px;
+}
+
+.contact_us__background__form__first-part__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #717579;
+}
+
+.contact_us__background__form__first-part__input {
+    background: #FBFBFB;
+    border: 2px solid #EEEEEE;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121E31;
+    margin-top: 21px;
+    padding: 17px 10px 17px 24px;
+}
+
+.contact_us__background__form__first-part__input__main {
+    width: 620px;
+    height: 109px;
+    background: #FBFBFB;
+    border: 2px solid #FF7468;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #06040A;
+    margin: 32px 0 0 60px;
+}
+
+.contact_us__background__form__first-part__checkbox {
+    width: 30px;
+    height: 30px;
+    margin: 72px 0 0 60px;
+}
+
+.contact_us__background__form__first-part__rules {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #121E31;
+    margin: 72px 0 0 22px;
+}
+
+.contact_us__background__form__first-part__send-button {
+    width: 221px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #F9F9FA;
+    background: #FF7468;
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+    border-radius: 8px;
+    margin: 60px 0 0 160px;
+    border: none;
+}
+
+input,
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container contact_us_title">Contact Us</div>
+    <div class="container contact_us_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    <div style="display: flex;">
+        <div class="contact_us__items">
+            <div style="display: flex">
+                <img src="images/phone.svg" />
+                <span class="contact_us__items__text-top">Telephone</span>
+            </div>
+            <div class="contact_us__items__text-bottom">394-091-3312</div>
+        </div>
+        <div class="contact_us__items">
+            <div style="display: flex">
+                <img src="images/email.svg" />
+                <span class="contact_us__items__text-top">Mail</span>
+            </div>
+            <div class="contact_us__items__text-bottom">support@akcel.com</div>
+        </div>
+        <div class="contact_us__items">
+            <div style="display: flex">
+                <img src="images/adress.svg" />
+                <span class="contact_us__items__text-top">Our Address</span>
+            </div>
+            <div class="contact_us__items__text-bottom">Thompson Drive, San Fransisco, United States</div>
+        </div>
+    </div>
+    <div class="container contact_us__background">
+        <img src="images/dot.svg" class="contact_us__background__dot" />
+        <div class="contact_us__background__form">
+            <div class="contact_us__background__form__title">Write us a message</div>
+            <form action="">
+                <div style="display: flex">
+                    <div class="contact_us__background__form__first-part">
+                        <div class="contact_us__background__form__first-part__title"><label for="fname">Full Name</label></div>
+                        <input class="contact_us__background__form__first-part__input" id="fname" name="fname" placeholder="Your name..." type="text" min="10" maxlength="40" />
+                        <div style="margin-top: 51px" class="contact_us__background__form__first-part__title"><label for="pnumber">Phone Number</label></div>
+                        <input class="contact_us__background__form__first-part__input" id="pnumber" name="pnumber" placeholder="Your phone number..." type="tel" min="10" maxlength="40" />
+                    </div>
+                    <div class="contact_us__background__form__first-part">
+                        <div class="contact_us__background__form__first-part__title"><label for="eadress">Email Address</label></div>
+                        <input class="contact_us__background__form__first-part__input" id="eadress" name="eadress" placeholder="Your email..." type="email" min="10" maxlength="40" />
+                        <div style="margin-top: 51px" class="contact_us__background__form__first-part__title"><label for="cname">Company Name</label></div>
+                        <input class="contact_us__background__form__first-part__input" id="cname" name="cname" placeholder="Your company name..." type="text" min="10" maxlength="40" />
+                    </div>
+                </div>
+                <div style="margin: 38px 0 0 60px" class="contact_us__background__form__first-part__title"><label for="message">Message</label></div>
+                <input class="contact_us__background__form__first-part__input__main" id="message" name="message" placeholder="Write Your message here..." type="text" min="5" maxlength="200" />
+                <div style="display: flex">
+                    <input type="checkbox" class="contact_us__background__form__first-part__checkbox" />
+                    <span class="contact_us__background__form__first-part__rules">Accept terms & conditions</span>
+                    <button class="contact_us__background__form__first-part__send-button">SEND</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
