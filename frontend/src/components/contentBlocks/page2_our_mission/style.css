@@ -1,0 +1,118 @@
+﻿.our_mission {
+    height: 921px;
+    display: flex;
+}
+
+.our_mission__left__panel {
+    margin: 300px auto 0 7%;
+}
+
+.our_mission__right {
+    max-width: 802px;
+    height: 631px;
+    margin: 100px auto auto 10%;
+}
+
+.our_mission__right__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B8271;
+    margin-left: 17px;
+}
+
+.our_mission__right__header {
+    max-width: 666px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #121E31;
+    margin-top: 16px;
+}
+
+.our_mission__right__text {
+    max-width: 669px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #121E31;
+    margin-top: 16px;
+}
+
+.our_mission__right__text__numbers_and_text {
+    display: flex;
+}
+
+.our_mission__right__number {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #121E31;
+    margin-top: 63px;
+    margin-right: 70px;
+}
+
+.our_mission__right__number-text {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #121E31;
+    margin-top: 8px;
+}
+
+.our_mission__right__line {
+    margin-top: 23px;
+}
+
+.our_mission__right__button_see_projects {
+    background: #FF7468;
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #F9F9FA;
+    padding: 16px 25px 17px 33px;
+    margin: 53px auto 0 10px;
+}
+
+.our_mission__right__button_see_projects__vector {
+    vertical-align: middle;
+    margin-left: 24px;
+}
+
+.our_mission__right__button_see_projects:active {
+    background: rgba(255, 116, 104, 0.8);
+}
+
+.our_mission__right__button__how_it_works {
+    background: #FBFBFB;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #717579;
+    padding: 16px 24px 17px 23px;
+    margin-left: 29px;
+}
+
+.our_mission__right__button__how_it_works:active {
+    background: rgba(140, 140, 140, 0.2);
+}
+
+button:hover {
+	cursor: pointer;
+}
