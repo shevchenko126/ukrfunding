@@ -1,0 +1,114 @@
+.who_we_are_container_main {
+	height: 921px;
+	background-image: url(images/panel-image.svg);
+	background-repeat: no-repeat;
+	background-position-x: 85%;
+	background-position-y: 322px;
+}
+
+.who_we_are_container {
+	width: 161px;
+	height: 30.42px;
+	margin-top: 100px;
+	margin-left: 153px;
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1B8271;
+}
+
+.experience_container {
+	max-width: 680px !important;
+	height: 152.11px;
+	margin-top: 16.23px;
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 75px;
+	color: #121E31;
+}
+
+.container.experience_container,
+.container.main_text_container {
+	padding: 0 0 0 0;
+	margin-left: 153px;
+	margin-right: auto;
+}
+
+.container.second-part {
+	padding: 0 0 0 0;
+}
+
+.main_text_container {
+	max-width: 669px !important;
+	height: 94.31px;
+	margin-left: 153px;
+	margin-top: 16.23px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #121E31;
+}
+
+.item_container {
+	max-width: 802px;
+	min-width: 300px;
+	height: 182.53px;
+	margin-top: 30.42px;
+	margin-left: 153px;
+	border-radius: 14px;
+	border: 1px solid white;
+}
+
+.item_container:hover {
+	border: 1px solid #EEEEEE;
+	box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.05), 0px 10px 10px rgba(0, 0, 0, 0.04);
+	max-width: 802px;
+	height: 182.53px;
+}
+
+.background_image {
+	background-image: url(images/done.svg);
+	background-repeat: no-repeat;
+	background-position-x: 30px;
+}
+
+.text {
+	margin-left: 149px;
+	align-items: center;
+}
+
+.first-part {
+	margin-top: 42.59px;
+	font-family: 'Poppins';
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 36px;
+	color: #121E31;
+}
+
+.second-part {
+	max-width: 625px;
+	height: 56.79px;
+	margin-top: 16.23px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #121E31;
+}
+
+@media (max-width: 768px) {
+	.experience_container {
+		margin-bottom: 140px;
+	}
+	.item_container {
+		height: 360px;
+	}	
+	.item_container:hover {
+		height: 360px;
+	}
+}
+
