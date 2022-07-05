@@ -1,3 +1,4 @@
+
 header {
     padding: 20px 0px;
     font-family: 'Poppins', sans-serif;
@@ -85,7 +86,7 @@ header {
 
 .mail-menu__link.has-child:after {
     content: "";
-    background-image: url('../img/icons/down_arrow.svg');
+    background-image: url('/frontend/public/image/header_down_arrow.svg');
     background-position: right center;
     background-repeat: no-repeat;
     position: absolute;
