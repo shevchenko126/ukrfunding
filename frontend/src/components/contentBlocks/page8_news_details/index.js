@@ -7,7 +7,7 @@ const News = () => {
 			<div className="news_details__header mb-4">4 Things Parents Learned From Their Kids in 2020</div>
 			<div className="row">
 				<div className="d-flex col-lg-5 col-sm-12 mt-5 news_details__header__left">
-					<img src="images/icon.svg" />
+					<img src="/images/page_8_icon.svg" />
 					<div style="margin-left: 20px">
 						<div className="news_details__header__left__name">Jean Kapoor</div>
 						<div className="d-flex news_details__header__left__bottom">
