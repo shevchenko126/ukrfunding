@@ -3,8 +3,9 @@ import './App.css';
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
 
-import Categories from './components/contentBlocks/page11_categories'
-import Numbers from './components/contentBlocks/page1_numbers'
+import Categories from './components/contentBlocks/page11_categories';
+import Numbers from './components/contentBlocks/page1_numbers';
+import News from './components/contentBlocks/page8_news_details';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </header>
           <Categories />
           <Numbers />
+          <News />
     </div>
   );
 }
