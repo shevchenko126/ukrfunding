@@ -8,6 +8,7 @@ import Numbers from './components/contentBlocks/page1_numbers';
 import News from './components/contentBlocks/page8_news_details';
 import Details from './components/contentBlocks/page5_project_details';
 import Contact from './components/contentBlocks/page6_conact_us';
+import Support from './components/contentBlocks/page5_support_other_projects';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <News />
           <Details />
           <Contact />
+          <Support />
     </div>
   );
 }
