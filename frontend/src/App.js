@@ -6,6 +6,7 @@ import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
 import Categories from './components/contentBlocks/page11_categories';
 import Numbers from './components/contentBlocks/page1_numbers';
 import News from './components/contentBlocks/page8_news_details';
+import Details from './components/contentBlocks/page5_project_details';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Categories />
           <Numbers />
           <News />
+          <Details />
     </div>
   );
 }
