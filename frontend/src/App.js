@@ -3,6 +3,9 @@ import './App.css';
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
 
+import Categories from './components/contentBlocks/page11_categories'
+import Numbers from './components/contentBlocks/page1_numbers'
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,8 @@ function App() {
           Learn React
         </a>
       </header>
+          <Categories />
+          <Numbers />
     </div>
   );
 }

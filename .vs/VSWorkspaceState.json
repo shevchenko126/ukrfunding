@@ -5,8 +5,8 @@
     "\\frontend\\src",
     "\\frontend\\src\\components",
     "\\frontend\\src\\components\\contentBlocks",
-    "\\frontend\\src\\components\\contentBlocks\\page1_categories"
+    "\\frontend\\src\\components\\Header"
   ],
-  "SelectedNode": "\\frontend\\src\\components\\contentBlocks\\page1_categories\\Explore.html",
+  "SelectedNode": "\\frontend\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
