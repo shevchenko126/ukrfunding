@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
+import Page6_redclock from './components/contentBlocks/page6_Become_our_Premium_Partner now!';
 
 import Categories from './components/contentBlocks/page11_categories';
 import Numbers from './components/contentBlocks/page1_numbers';
@@ -14,7 +15,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Page3block1/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -29,12 +29,8 @@ function App() {
           Learn React
         </a>
       </header>
-          <Categories />
-          <Numbers />
-          <News />
-          <Details />
-          <Contact />
-          <Support />
+      <Page3block1/>
+      <Page6_redclock/>
     </div>
   );
 }
