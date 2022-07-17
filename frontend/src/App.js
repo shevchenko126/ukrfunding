@@ -14,6 +14,7 @@ import Donate from './components/contentBlocks/page4_donate_to';
 import TeamMember from './components/contentBlocks/page1_team_member';
 import OurPartnership from './components/contentBlocks/page1_our_partnership';
 import Register from './components/contentBlocks/register';
+import Login from './components/contentBlocks/login';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <TeamMember />
           <OurPartnership />
           <Register />
+          <Login />
     </div>
   );
 }
