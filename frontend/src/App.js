@@ -40,7 +40,7 @@ function App() {
           <Support />
           <NewsPage1 />    
           <Donate />
-          <TeamMamber />
+          <TeamMember />
     </div>
   );
 }
