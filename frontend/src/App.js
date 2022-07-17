@@ -10,6 +10,7 @@ import Details from './components/contentBlocks/page5_project_details';
 import Contact from './components/contentBlocks/page6_conact_us';
 import Support from './components/contentBlocks/page5_support_other_projects';
 import NewsPage1 from './components/contentBlocks/page1_news';
+import Donate from './components/contentBlocks/page4_donate_to';
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
           <Details />
           <Contact />
           <Support />
-          <NewsPage1 />         
+          <NewsPage1 />    
+          <Donate />
     </div>
   );
 }
