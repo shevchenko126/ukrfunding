@@ -4,7 +4,7 @@
     background: #FFFFFF;
     box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
     border-radius: 14px;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 100px auto;
 }
 
 .register__title {
@@ -24,11 +24,12 @@
 }
 
 .register__input {
-    font-family: 'Poppins';
+	width: 76%;
+	font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     color: #121e31;
-    padding: 18px 37% 18px 5%;
+    padding: 18px 0 18px 10px;
     margin: 18px 0 0 10%;
     background: #FBFBFB;
     border: 2px solid #EEEEEE;
@@ -36,7 +37,7 @@
 }
 
 .register__bottom {
-    margin: 80px 0 0 10%;
+    margin: 30px 0 0 10%;
 }
 
 .register__checkbox {
@@ -66,7 +67,7 @@
     border: none;
     margin-right: 64px;
     padding: 13px 50px 13px 50px;
-    margin-top: -10px;
+    margin: -10px 0 50px 0;
 }
 
 .register:hover {

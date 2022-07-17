@@ -13,15 +13,16 @@ const Register = () => {
 				<input className="register__input" id="password" name="password" placeholder="Write Your Password" type="password" min="8" max="30" />
 				<div className="register__text" for="confPassword">Confirm Password</div>
 				<input className="register__input" id="confPassword" name="confPassword" placeholder="Confirm Your Password" type="password" min="8" max="30" />
-				<div className="d-flex justify-content-between register__bottom">
-					<div className="d-flex">
+				<div className="row register__bottom">
+					<div className="col-lg-6 col-sm-12 p-0 mt-5 d-flex">
 						<input type="checkbox" className="register__checkbox" />
 						<div className="register__accept">Accept terms & conditions</div>
 					</div>
-					<button className="register__bottom__button">REGISTER</button>
+					<div className="col-lg-6 col-sm-12 p-0 mt-5">
+						<button className="register__bottom__button">REGISTER</button>
+					</div>
 				</div>
 			</form>
 		</div>
-	)
 	export default;
 }
