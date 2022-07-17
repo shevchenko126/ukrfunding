@@ -13,6 +13,7 @@ import NewsPage1 from './components/contentBlocks/page1_news';
 import Donate from './components/contentBlocks/page4_donate_to';
 import TeamMember from './components/contentBlocks/page1_team_member';
 import OurPartnership from './components/contentBlocks/page1_our_partnership';
+import Register from './components/contentBlocks/register';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Donate />
           <TeamMember />
           <OurPartnership />
+          <Register />
     </div>
   );
 }
