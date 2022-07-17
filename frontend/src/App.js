@@ -9,6 +9,7 @@ import News from './components/contentBlocks/page8_news_details';
 import Details from './components/contentBlocks/page5_project_details';
 import Contact from './components/contentBlocks/page6_conact_us';
 import Support from './components/contentBlocks/page5_support_other_projects';
+import NewsPage1 from './components/contentBlocks/page1_news';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Details />
           <Contact />
           <Support />
+          <NewsPage1 />         
     </div>
   );
 }
