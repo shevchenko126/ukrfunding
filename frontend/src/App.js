@@ -11,6 +11,7 @@ import Contact from './components/contentBlocks/page6_conact_us';
 import Support from './components/contentBlocks/page5_support_other_projects';
 import NewsPage1 from './components/contentBlocks/page1_news';
 import Donate from './components/contentBlocks/page4_donate_to';
+import TeamMember from './components/contentBlocks/page1_team_member';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Support />
           <NewsPage1 />    
           <Donate />
+          <TeamMamber />
     </div>
   );
 }
