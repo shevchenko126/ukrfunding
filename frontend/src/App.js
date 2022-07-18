@@ -15,8 +15,9 @@ import TeamMember from './components/contentBlocks/page1_team_member';
 import OurPartnership from './components/contentBlocks/page1_our_partnership';
 import Register from './components/contentBlocks/register';
 import Login from './components/contentBlocks/login';
-import About from './components/contentBlocks/page2_about_our_company';
-import About from './components/contentBlocks/page2_our_mission
+import OurMission from './components/contentBlocks/page2_about_our_company';
+import About from './components/contentBlocks/page2_our_mission';
+import FilterCategory from './components/contentBlocks/page4_filter_category';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <Login />
           <About />
           <OurMission />
+          <FilterCategory />
     </div>
   );
 }
