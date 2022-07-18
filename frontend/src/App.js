@@ -16,6 +16,7 @@ import OurPartnership from './components/contentBlocks/page1_our_partnership';
 import Register from './components/contentBlocks/register';
 import Login from './components/contentBlocks/login';
 import About from './components/contentBlocks/page2_about_our_company';
+import About from './components/contentBlocks/page2_our_mission
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Register />
           <Login />
           <About />
+          <OurMission />
     </div>
   );
 }
