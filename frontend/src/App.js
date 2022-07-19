@@ -24,6 +24,7 @@ function App() {
       </header>
       <Page3block1/>
       <Page6_redclock/>
+      <FormAddProject/>
     </div>
   );
 }
