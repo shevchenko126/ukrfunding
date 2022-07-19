@@ -25,6 +25,26 @@ class Payment(models.Model):
         blank=True,
         null=True
     )
+    amount = models.DecimalField(
+        max_digits=9,
+        decimal_places=2,
+        # blank=True,
+        # null=True,
+        verbose_name="Сума")
+
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+        cur_fundraise_id = self.fundraise.id
+        cur_fundraise = Fundraise.objects.get(id=cur_fundraise_id)
+        all_raised_cur_project = Payment.objects.filter(fundraise=cur_fundraise)
+        raised_sum = 0
+        for raised_payments in all_raised_cur_project:
+            print(raised_payments.amount)
+            raised_sum += raised_payments.amount
+
+        cur_fundraise.raised = raised_sum
+        cur_fundraise.save()
+
     class Meta:
         verbose_name="Payment"
         verbose_name_plural="Payments"
