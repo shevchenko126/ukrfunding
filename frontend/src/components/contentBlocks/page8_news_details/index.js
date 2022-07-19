@@ -1,6 +1,6 @@
 ﻿import './index.css';
 
-const News = () => {
+const NewsDetails = () => {
 	return (
 		<div className="container-fluid news_details_background"></div>
 		<div className="container news_details p-5">
