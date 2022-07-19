@@ -43,6 +43,7 @@ function App() {
           Learn React
         </a>
       </header>
+
           <Categories />
           <Numbers />
           <NewsDetails />
@@ -63,6 +64,7 @@ function App() {
           <Page2Categories />
           <WhoWeAre />
           <WriteComment />
+
     </div>
   );
 }
