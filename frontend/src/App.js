@@ -22,6 +22,7 @@ import LatestNews from './components/contentBlocks/page7_latest_news';
 import Fundraisng from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
+import WriteComment from './components/contentBlocks/page8_write_comment';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Fundraisng />
           <Page2Categories />
           <WhoWeAre />
+          <WriteComment />
     </div>
   );
 }
