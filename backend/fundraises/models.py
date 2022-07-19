@@ -3,7 +3,19 @@ from django.contrib.auth.models import User
 
 
 class FundraiseCategory(models.Model):
+    title = models.CharField(verbose_name="Назва",
+                            max_length = 100,
+                            blank = True,
+                            null = True)
+    description = models.TextField(verbose_name="Опис",
+                            null=True,
+                            blank=True)
+    image = models.FileField(verbose_name="Зображення", 
+                                    upload_to = None, 
+                                    blank = True, 
+                                    null = True)
 
+                                    
     def save(self, *args, **kwargs):
         return super().save()
 
@@ -32,6 +44,18 @@ class Fundraise(models.Model):
 
     description = models.TextField(verbose_name="Опис")
 
+    needed = models.DecimalField(
+        max_digits=9,
+        decimal_places=2,
+        blank=True,
+        null=True,
+        verbose_name="Потрібно коштів")
+    raised = models.DecimalField(
+        max_digits=9,
+        decimal_places=2,
+        # blank=True,
+        # null=True,
+        verbose_name="Зібрано")
     def __str__(self):
         return self.title
 
