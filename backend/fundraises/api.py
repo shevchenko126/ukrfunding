@@ -1,7 +1,6 @@
 from rest_framework import viewsets
 from rest_framework.response import Response
-from fundraises.models import Fundraise
-from fundraises.models import FundraiseCategory
+from fundraises.models import Fundraise, FundraiseCategory
 from fundraises.serializers import FundraisesSerializer
 
 class GetFundraises(viewsets.ModelViewSet):
