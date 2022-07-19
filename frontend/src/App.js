@@ -19,6 +19,7 @@ import OurMission from './components/contentBlocks/page2_about_our_company';
 import About from './components/contentBlocks/page2_our_mission';
 import FilterCategory from './components/contentBlocks/page4_filter_category';
 import LatestNews from './components/contentBlocks/page7_latest_news';
+import Fundraisng from './components/contentBlocks/page2_fundraising';
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           <OurMission />
           <FilterCategory />
           <LatestNews />
+          <Fundraisng />
     </div>
   );
 }
