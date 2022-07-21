@@ -1,0 +1,60 @@
+﻿.our_mission {
+    max-width: 1700px;
+}
+
+.our_mission__panel {
+    margin-top: 36%;
+}
+
+.our_mission__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.our_mission__main {
+    max-width: 666px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.our_mission__main_text {
+    max-width: 669px;
+    font-size: 18px;
+}
+
+.our_mission__number {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.our_mission__number_text {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.our_mission__button__first {
+    width: 221px;
+    height: 60px;
+    border: none;
+    background: #FF7468;
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.our_mission__button__second {
+    width: 167px;
+    height: 60px;
+    border: none;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
