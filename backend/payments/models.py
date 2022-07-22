@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Payment(models.Model):
     fundraise = models.ForeignKey(
         Fundraise,
-        verbose_name='Fundraise Title',
+        verbose_name='Збірка',
         related_name='payment',
         on_delete=models.SET_NULL,
         null=True,
@@ -14,7 +14,7 @@ class Payment(models.Model):
     )
     user = models.ForeignKey(
         User,
-        verbose_name='User',
+        verbose_name='Користувач',
         related_name='payment',
         on_delete=models.SET_NULL,
         null=True,
@@ -46,5 +46,5 @@ class Payment(models.Model):
         cur_fundraise.save()
 
     class Meta:
-        verbose_name="Payment"
-        verbose_name_plural="Payments"
+        verbose_name="Платіж"
+        verbose_name_plural="Платежі"

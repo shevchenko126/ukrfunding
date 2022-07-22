@@ -7,16 +7,18 @@ class FundraiseCategory(models.Model):
                             blank = True,
                             null = True)
     description = models.TextField(verbose_name="Опис",
-                            null=True,
-                            blank=True)
-    image = models.FileField(verbose_name="Зображення", 
-                                    upload_to = None, 
-                                    blank = True, 
-                                    null = True)
+                                    null=True,
+                                    blank=True)
+    image = models.FileField(verbose_name="Зображення",
+                            upload_to = '',
+                            blank = True,
+                            null = True)
 
-                                    
     def save(self, *args, **kwargs):
         return super().save()
+
+    def __str__(self):
+        return self.title
 
     class Meta:
         verbose_name="Категорія збірок"
@@ -39,26 +41,28 @@ class Fundraise(models.Model):
                              null=True,
                              blank=True)
     image = models.FileField(verbose_name="Зображення",
-                                upload_to = 'fundraises',
+                                upload_to = '',
                                 blank = True,
                                 null = True)
 
     description = models.TextField(verbose_name="Опис",
                                     blank = True,
                                     null = True)
-    needed = models.DecimalField(
-        max_digits=9,
-        decimal_places=2,
-        blank=True,
-        null=True,
-        verbose_name="Потрібно коштів")
-    raised = models.DecimalField(
-        max_digits=9,
-        decimal_places=2,
-        # blank=True,
-        #null=True,
-        default=0,
-        verbose_name="Зібрано")
+    needed = models.DecimalField(verbose_name="Потрібно коштів",
+                                max_digits=9,
+                                decimal_places=2,
+                                blank=True,
+                                null=True)
+    raised = models.DecimalField(verbose_name="Зібрано",
+                                max_digits=9,
+                                decimal_places=2,
+                                # blank=True,
+                                #null=True,
+                                default=0)
+    is_featured = models.BooleanField(verbose_name="Обрана",
+                                        blank=True,
+                                        null=True,
+                                        default=False)
 
     def __str__(self):
         return self.title
