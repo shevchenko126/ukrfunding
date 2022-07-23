@@ -10,7 +10,7 @@ class FundraiseCategory(models.Model):
                                     null=True,
                                     blank=True)
     image = models.FileField(verbose_name="Зображення",
-                            upload_to = '',
+                            upload_to = 'images',
                             blank = True,
                             null = True)
 
@@ -41,7 +41,7 @@ class Fundraise(models.Model):
                              null=True,
                              blank=True)
     image = models.FileField(verbose_name="Зображення",
-                                upload_to = '',
+                                upload_to = 'images',
                                 blank = True,
                                 null = True)
 

@@ -5,7 +5,7 @@ from rest_framework import routers
 
 
 router = routers.DefaultRouter()
-router.register('api', GetFundraises,'fundraises')
 router.register('categories', GetFundraiseCategories,'fundraiseCategories')
+router.register('', GetFundraises,'fundraises')
 
 urlpatterns = router.urls

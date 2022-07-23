@@ -1,6 +1,7 @@
 from django.db import models
 from fundraises.models import Fundraise
 from django.contrib.auth.models import User
+from django.contrib import admin
 
 # Create your models here.
 class Payment(models.Model):
