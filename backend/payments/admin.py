@@ -2,4 +2,10 @@ from django.contrib import admin
 from .models import Payment
 
 # Register your models here.
-admin.site.register(Payment)
+
+class PaymentAdmin(admin.ModelAdmin):
+    model = Payment
+    list_display=('user', 'fundraise', 'amount')
+
+
+admin.site.register(Payment, PaymentAdmin)

@@ -16,7 +16,7 @@ class Profile(models.Model):
     avatar = models.FileField(verbose_name="Аватарка",
                             null=True,
                             blank=True,
-                            upload_to=None
+                            upload_to='images'
                             )
 
 @receiver(post_save,sender=User)

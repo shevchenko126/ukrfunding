@@ -19,8 +19,8 @@ class BlogCategory(models.Model):
         return super().save()
 
     class Meta:
-        verbose_name="Категория"
-        verbose_name_plural="Категории"
+        verbose_name="Категорія"
+        verbose_name_plural="Категорії"
 
 
 class Blog(models.Model):
@@ -36,10 +36,10 @@ class Blog(models.Model):
     image=models.FileField(verbose_name="Картинка",
                             null=True,
                             blank=True,
-                            upload_to=None
+                            upload_to='images'
                             )
     category=models.ForeignKey(BlogCategory,
-                                verbose_name="Категория",
+                                verbose_name="Категорія",
                                 on_delete=models.SET_NULL,
                                 null=True,
                                 blank=True
@@ -63,7 +63,7 @@ class BlogComment(models.Model):
                             null=True,
                             blank=True)
     user=models.ForeignKey(User,
-                            verbose_name="Пользователь",
+                            verbose_name="Користувач",
                             related_name="content",
                             on_delete=models.SET_NULL,
                             null=True,
@@ -85,5 +85,5 @@ class BlogComment(models.Model):
         return super().save()
 
     class Meta:
-        verbose_name="Коментарий"
-        verbose_name_plural="Коментарии"
+        verbose_name="Коментар"
+        verbose_name_plural="Коментарі"
