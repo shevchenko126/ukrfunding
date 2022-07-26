@@ -33,7 +33,6 @@ const Numbers = () => {
 			</div>
 		</div>
 	)
-	
-	export default Numbers;
 }
-	
+
+export default Numbers;
