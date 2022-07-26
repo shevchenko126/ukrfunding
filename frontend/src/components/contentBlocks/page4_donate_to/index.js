@@ -14,5 +14,6 @@ const Donate = () => {
 			</button>
 		</div>
 	)
-	export Default;
 }
+
+export default Donate;
