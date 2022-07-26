@@ -2,13 +2,13 @@ from dataclasses import field
 from rest_framework import serializers
 from fundraises.models import Fundraise,FundraiseCategory
 
-class FundraisesSerializer(serializers.ModelSerializer):
+class FundraiseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Fundraise
         fields = '__all__'
 
-class FundraisesCategorySerializer(serializers.ModelSerializer):
+class FundraiseCategorySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FundraiseCategory
