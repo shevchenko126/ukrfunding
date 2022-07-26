@@ -7,5 +7,6 @@ const About = () => {
 			<div className="about_our_company_container__second-part">Home / About</div>
 		</div>
 	)
-	export default;
 }
+
+export default About;

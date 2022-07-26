@@ -40,5 +40,6 @@ const WhoWeAre = () => {
 			</div>
 		</div>
 	)
-	export default;
 }
+
+export default WhoWeAre;
