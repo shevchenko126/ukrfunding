@@ -23,7 +23,6 @@ import Fundraisng from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
-import BecomeOurPremPartner from '/components/contentBlocks/page6_Become_our_Premium_Partner';
 
 function App() {
   return (
@@ -65,7 +64,6 @@ function App() {
           <Page2Categories />
           <WhoWeAre />
           <WriteComment />
-          <BecomeOurPremPartner />
 
     </div>
   );

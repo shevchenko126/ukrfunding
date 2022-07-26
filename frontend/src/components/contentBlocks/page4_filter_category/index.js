@@ -40,6 +40,5 @@ const FilterCategory = () => {
 			</div>
 		</div>
 	)
+	export default;
 }
-
-export default FilterCategory;

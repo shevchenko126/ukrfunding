@@ -1,4 +1,4 @@
-﻿import '/index.css';
+﻿import '/style.css';
 
 const Register = () => {
 	return (
@@ -24,7 +24,5 @@ const Register = () => {
 				</div>
 			</form>
 		</div>
-	)
+	export default;
 }
-
-export default Register;

@@ -49,6 +49,5 @@ const OurMission = () => {
 			</div>
 		</div>
 	)
+	export default;
 }
-
-export default OurMission;

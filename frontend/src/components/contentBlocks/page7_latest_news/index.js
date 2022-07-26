@@ -14,9 +14,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Hawkins Junior</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -35,9 +35,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Kevin Kean</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -56,9 +56,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Melinda Humbles</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -68,7 +68,7 @@ const LatestNews = () => {
 					</div>
 				</div>
 			</div>
-			<div className="row d-flex justify-content-between" style={{marginTop: '45px'}}>
+			<div className="row d-flex justify-content-between" style="margin-top: 45px">
 				<div className="col-lg-4 col-md-6 col-sm-12 p-0 latest_news__item">
 					<div className="latest_news__item__logo">
 						<div className="latest_news__item__background"></div>
@@ -79,9 +79,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Hawkins Junior</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -100,9 +100,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Jean Kapoor</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -121,9 +121,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Melinda Humbles</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -133,7 +133,7 @@ const LatestNews = () => {
 					</div>
 				</div>
 			</div>
-			<div className="row d-flex justify-content-between" style={{marginTop: '45px'}}>
+			<div className="row d-flex justify-content-between" style="margin-top: 45px">
 				<div className="col-lg-4 col-md-6 col-sm-12 p-0 latest_news__item">
 					<div className="latest_news__item__logo">
 						<div className="latest_news__item__background"></div>
@@ -144,9 +144,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Hawkins Junior</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -165,9 +165,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Kevin Kean</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -186,9 +186,9 @@ const LatestNews = () => {
 					<div className="latest_news__item__author">
 						<div className="d-flex">
 							<img src="/images/page_7_latest_news_icon.svg" className="img-fluid" />
-							<div style={{marginLeft: '5%'}}>
+							<div style="margin-left: 5%">
 								<div className="latest_news__item__author__name">Melinda Humbles</div>
-								<div className="d-flex" style={{marginTop: '20px'}}>
+								<div className="d-flex" style="margin-top: 20px">
 									<div className="latest_news__item__author__read-time">24min read</div>
 									<img src="/images/page_7_latest_news_dot.svg" />
 									<div className="latest_news__item__author__date">November 21th, 2020</div>
@@ -203,7 +203,5 @@ const LatestNews = () => {
 			</div>
 		</div>
 	)
+	export default;
 }
-
-
-export default LatestNews;

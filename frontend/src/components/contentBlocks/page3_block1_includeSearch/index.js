@@ -36,4 +36,4 @@ const Page3block1 = () => {
     )
 }
 
-export default Page3block1;
+export default Page3block1
