@@ -1,12 +1,11 @@
 from django.contrib import admin
 from django.urls import path
-from fundraises.api import GetFundraises,GetFundraisesCategory
+from fundraises.api import GetFundraises,GetFundraiseCategories
 from rest_framework import routers
 
 
 router = routers.DefaultRouter()
-router.register('api', GetFundraises,'fundraises-api')
-router.register('apiCategory', GetFundraisesCategory,'fundraisesCategory-api')
+router.register('categories', GetFundraiseCategories,'fundraiseCategories')
+router.register('', GetFundraises,'fundraises')
 
 urlpatterns = router.urls
-

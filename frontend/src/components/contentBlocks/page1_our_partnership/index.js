@@ -23,5 +23,6 @@ const OurPartnership = () => {
 			</div>
 		</div>
 	)
-	export default;
 }
+
+export default OurPartnership;

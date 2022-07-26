@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg'; */
 import './App.css';
 
 import Header from './components/Header';
@@ -11,7 +11,7 @@ import Contact from './components/contentBlocks/page6_conact_us';
 import Support from './components/contentBlocks/page5_support_other_projects';
 import NewsPage1 from './components/contentBlocks/page1_news';
 import Donate from './components/contentBlocks/page4_donate_to';
-import TeamMember from './components/contentBlocks/page1_team_member';
+import TeamMember from './components/contentBlocks/page1_meet_our';
 import OurPartnership from './components/contentBlocks/page1_our_partnership';
 import Register from './components/contentBlocks/register';
 import Login from './components/contentBlocks/login';
@@ -24,11 +24,13 @@ import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
 import DontMiss from './components/contentBlocks/block10_Dont_miss';
+import BecomeOurPremPartner from '/components/contentBlocks/page6_Become_our_Premium_Partner';
+import Page5AboutProject from '/components/contentBlocks/Page5AboutProject';
+import FormAddProject from '/components/contentBlocks/form_add_project';
 
 function App() {
   return (
     <div className="App">
-      
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -42,10 +44,10 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
-          
+       </header>*/}
           <Header/>
           <Page3block1/>
+          <Page5AboutProject />
           <Categories />
           <Numbers />
           <NewsDetails />
@@ -67,6 +69,8 @@ function App() {
           <WhoWeAre />
           <WriteComment />
           <DontMiss />
+          <BecomeOurPremPartner />
+          <FormAddProject />
 
     </div>
   );
