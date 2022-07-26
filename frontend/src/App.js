@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
-
 import Categories from './components/contentBlocks/page11_categories';
 import Numbers from './components/contentBlocks/page1_numbers';
 import NewsDetails from './components/contentBlocks/page8_news_details';
@@ -23,13 +23,13 @@ import Fundraisng from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
+import DontMiss from './components/contentBlocks/block10_Dont_miss';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Page3block1/>
-      <header className="App-header">
+      
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -42,8 +42,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-
+      </header> */}
+          
+          <Header/>
+          <Page3block1/>
           <Categories />
           <Numbers />
           <NewsDetails />
@@ -64,6 +66,7 @@ function App() {
           <Page2Categories />
           <WhoWeAre />
           <WriteComment />
+          <DontMiss />
 
     </div>
   );
