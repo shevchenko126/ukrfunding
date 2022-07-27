@@ -1,5 +1,6 @@
 /* import logo from './logo.svg'; */
 import './App.css';
+
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
 import Categories from './components/contentBlocks/page11_categories';
@@ -22,6 +23,7 @@ import Fundraisng from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
+import DontMiss from './components/contentBlocks/block10_Dont_miss';
 import BecomeOurPremPartner from '/components/contentBlocks/page6_Become_our_Premium_Partner';
 import Page5AboutProject from '/components/contentBlocks/Page5AboutProject';
 import FormAddProject from '/components/contentBlocks/form_add_project';
@@ -66,6 +68,7 @@ function App() {
           <Page2Categories />
           <WhoWeAre />
           <WriteComment />
+          <DontMiss />
           <BecomeOurPremPartner />
           <FormAddProject />
 
