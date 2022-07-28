@@ -23,9 +23,10 @@ import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
 import DontMiss from './components/contentBlocks/block10_Dont_miss';
-import BecomeOurPremPartner from '/components/contentBlocks/page6_Become_our_Premium_Partner';
-import Page5AboutProject from '/components/contentBlocks/Page5AboutProject';
-import FormAddProject from '/components/contentBlocks/form_add_project';
+import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
+import Page5AboutProject from './components/contentBlocks/Page5AboutProject';
+import FormAddProject from './components/contentBlocks/form_add_project';
+import Footer from './components/Footer/index';
 
 /* function App() {
   return (
@@ -56,6 +57,7 @@ import FormAddProject from '/components/contentBlocks/form_add_project';
       <DontMiss />
       <BecomeOurPremPartner />
       <FormAddProject />
+      <Footer />
     </div>
   )
 } */
@@ -94,6 +96,7 @@ function App() {
       <DontMiss />
       <BecomeOurPremPartner />
       <FormAddProject />
+      <Footer />
     </div>
   ]
 
