@@ -7,24 +7,24 @@ const Footer = () => {
                 <div className="row gx-5 pt-5 mx-0">
                     <div className="col-lg-4 col-md-12 footer__first-col">
                         <div style={{marginLeft: '15%'}} className="mt-4">
-                            <img src="./images/footer_logo.svg" />
+                            <img src="..../public/image/footer_logo.svg" />
                         </div>
                         <div className="footer__first-col__text text-white mt-4">Akcel is a Crowdfunding & Charity Website by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
                         <div className="row mt-4 text-center">
                             <div className="col-2" style={{marginLeft: '12%'}}>
-                                <img src="./images/footer_facebook.svg" className="footer__first-col__logo" />
+                                <img src="..../public/image/footer_facebook.svg" className="footer__first-col__logo" />
                             </div>
                             <div className="col-2">
-                                <img src="./images/footer_twitter.svg" className="footer__first-col__logo twitter" />
+                                <img src="..../public/image/footer_twitter.svg" className="footer__first-col__logo twitter" />
                             </div>
                             <div className="col-2">
-                                <img src="./images/footer_youtube.svg" className="footer__first-col__logo" />
+                                <img src="..../public/image/footer_youtube.svg" className="footer__first-col__logo" />
                             </div>
                             <div className="col-2">
-                                <img src="./images/footer_in.svg" className="footer__first-col__logo in" />
+                                <img src="..../public/image/footer_in.svg" className="footer__first-col__logo in" />
                             </div>
                             <div className="col-2">
-                                <img src="./images/footer_instagram.svg" className="footer__first-col__logo" />
+                                <img src="..../public/image/footer_instagram.svg" className="footer__first-col__logo" />
                             </div>
                         </div>
                     </div>
@@ -58,15 +58,15 @@ const Footer = () => {
                         <div>
                             <div className="footer__title mt-4 pb-4">Get in Touch with Us</div>
                             <div className="d-flex">
-                                <img src="./images/footer_location.svg" className="mx-2" style={{marginTop: '-20px'}}/>
+                                <img src="..../public/image/footer_location.svg" className="mx-2" style={{marginTop: '-20px'}}/>
                                 <div className="footer__location">832  Thompson Drive, San Fransisco CA 94107, United States</div>
                             </div>
                             <div className="d-flex mt-4">
-                                <img src="./images/footer_phone.svg" className="mx-2" />
+                                <img src="..../public/image/footer_phone.svg" className="mx-2" />
                                 <div className="footer__location">394-091-3312</div>
                             </div>
                             <div className="d-flex" style={{marginTop: '40px'}}>
-                                <img src="./images/footer_email.svg" className="mx-2" />
+                                <img src="..../public/image/footer_email.svg" className="mx-2" />
                                 <div className="footer__location">support@akcel.com</div>
                             </div>
                         </div>
