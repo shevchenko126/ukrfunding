@@ -28,6 +28,8 @@ import Page5AboutProject from './components/contentBlocks/Page5AboutProject';
 import FormAddProject from './components/contentBlocks/form_add_project';
 import Footer from './components/Footer/index';
 
+// content blocks - have to change img sources //
+
 /* function App() {
   return (
     <div className="App">
