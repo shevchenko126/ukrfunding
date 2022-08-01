@@ -1,6 +1,6 @@
 import './index.css';
 
-const successStory = () => {
+const SuccessStory = () => {
     return (
         <div className="container border my-5 success_story">
             <div className="row pb-5">
@@ -50,4 +50,4 @@ const successStory = () => {
         </div>
     )
 }  
-export default successStory;
+export default SuccessStory;
