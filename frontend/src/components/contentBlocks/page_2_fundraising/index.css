@@ -1,0 +1,35 @@
+﻿.fundraising_main {
+    height: 896px;
+    background-color: rgba(27, 130, 113, 0.8);
+}
+
+.fundraising_main__into {
+    max-width: 1620px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    background-color: #ffffff;
+    margin: -647px auto 70px auto;
+}
+
+.fundraising_main__into__title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.fundraising_main__into__text {
+    max-width: 805px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 28px;
+    color: #717579;
+}
+
+.fundraising_main__into__william {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.fundraising_main__into__img {
+    height: 100%;
+}
