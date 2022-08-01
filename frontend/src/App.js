@@ -1,4 +1,3 @@
-/* import logo from './logo.svg'; */
 import './App.css';
 
 import Header from './components/Header';
@@ -24,54 +23,88 @@ import Page2Categories from './components/contentBlocks/page2_categories';
 import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
 import DontMiss from './components/contentBlocks/block10_Dont_miss';
-import BecomeOurPremPartner from '/components/contentBlocks/page6_Become_our_Premium_Partner';
-import Page5AboutProject from '/components/contentBlocks/Page5AboutProject';
-import FormAddProject from '/components/contentBlocks/form_add_project';
+import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
+import Page5AboutProject from './components/contentBlocks/Page5AboutProject';
+import FormAddProject from './components/contentBlocks/form_add_project';
+import Footer from './components/Footer/index';
 
-function App() {
+// content blocks - have to change img sources //
+
+/* function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-       </header>*/}
-          <Header/>
-          <Page3block1/>
-          <Page5AboutProject />
-          <Categories />
-          <Numbers />
-          <NewsDetails />
-          <Details />
-          <Contact />
-          <Support />
-          <NewsPage1 />    
-          <Donate />
-          <TeamMember />
-          <OurPartnership />
-          <Register />
-          <Login />
-          <About />
-          <OurMission />
-          <FilterCategory />
-          <LatestNews />
-          <Fundraisng />
-          <Page2Categories />
-          <WhoWeAre />
-          <WriteComment />
-          <DontMiss />
-          <BecomeOurPremPartner />
-          <FormAddProject />
+      <Header/>
+      <Page3block1/>
+      <Page5AboutProject />
+      <Categories />
+      <Numbers />
+      <NewsDetails />
+      <Details />
+      <Contact />
+      <Support />
+      <NewsPage1 />    
+      <Donate />
+      <TeamMember />
+      <OurPartnership />
+      <Register />
+      <Login />
+      <About />
+      <OurMission />
+      <FilterCategory />
+      <LatestNews />
+      <Fundraisng />
+      <Page2Categories />
+      <WhoWeAre />
+      <WriteComment />
+      <DontMiss />
+      <BecomeOurPremPartner />
+      <FormAddProject />
+      <Footer />
+    </div>
+  )
+} */
 
+// commented - was
+
+//----------------//
+
+// become: 
+function App() {
+  const componentsArray = [
+    <div>
+      <Header/>
+      <Page3block1/>
+      <Page5AboutProject />
+      <Categories />
+      <Numbers />
+      <NewsDetails />
+      <Details />
+      <Contact />
+      <Support />
+      <NewsPage1 />    
+      <Donate />
+      <TeamMember />
+      <OurPartnership />
+      <Register />
+      <Login />
+      <About />
+      <OurMission />
+      <FilterCategory />
+      <LatestNews />
+      <Fundraisng />
+      <Page2Categories />
+      <WhoWeAre />
+      <WriteComment />
+      <DontMiss />
+      <BecomeOurPremPartner />
+      <FormAddProject />
+      <Footer />
+    </div>
+  ]
+
+  return (
+    <div className="App">
+      {componentsArray.map((all_content) => (all_content))}
     </div>
   );
 }
