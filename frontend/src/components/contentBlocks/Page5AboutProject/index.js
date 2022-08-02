@@ -36,4 +36,4 @@ const Page5AboutProject = () => {
     )
 }
 
-export default Page5AboutProject
+export default Page5AboutProject;
