@@ -1,6 +1,6 @@
 import './index.css';
 
-const Page5AboutProject = () => {
+const AboutProject = () => {
     return (
         <div className="aboutproject p-4">
             <div className="aboutproject__nav d-flex align-items-center">
@@ -36,4 +36,4 @@ const Page5AboutProject = () => {
     )
 }
 
-export default Page5AboutProject;
+export default AboutProject;
