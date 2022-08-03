@@ -1,0 +1,45 @@
+.testimonial {
+    border: 1px solid #eeeeee !important;
+    box-shadow: 0px 7px 22px rgba(143, 134, 196, 0.02) !important;
+    border-radius: 20px !important;
+    height: 100%;
+}
+.card-image {
+    background: #c4c4c4;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    overflow: hidden;
+}
+
+.testimonial-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+
+    padding: 10px 20px !important;
+
+    background-color: #ff7468 !important;
+    border-radius: 14px !important;
+
+    font-family: "Poppins";
+    font-style: normal;
+    text-transform: uppercase;
+
+    color: #ffffff !important;
+}
+
+.testimonial__authorlogo {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 35px;
+    background: #c4c4c4;
+}
+
+.testimonial__authorname {
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}

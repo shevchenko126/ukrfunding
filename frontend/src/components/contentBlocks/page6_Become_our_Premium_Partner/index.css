@@ -1,0 +1,27 @@
+.container-fluid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1rem;
+    background: #FF7468;
+    width: 1920px;
+    height: 335px;
+    color: white;
+    background-image: url('/frontend/public/image/page6_background.png');
+    background-repeat: no-repeat;
+    padding-top: 140px;
+
+}
+
+.h1 {
+    margin-left: 149px;
+}
+
+.button_join {
+    background: #121E31;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    width: 221px;
+    height: 78px;
+    color: white;
+    font-weight: 700;
+}
