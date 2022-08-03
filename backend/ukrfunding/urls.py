@@ -16,8 +16,14 @@ Including another URLconf
 from xml.etree.ElementInclude import include
 from django.contrib import admin
 from django.urls import path,include
+from account.api import CustomAuthData
+from account.views import ChangePassword
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fundraises/', include('fundraises.urls'))
+    path('fundraises/', include('fundraises.urls')),
+    path('payments/', include('payments.urls')),
+    path('accounts/', CustomAuthData.as_view()),
+    path('changepassword/',ChangePassword.as_view()),
+
 ]
