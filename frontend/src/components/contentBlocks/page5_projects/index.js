@@ -47,7 +47,7 @@ const Page5Projects = () => {
 					<button className="we_have_done__view-more">
 						<div className="d-flex justify-content-between px-3">
 							<div className="text-success we_have_done__view-more__text">View More</div>
-							<img src="./images/arrow.svg" />
+							<img src="../image/page5_project_arrow.svg" />
 						</div>
 					</button>
 				</div>
