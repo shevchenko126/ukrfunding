@@ -46,8 +46,14 @@ function App() {
     <div className="App">
       <Header />
       <Details />
-      <AboutProject />
-      <Support />
+      <div className='row'>
+        <div className='col-lg-8 col-md-12'>
+          <AboutProject />
+        </div>
+        <div className='col-lg-3 col-md-12'>
+          <Support />
+        </div>
+      </div>
       <Page5Projects />
       <DontMiss />
       <Footer />
