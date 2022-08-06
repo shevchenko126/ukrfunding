@@ -11,7 +11,7 @@ const Header = () => {
                         </div>
                         <div className="header__button">
                             <button className="button_sing d-flex align-items-center">
-                                <img src="/image/header_top_singAp.svg"/>
+                                <img src="./image/header_top_singAp.svg"/>
                                 <div className="buttom_sing-text">
                                     Sing Up Now
                                 </div>
@@ -21,13 +21,13 @@ const Header = () => {
                     <div className="header__top_right-block d-flex justify-content-end">
                         <div className="header__right-block_top d-flex">
                             <div className="header__phone d-flex">
-                                <img src="/image/header_top_phone.svg" />
+                                <img src="./image/header_top_phone.svg" />
                                 <div className="header__phone-number">
                                     394-091-3312
                                 </div>
                             </div>
                             <div className="header__email d-flex">
-                                <img src="/image/header_top_email.svg" />
+                                <img src="./image/header_top_email.svg" />
                                 <div className="header__email-text">
                                     support@akcel.com
                                 </div>
@@ -39,7 +39,7 @@ const Header = () => {
                 <div className="header__buttom d-flex justify-content-between align-items-center">
                     <div className="header___buttom_left-block d-flex justify-content-start">
                         <div className="header__logo">
-                            <img src="/image/logo_Akcel.png" />
+                            <img src="./image/logo_Akcel.png" />
                         </div>
                     </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
                         </nav>
                         <div className="header__right-block_button">
                             <button className="button_account d-flex">
-                                <img src="/image/header_buttom_user.svg" />
+                                <img src="./image/header_buttom_user.svg" />
                                 <div className="buttom_account-text">
                                     My Account
                                 </div>
@@ -71,7 +71,6 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </header>
     )

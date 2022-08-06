@@ -2,12 +2,12 @@ import './index.css';
 
 const AboutProject = () => {
     return (
-        <div className="aboutproject p-4">
+        <div className="container aboutproject p-4">
             <div className="aboutproject__nav d-flex align-items-center">
                 <a className="active" href="">About Projects</a>
                 <a href="">Updates</a>
                 <a href="">Bakcker List</a>
-                <a href="">Reviews</a>
+                <a href="">Reviews(245)</a>
             </div>
             <div className="aboutproject__content">
                 <div className="aboutproject__textarea">

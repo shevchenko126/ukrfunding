@@ -1,5 +1,5 @@
 .aboutproject {
-    width:1000px;
+    max-width: 1000px;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
@@ -12,9 +12,6 @@
     font-size: 16px;
     line-height: 28px;
     color:#121E31;
-}
-
-.aboutproject__nav {
 }
 
 .aboutproject__nav a {

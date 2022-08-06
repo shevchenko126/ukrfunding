@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+/* 
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
 import Categories from './components/contentBlocks/page11_categories';
@@ -26,61 +28,29 @@ import DontMiss from './components/contentBlocks/block10_Dont_miss';
 import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
 import AboutProject from './components/contentBlocks/page5_about_project';
 import FormAddProject from './components/contentBlocks/form_add_project';
+import Page5Projects from './components/contentBlocks/page5_projects';
+import Footer from './components/Footer/index';  */
+
+import Details from './components/contentBlocks/page5_project_details';
 import Footer from './components/Footer/index';
+import Page5Projects from './components/contentBlocks/page5_projects';
+import DontMiss from './components/contentBlocks/block10_Dont_miss';
+import Support from './components/contentBlocks/page5_support_other_projects';
+import AboutProject from './components/contentBlocks/page5_about_project';
+import Header from './components/Header';
 
 // content blocks - have to change img sources //
 
-const ProjectDetails = () => {
+function App() {
   return (
-    <section>
+    <div className="App">
       <Header />
       <Details />
       <AboutProject />
       <Support />
+      <Page5Projects />
       <DontMiss />
       <Footer />
-    </section>
-  )
-}
-
-
-function App() {
-  const componentsArray = [
-    <div>
-      {ProjectDetails}
-      <AboutProject />
-      <Support />
-      <Header/>
-      <Page3block1/>
-      <Categories />
-      <Numbers />
-      <NewsDetails />
-      <Details />
-      <Contact />
-      <NewsPage1 />    
-      <Donate />
-      <TeamMember />
-      <OurPartnership />
-      <Register />
-      <Login />
-      <About />
-      <OurMission />
-      <FilterCategory />
-      <LatestNews />
-      <Fundraisng />
-      <Page2Categories />
-      <WhoWeAre />
-      <WriteComment />
-      <DontMiss />
-      <BecomeOurPremPartner />
-      <FormAddProject />
-      <Footer />
-    </div>
-  ]
-
-  return (
-    <div className="App">
-      {componentsArray.map((all_content) => (all_content))}
     </div>
   );
 }
