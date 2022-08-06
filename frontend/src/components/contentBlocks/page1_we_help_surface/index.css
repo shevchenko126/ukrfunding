@@ -1,0 +1,77 @@
+.we_help_surface {
+    max-width: 1620px;
+}
+
+.we_help_surface__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.we_help_surface__theme {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.we_help_surface__theme-text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.we_help_surface__text {
+    max-width: 669px;
+    font-family: 'Open Sans';
+    line-height: 28px;
+}
+
+.we_help_surface__buttons__learn_more {
+    width: 221px;
+    height: 60px;
+    background: #FF7468;
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.we_help_surface__buttons__donate {
+    width: 167px;
+    height: 60px;
+    background: #FBFBFB;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    color: #717579;
+}
+
+.we_help_surface__our_partners {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #717579;
+}
+
+.we_help_surface__logotypes {
+    max-width: 555px;
+}
+
+
+
+button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+} 
+.we_help_surface__buttons__learn_more:active {
+    background: rgba(255, 117, 104, 0.7)
+}
+.we_help_surface__buttons__donate:active {
+    background: rgba(94, 94, 94, 0.3);
+}
