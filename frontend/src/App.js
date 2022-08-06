@@ -2,6 +2,12 @@ import './App.css';
 
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
+
+import RecentProjects from './components/contentBlocks/page1_recent_projects';
+
+import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
+import SuccessStory from './components/contentBlocks/page1_success_story';
+
 import Categories from './components/contentBlocks/page11_categories';
 import Numbers from './components/contentBlocks/page1_numbers';
 import NewsDetails from './components/contentBlocks/page8_news_details';
@@ -32,8 +38,37 @@ import Footer from './components/Footer/index';
 
 const ProjectDetails = () => {
   return (
+
     <section>
       <Header />
+
+    <div className="App">
+      <Header/>
+      <Page3block1/>
+
+      <RecentProjects />
+
+      <WeHelpSurface />
+      <SuccessStory />
+
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+      <Page5AboutProject />
+      <Categories />
+      <Numbers />
+      <NewsDetails />
       <Details />
       <AboutProject />
       <Support />
@@ -74,7 +109,10 @@ function App() {
       <DontMiss />
       <BecomeOurPremPartner />
       <FormAddProject />
+      <WeHelpSurface />
+      <SuccessStory />
       <Footer />
+      <RecentProjects />
     </div>
   ]
 

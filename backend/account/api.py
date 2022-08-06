@@ -46,7 +46,7 @@ class CustomAuthData(ObtainAuthToken):
                     "password": password,
                     # - тут зашифрований пароль, щось таке: 
                     # "pbkdf2_sha256$320000$OeUb1DRMSzHrhMJk0sbogh$KyqIDmOSsvyIpx3y14bB9cA6/cRqwtN8v1SfcpDf3Kc="
-                    "password_encrypted": u.password}
+                    "password_encrypted": user_second_try.password}
         except Exception as e:
             print(e)
             resp = {
