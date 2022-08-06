@@ -2,8 +2,12 @@ import './App.css';
 
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
+
+import RecentProjects from './components/contentBlocks/page1_recent_projects';
+
 import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
 import SuccessStory from './components/contentBlocks/page1_success_story';
+
 import Categories from './components/contentBlocks/page11_categories';
 import Numbers from './components/contentBlocks/page1_numbers';
 import NewsDetails from './components/contentBlocks/page8_news_details';
@@ -37,8 +41,12 @@ import Footer from './components/Footer/index';
     <div className="App">
       <Header/>
       <Page3block1/>
+
+      <RecentProjects />
+
       <WeHelpSurface />
       <SuccessStory />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -119,6 +127,7 @@ function App() {
       <WeHelpSurface />
       <SuccessStory />
       <Footer />
+      <RecentProjects />
     </div>
   ]
 
