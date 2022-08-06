@@ -30,14 +30,18 @@ import WhoWeAre from './components/contentBlocks/page2_who_we_are';
 import WriteComment from './components/contentBlocks/page8_write_comment';
 import DontMiss from './components/contentBlocks/block10_Dont_miss';
 import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
-import Page5AboutProject from './components/contentBlocks/Page5AboutProject';
+import AboutProject from './components/contentBlocks/page5_about_project';
 import FormAddProject from './components/contentBlocks/form_add_project';
 import Footer from './components/Footer/index';
 
 // content blocks - have to change img sources //
 
-/* function App() {
+const ProjectDetails = () => {
   return (
+
+    <section>
+      <Header />
+
     <div className="App">
       <Header/>
       <Page3block1/>
@@ -66,47 +70,28 @@ import Footer from './components/Footer/index';
       <Numbers />
       <NewsDetails />
       <Details />
-      <Contact />
+      <AboutProject />
       <Support />
-      <NewsPage1 />    
-      <Donate />
-      <TeamMember />
-      <OurPartnership />
-      <Register />
-      <Login />
-      <About />
-      <OurMission />
-      <FilterCategory />
-      <LatestNews />
-      <Fundraisng />
-      <Page2Categories />
-      <WhoWeAre />
-      <WriteComment />
       <DontMiss />
-      <BecomeOurPremPartner />
-      <FormAddProject />
       <Footer />
-    </div>
+    </section>
   )
-} */
+}
 
-// commented - was
 
-//----------------//
-
-// become: 
 function App() {
   const componentsArray = [
     <div>
+      {ProjectDetails}
+      <AboutProject />
+      <Support />
       <Header/>
       <Page3block1/>
-      <Page5AboutProject />
       <Categories />
       <Numbers />
       <NewsDetails />
       <Details />
       <Contact />
-      <Support />
       <NewsPage1 />    
       <Donate />
       <TeamMember />
