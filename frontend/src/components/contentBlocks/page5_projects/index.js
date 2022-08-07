@@ -42,7 +42,7 @@ const Page5Projects = () => {
     return (
 		<div className="container mt-5 we_have_done">
 			<div className="row">
-				<div className="col-lg-6 col-md-12 we_have_done__title">We have done many crowdfunding projects</div>
+				<div className="col-lg-6 col-md-12 px-4 we_have_done__title">We have done many crowdfunding projects</div>
 				<div className="col-lg-6 col-md-12 d-flex align-items-center">
 					<button className="we_have_done__view-more">
 						<div className="d-flex justify-content-between px-3">

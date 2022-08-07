@@ -62,14 +62,3 @@ const Support = () => {
 }
 
 export default Support;
-
-{/* <img src="../image/page5_support_profile.svg" className='mt-3 mx-2' /> */ }
-{/* <img src="../image/page5_support_star.svg" />
-							<img src="../image/page5_support_star.svg" />
-							<img src="../image/page5_support_star.svg" /> */}
-{/* <img src="../image/page5_support_dot.svg" className="support_others_project__dot" /> */ }
-{/* <img src="../image/page5_support_rectangle.svg" className="support_others_project__rectangle" /> */ }
-{/* <img src="../image/page5_support_star.svg" />
-							<img src="../image/page5_support_star.svg" />
-							<img src="../image/page5_support_star.svg" /> */}
-{/* <img src="../image/page5_support_dot.svg" className="support_others_project__dot" /> */ }

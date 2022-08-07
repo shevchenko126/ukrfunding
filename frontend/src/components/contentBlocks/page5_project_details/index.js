@@ -56,17 +56,15 @@ const Details = () => {
                             </div>
                             <div className="col-lg-3 col-sm-12 mt-3">
                                 <img src="../image/page_5_heart.svg" />
-                                <img src="../image/page_5_share.svg" style={{ margin: '0 30px' }} />
+                                <img src="../image/page_5_share.svg" className='mx-5' />
                                 <img src="../image/page_5_flag.svg" />
                             </div>
                         </div>
                         <div className="mt-4 project_details__main__right__main__title">Samcung Okulus Rivt PC - Powered VR  Gaming Headset</div>
                         <div className="mt-4 project_details__main__right__main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-
                         <div className="mt-5 progress details">
                             <div className="progress-bar details" style={{ width: '65%' }}></div>
                         </div>
-
                         <div className="row mt-4">
                             <div className="col-lg-4 mt-3 col-md-12">
                                 <div className="d-flex">

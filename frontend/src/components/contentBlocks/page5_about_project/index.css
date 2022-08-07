@@ -1,86 +1,30 @@
-.aboutproject {
-    max-width: 1070px;
+.about_project {
+    max-width: 1066px;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
 }
 
-.aboutproject__content {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color:#121E31;
+.about_project__main {
+    max-width: 966px;
+    margin: auto;
 }
 
-.aboutproject__nav a {
-    /* H3 / Poppins / Bold 20 */
-    font-family:'Poppins';
-    font-style: normal;
+.about_project__main__title {
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding-right: 50px;
-    text-decoration: none !important;
+    color: #717579;
+    text-decoration: none;
 }
-
-.aboutproject__nav a.active {
-    /* H1 / Poppins / Bold 32 */
+.about_project__main__title:hover {
+    font-family: 'Poppins';
+    font-weight: 700;
     font-size: 32px;
-    line-height: 48px;
+    color: #121E31;
 }
 
-.aboutproject__nav a:hover {
-    /* H1 / Poppins / Bold 32 */
-    font-size: 32px;
-    line-height: 48px;
-}
-
-.aboutproject__content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.aboutproject__textarea p {
-    margin: 30px 0px;
-}
-
-.aboutproject__img {
-    background: #C4C4C4;
-    border-radius: 14px;
-    overflow: hidden;
-}
-
-.aboutproject__list ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-
-.aboutproject__list li {
-    list-style-type:none;
-}
-
-.aboutproject__list li::before {
-    content: "";
-    height: 1em;
-    width: 1em;
-    display: block;
-    float: left;
-    margin-left: -1.5em;
-    margin-top: 7px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: background-size 0.3s;
-    -webkit-transition: background-size 0.3s;
-  }
-  
-.aboutproject__list ul > li::before {
-    background-image: url(/public/image/list-bullet.svg);
+.about_project__main__description {
+    font-family: 'Open Sans';
+    line-height: 28px;
 }

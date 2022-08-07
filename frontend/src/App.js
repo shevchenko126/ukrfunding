@@ -51,7 +51,7 @@ function App() {
           <div className='col-lg-8 col-md-12 p-0'>
             <AboutProject />
           </div>
-          <div className='col-lg-3 col-md-12 p-0 d-flex'>
+          <div className='col-lg-3 col-md-12 p-0' style={{marginLeft: '8%'}}>
             <Support />
           </div>
         </div>
