@@ -15,7 +15,7 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
     padding-bottom: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .project_details__main__left__main_video {
@@ -50,7 +50,7 @@
     background: #1B8271;
     border-radius: 8px;
     border: none;
-    width: 241px;
+    width: 97%;
     height: 60px;
     margin: auto;
 }
@@ -67,6 +67,15 @@
     border: 1px solid #D7D7D7;
     border-radius: 8px;
     padding: 40px 70px;
-    margin-top: 25px;
+    margin-top: 41px;
+}
 
+.progress.details {
+    max-width: 99%;
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}
+.progress-bar.details {  
+    background-color: #FF7468;
 }

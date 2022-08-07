@@ -2,44 +2,18 @@ import './index.css';
 
 const DontMiss = () => {
     return (
-        <block_10 class="block_10">
-
-        <div class="container-fluid">
-            <div class="block_10__text">
-                <div class="block_10__text1">
-                    Don't miss our weekly updates 
-        
+		<div className="container-fluid mt-5 py-3 dont_miss">
+            <div className="text-white text-center mt-5 pb-5 dont_miss__text">Don’t miss our weekly updates about donations</div>
+            <div className="row" style={{marginLeft: '8%'}}>
+                <div className="col-lg-6 col-md-12 mt-5 text-white dont_miss__left_column">
+                    <input className="email" placeholder="Enter your email address..." max="40" min="5" />
                 </div>
-                <div class="block_10__text2">
-                    about donations
-    
+                <div className="col-lg-6 col-md-12 mt-5 pb-5 dont_miss__right_column">
+                    <button className="dont_miss__button">SUSBSCRIBE</button>
                 </div>
             </div>
-
-    
-
-            <div class="block_10__form d-flex justify-content-center align-items-center">
-
-                <div class="block_10__form-input">
-                    <input type="text" class="input" placeholder="Enter your email address..." />
-                </div>
-
-                <div class="block_10__form-button">
-                    <div class="button-subscribe">
-                        SUBSCRIBE
-                    </div>
-                </div>
-
-
-            </div>
-
-
-
         </div>
-
-
-    </block_10>
     )
-}    
+}
 
 export default DontMiss;

@@ -1,123 +1,74 @@
-﻿.container.support_others_project {
+﻿.support_others_projects {
     max-width: 504px;
-    height: 1299px;
-    margin: 50px 150px 0 auto;
-    background: #ffffff;
+    background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
 }
 
-.support_others_project__header {
-    margin-top: 50px;
-    margin-left: 50px;
+.support_others_projects__theme {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 32px;
-    line-height: 48px;
-    color: #121E31;
 }
 
-.support_others_project__image {
-    width: 404px;
+.support_others_projects__background {
+    max-width: 404px;
     height: 152px;
-    margin: 24px auto 0 auto;
     background: #C4C4C4;
     border-radius: 14px;
+    margin: auto;
 }
 
-.support_others_project__title {
-    width: 404px;
-    height: 60px;
-    margin: 24px auto 0 auto;
+.support_others_projects__title {
+    max-width: 404px;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;
-    color: #121E31;
+    margin: auto;
 }
 
-.support_others_project__main-text {
-    width: 404px;
-    height: 117px;
-    margin: 18px auto 0 auto;
+.support_others_projects__description {
+    max-width: 404px;
     font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
     line-height: 28px;
-    color: #121E31;
+    margin: auto;
 }
 
-.support_others_project__profile {
-    width: 323px;
-    height: 60px;
-    margin: 18px auto 0 50px;
-    display: flex;
+.support_others_projects__author-right {
+    margin-left: 20px;
 }
 
-.support_others_project__profile__name {
-    width: 167px;
-    height: 27px;
+.support_others_projects__author__author {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
-    color: #121E31;
-    vertical-align: top;
-    margin-left: 19px;
 }
 
-.support_others_project__stars {
-    vertical-align: top;
-    margin-left: 6px;
-}
-
-.support_others_project__campaign {
+.support_others_projects__author__campaign {
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 19px;
-    color: rgba(27, 130, 113, 1);
 }
 
-.support_others_project__bottom-part {
-    margin-left: 19px;
-    vertical-align: bottom;
-    width: 247px;
-}
-
-.support_others_project__dot {
-    margin: 0 13px 0 14px;
-}
-
-.support_others_project__city {
+.support_others_projects__author__location {
     font-family: 'Open Sans';
-    font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
     color: #717579;
 }
 
-.support_others_project__button {
-    width: 404px;
-    height: 60px;
+.support_others_projects__button {
+    width: 96%;
+    min-height: 60px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: #F9F9FA;
-    margin-top: 26px;
-    background-color: #1B8271;
-    border: none;
+    background: #1B8271;
     border-radius: 8px;
+    border: none;
 }
 
-button:active {
-    background-color: rgba(27, 130, 113, 0.8);
-}
-
-.support_others_project__rectangle {
-    margin: 24px 0 0 0;
+@media (max-width: 990px) {
+    .support_others_projects__author-right {
+        margin-left: 0;
+    }
 }

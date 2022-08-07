@@ -1,13 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+/* 
 import Header from './components/Header';
 import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
-
-import RecentProjects from './components/contentBlocks/page1_recent_projects';
-
-import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
-import SuccessStory from './components/contentBlocks/page1_success_story';
-
 import Categories from './components/contentBlocks/page11_categories';
 import Numbers from './components/contentBlocks/page1_numbers';
 import NewsDetails from './components/contentBlocks/page8_news_details';
@@ -32,93 +28,37 @@ import DontMiss from './components/contentBlocks/block10_Dont_miss';
 import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
 import AboutProject from './components/contentBlocks/page5_about_project';
 import FormAddProject from './components/contentBlocks/form_add_project';
+import Page5Projects from './components/contentBlocks/page5_projects';
+import Footer from './components/Footer/index';  */
+
+import Details from './components/contentBlocks/page5_project_details';
 import Footer from './components/Footer/index';
+import Page5Projects from './components/contentBlocks/page5_projects';
+import DontMiss from './components/contentBlocks/block10_Dont_miss';
+import Support from './components/contentBlocks/page5_support_other_projects';
+import AboutProject from './components/contentBlocks/page5_about_project';
+import Header from './components/Header';
 
 // content blocks - have to change img sources //
 
-const ProjectDetails = () => {
-  return (
-
-    <section>
-      <Header />
-
-    <div className="App">
-      <Header/>
-      <Page3block1/>
-
-      <RecentProjects />
-
-      <WeHelpSurface />
-      <SuccessStory />
-
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Page5AboutProject />
-      <Categories />
-      <Numbers />
-      <NewsDetails />
-      <Details />
-      <AboutProject />
-      <Support />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
-
-
 function App() {
-  const componentsArray = [
-    <div>
-      {ProjectDetails}
-      <AboutProject />
-      <Support />
-      <Header/>
-      <Page3block1/>
-      <Categories />
-      <Numbers />
-      <NewsDetails />
-      <Details />
-      <Contact />
-      <NewsPage1 />    
-      <Donate />
-      <TeamMember />
-      <OurPartnership />
-      <Register />
-      <Login />
-      <About />
-      <OurMission />
-      <FilterCategory />
-      <LatestNews />
-      <Fundraisng />
-      <Page2Categories />
-      <WhoWeAre />
-      <WriteComment />
-      <DontMiss />
-      <BecomeOurPremPartner />
-      <FormAddProject />
-      <WeHelpSurface />
-      <SuccessStory />
-      <Footer />
-      <RecentProjects />
-    </div>
-  ]
-
   return (
     <div className="App">
-      {componentsArray.map((all_content) => (all_content))}
+      <Header />
+      <Details />
+      <div className='container' style={{maxWidth: '1620px'}}>
+        <div className='row'>
+          <div className='col-lg-8 col-md-12 p-0'>
+            <AboutProject />
+          </div>
+          <div className='col-lg-3 col-md-12 p-0 d-flex'>
+            <Support />
+          </div>
+        </div>
+      </div>
+      <Page5Projects />
+      <DontMiss />
+      <Footer />
     </div>
   );
 }

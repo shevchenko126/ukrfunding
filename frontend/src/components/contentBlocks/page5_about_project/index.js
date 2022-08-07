@@ -2,7 +2,7 @@ import './index.css';
 
 const AboutProject = () => {
     return (
-        <div className="aboutproject p-4">
+        <div className="aboutproject p-4 mt-5">
             <div className="aboutproject__nav d-flex align-items-center">
                 <a className="active" href="">About Projects</a>
                 <a href="">Updates</a>
