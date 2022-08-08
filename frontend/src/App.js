@@ -31,6 +31,9 @@ import FormAddProject from './components/contentBlocks/form_add_project';
 import Page5Projects from './components/contentBlocks/page5_projects';
 import Footer from './components/Footer/index';  */
 
+import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
+import Page1Categories from './components/contentBlocks/page1_categories';
+
 import Details from './components/contentBlocks/page5_project_details';
 import Footer from './components/Footer/index';
 import Page5Projects from './components/contentBlocks/page5_projects';
@@ -64,7 +67,9 @@ const ProjectDetails = () => {
 function App() {
   return (
     <div className="App">
-      <ProjectDetails />
+      <Header />
+      <WeHelpSurface />
+      <Page1Categories />
     </div>
   );
 }
