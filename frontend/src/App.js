@@ -38,11 +38,13 @@ import TeamMember from './components/contentBlocks/page1_meet_our';
 import SuccessStory from './components/contentBlocks/page1_success_story';
 import OurPartnership from './components/contentBlocks/page1_our_partnership';
 import RecentProjects from './components/contentBlocks/page1_recent_projects';
+import Numbers from './components/contentBlocks/page1_numbers';
+import Page1News from './components/contentBlocks/page1_news';
+import DontMiss from './components/contentBlocks/page1_dont_miss';
+import Footer from './components/Footer/index';
 
 import Details from './components/contentBlocks/page5_project_details';
-import Footer from './components/Footer/index';
 import Page5Projects from './components/contentBlocks/page5_projects';
-import DontMiss from './components/contentBlocks/block10_Dont_miss';
 import Support from './components/contentBlocks/page5_support_other_projects';
 import AboutProject from './components/contentBlocks/page5_about_project';
 
@@ -79,6 +81,12 @@ function App() {
         <SuccessStory />
         <OurPartnership />
         <RecentProjects />
+        <Numbers />
+        <Page1News /> {/* create map rendering */}
+        <div style={{ marginTop: '150px' }}>
+          <DontMiss />
+        </div>
+        <Footer />
       </div>
     </div>
   );

@@ -28,16 +28,18 @@ const SuccessStory = () => {
                     <div className="mt-4 text-success success_story__main__number">$ 24,553,852.24</div>
                     <div className="mt-2 success_story__main__number-text">Total funded</div>
                     <div className="mt-5 success_story__main__author">
-                        <div className="d-flex">
-                            <img src="../image/page1_success_story_user.svg" />
-                            <div>
+                        <div className="row d-flex">
+                            <div className='col-lg-1 col-sm-12'>
+                                <img src="../image/page1_success_story_user.svg" />
+                            </div>
+                            <div className='col-lg-11 col-sm-12'>
                                 <div className="d-flex">
-                                    <div className="mx-3 success_story__main__author__author">Hendric Anderson</div>
+                                    <div className="success_story__main__author__author">Hendric Anderson</div>
                                     <img src="../image/page1_success_story_Vector.svg" className="mx-1" />
                                     <img src="../image/page1_success_story_Vector.svg" className="mx-1" />
                                     <img src="../image/page1_success_story_Vector.svg" className="mx-1" />
                                 </div>
-                                <div className="mx-3 mt-2 d-flex">
+                                <div className="mt-2 d-flex">
                                     <div className="text-success success_story__main__author__campaign">12 Campaign</div>
                                     <img src="../image/page1_success_story_dot.svg" className="mx-3" />
                                     <div className="success_story__main__author__city">New York, London</div>

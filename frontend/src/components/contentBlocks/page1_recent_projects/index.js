@@ -23,11 +23,13 @@ const RecentProjects = () => {
                             <div className="mx-3 recent_projects__item__text">45 Days left</div>
                         </div>
                         <div className="recent_projects__item__author pb-4">
-                            <div className="mt-5 d-flex">
-                                <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
-                                <div>
+                            <div className="mt-5 row d-flex">
+                                <div className='col-lg-3 col-sm-12'>
+                                    <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
+                                </div>
+                                <div className='col-lg-9 col-sm-12'>
                                     <div className="d-flex">
-                                        <div className="mx-2 recent_projects__item__author__author">Cheyenne Curtis</div>
+                                        <div className="mx-2 recent_projects__item__author__author">Skylar Gouse</div>
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
@@ -59,11 +61,13 @@ const RecentProjects = () => {
                             <div className="mx-3 recent_projects__item__text">45 Days left</div>
                         </div>
                         <div className="recent_projects__item__author pb-4">
-                            <div className="mt-5 d-flex">
-                                <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
-                                <div>
+                            <div className="mt-5 row d-flex">
+                                <div className='col-lg-3 col-sm-12'>
+                                    <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
+                                </div>
+                                <div className='col-lg-9 col-sm-12'>
                                     <div className="d-flex">
-                                        <div className="mx-2 recent_projects__item__author__author">Ahmad Schleifer</div>
+                                        <div className="mx-2 recent_projects__item__author__author">Skylar Gouse</div>
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
@@ -95,9 +99,11 @@ const RecentProjects = () => {
                             <div className="mx-3 recent_projects__item__text">45 Days left</div>
                         </div>
                         <div className="recent_projects__item__author pb-4">
-                            <div className="mt-5 d-flex">
-                                <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
-                                <div>
+                            <div className="mt-5 row d-flex">
+                                <div className='col-lg-3 col-sm-12'>
+                                    <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
+                                </div>
+                                <div className='col-lg-9 col-sm-12'>
                                     <div className="d-flex">
                                         <div className="mx-2 recent_projects__item__author__author">Skylar Gouse</div>
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
@@ -131,11 +137,13 @@ const RecentProjects = () => {
                             <div className="mx-3 recent_projects__item__text">45 Days left</div>
                         </div>
                         <div className="recent_projects__item__author pb-4">
-                            <div className="mt-5 d-flex">
-                                <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
-                                <div>
+                            <div className="mt-5 row d-flex">
+                                <div className='col-lg-3 col-sm-12'>
+                                    <img src="../image/page1_recent_projects_icon.svg" className="mx-3" />
+                                </div>
+                                <div className='col-lg-9 col-sm-12'>
                                     <div className="d-flex">
-                                        <div className="mx-2 recent_projects__item__author__author">Maren George</div>
+                                        <div className="mx-2 recent_projects__item__author__author">Skylar Gouse</div>
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />
                                         <img src="../image/page1_recent_projects_star.svg" className="mx-1" />

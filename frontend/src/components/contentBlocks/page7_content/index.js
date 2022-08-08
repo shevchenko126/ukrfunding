@@ -1,5 +1,5 @@
 import "./index.css";
-import TestimonialCard from "./TestimonialCard";
+import TestimonialCard from "./TestimonialCard/index";
 
 const Testimonials = () => {
     return (

@@ -1,7 +1,7 @@
 .main_container {
     max-width: 1720px;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .main_container__categories {
@@ -44,4 +44,15 @@
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
     border-radius: 14px;
     cursor: pointer;
+}
+
+@media(max-width: 320px) {
+    .main_container__explore_our {
+        max-width: 700px;
+        font-family: 'Poppins';
+        font-size: 30px;
+        line-height: 75px;
+        font-weight: 600;
+        margin: auto;
+    }
 }
