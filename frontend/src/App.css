@@ -1,3 +1,14 @@
 body {
     background-color: #FBFBFB;
 }
+
+.support {
+    margin-left: 8%;
+}
+
+
+@media(max-width: 990px) {
+    .support {
+        margin-left: 0;
+    }
+}
