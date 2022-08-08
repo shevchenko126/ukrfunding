@@ -60,7 +60,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-3 col-md-12 d-flex align-items-center p-0 header-bottom__button'>
+                    <div className='col-lg-3 col-md-12 mt-2 d-flex p-0 header-bottom__button'>
                         <button className='header-bottom__button__button'>
                             <img src="./image/header_buttom_user.svg" />
                             <span className='mx-3'>My Account</span>

@@ -40,38 +40,8 @@
     margin-left: 20px;
 }
 
-.footer__first-col.fifth_col {
-    padding-left: 5%;
-}
-
-@media (max-width: 992px) {
-    .footer__first-col.fifth_col {
-        padding-left: 38%;
-        margin-top: 20px;
+@media(max-width: 990px) {
+    .footer__title {
+        text-align: center;
     }
 }
-@media (max-width: 766px) {
-    .footer__first-col.fifth_col {
-        padding-left: 36%;
-        margin-top: 20px;
-    }
-}
-@media (max-width: 544px) {
-    .footer__first-col.fifth_col {
-        padding-left: 30%;
-        margin-top: 20px;
-    }
-}
-@media (max-width: 450px) {
-    .footer__first-col.fifth_col {
-        padding-left: 22%;
-        margin-top: 20px;
-    }
-}
-@media (max-width: 300px) {
-    .footer__first-col.fifth_col {
-        padding-left: 10%;
-        margin-top: 20px;
-    }
-}
-
