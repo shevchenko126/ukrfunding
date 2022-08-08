@@ -5,7 +5,7 @@ const Header = () => {
         <section>
             <div className='container header-top'>
                 <div className='row header__top'>
-                    <div className='col-lg-7 col-md-12 header__top__left'>
+                    <div className='col-lg-7 col-md-12 header__top__left px-3'>
                         <div className='row'>
                             <div className='col-lg-6 col-md-12 mt-4 header__top__left__text'>
                                 <div>Welcome to Akcel, Crowdfunding & Charity Agency</div>
@@ -26,7 +26,7 @@ const Header = () => {
                             </div>
                             <div className='col-lg-6 col-md-12 mt-4 d-flex header__top__right__phone-email'>
                                 <img src="./image/header_top_email.svg" />
-                                <div style={{ marginLeft: '15px' }}>support@akcel.com</div>
+                                <div style={{ marginLeft: '15px', marginRight: '-10px' }}>support@akcel.com</div>
                             </div>
                         </div>
                     </div>
