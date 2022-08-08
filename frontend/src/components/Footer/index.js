@@ -6,10 +6,10 @@ const Footer = () => {
             <div className="contaniner-fluid footer">
                 <div className="row gx-5 pt-5 mx-0">
                     <div className="col-lg-4 col-md-12 footer__first-col">
-                        <div style={{ marginLeft: '15%' }} className="mt-4">
+                        <div className="mt-4 d-flex justify-content-center">
                             <img src="./image/footer_logo.svg" />
                         </div>
-                        <div className="footer__first-col__text text-white mt-4">Akcel is a Crowdfunding & Charity Website by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
+                        <div className="footer__first-col__text d-flex justify-content-center text-white mt-4">Akcel is a Crowdfunding & Charity Website by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
                         <div className="row mt-4 text-center">
                             <div className="col-2" style={{ marginLeft: '12%' }}>
                                 <img src="./image/footer_facebook.svg" className="footer__first-col__logo" />
