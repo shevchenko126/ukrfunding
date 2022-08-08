@@ -24,7 +24,7 @@ const AboutProject = () => {
                     <div className='mt-5 about_project__main__description'>Consequatur et dignissimos a pariatur et accusantium aliquid. Dolor fugiat corrupti soluta praesentium expedita ducimus labore. Unde minima nulla fuga quos minus temporibus animi qui expedita. Sed quibusdam et. Rerum tempora sit qui ut fugiat.</div>
                 </div>
                 <div className='row mt-5 mb-4'>
-                    <div className='col-lg-4 col-md-12 mt-1'>
+                    <div className='col-lg-6 col-md-12 mt-1'>
                         <div className='d-flex mt-4'>
                             <img src='../image/page5_circle.svg' />
                             <div className='mx-2 about_project__main__description'>Unde rerum a. Et voluptatem harum id.</div>
@@ -38,8 +38,7 @@ const AboutProject = () => {
                             <div className='mx-2 about_project__main__description'>Unde rerum a. Et voluptatem harum id.</div>
                         </div>
                     </div>
-                    <div className='col-lg-1 col-md-12 mt-2'></div>
-                    <div className='col-lg-4 col-md-12 mt-1'>
+                    <div className='col-lg-6 col-md-12 mt-1'>
                         <div className='d-flex mt-4'>
                             <img src='../image/page5_circle.svg' />
                             <div className='mx-2 about_project__main__description'>Unde rerum a. Et voluptatem harum id.</div>

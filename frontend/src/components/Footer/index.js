@@ -54,18 +54,18 @@ const Footer = () => {
                         <div className="footer__item">Sign Up</div>
                         <div className="footer__item">FAQ</div>
                     </div>
-                    <div className="col-lg-4 col-md-12 footer__first-col fifth_col text-white">
+                    <div className="col-lg-4 col-md-12 d-flex justify-content-center footer__first-col fifth_col text-white">
                         <div>
                             <div className="footer__title mt-4 pb-4">Get in Touch with Us</div>
-                            <div className="d-flex justify-content-center">
+                            <div className="d-flex fifth_col__location">
                                 <img src="./image/footer_location.svg" className="mx-2" style={{ marginTop: '-20px' }} />
                                 <div className="footer__location">832  Thompson Drive, San Fransisco CA 94107, United States</div>
                             </div>
-                            <div className="d-flex justify-content-center mt-4">
+                            <div className="d-flex fifth_col__phone mt-4">
                                 <img src="./image/footer_phone.svg" className="mx-2" />
                                 <div className="footer__location">394-091-3312</div>
                             </div>
-                            <div className="d-flex justify-content-center" style={{ marginTop: '40px' }}>
+                            <div className="d-flex fifth_col__email" style={{ marginTop: '40px' }}>
                                 <img src="./image/footer_email.svg" className="mx-2" />
                                 <div className="footer__location">support@akcel.com</div>
                             </div>

@@ -44,4 +44,10 @@
     .footer__title {
         text-align: center;
     }
+    .fifth_col__location,
+    .fifth_col__phone,
+    .fifth_col__email {
+        justify-content: center;
+        text-align: center;
+    }
 }
