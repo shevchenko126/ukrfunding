@@ -39,14 +39,12 @@ import Support from './components/contentBlocks/page5_support_other_projects';
 import AboutProject from './components/contentBlocks/page5_about_project';
 import Header from './components/Header';
 
-// content blocks - have to change img sources //
-
-function App() {
+const ProjectDetails = () => {
   return (
-    <div className="App">
+    <section>
       <Header />
       <Details />
-      <div className='container' style={{maxWidth: '1620px'}}>
+      <div className='container' style={{ maxWidth: '1620px' }}>
         <div className='row'>
           <div className='col-lg-8 col-md-12 p-0'>
             <AboutProject />
@@ -59,6 +57,14 @@ function App() {
       <Page5Projects />
       <DontMiss />
       <Footer />
+    </section>
+  )
+}
+
+function App() {
+  return (
+    <div className="App">
+      <ProjectDetails />
     </div>
   );
 }
