@@ -1,4 +1,10 @@
 ﻿.logotypes__title {
 	font-family: 'Poppins';
-	font-size: 50px;	
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.logotypes {
+	margin-top: 250px;
+	max-width: 1620px;
 }

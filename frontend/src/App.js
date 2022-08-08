@@ -31,8 +31,13 @@ import FormAddProject from './components/contentBlocks/form_add_project';
 import Page5Projects from './components/contentBlocks/page5_projects';
 import Footer from './components/Footer/index';  */
 
+import Header from './components/Header';
 import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
 import Page1Categories from './components/contentBlocks/page1_categories';
+import TeamMember from './components/contentBlocks/page1_meet_our';
+import SuccessStory from './components/contentBlocks/page1_success_story';
+import OurPartnership from './components/contentBlocks/page1_our_partnership';
+import RecentProjects from './components/contentBlocks/page1_recent_projects';
 
 import Details from './components/contentBlocks/page5_project_details';
 import Footer from './components/Footer/index';
@@ -40,7 +45,6 @@ import Page5Projects from './components/contentBlocks/page5_projects';
 import DontMiss from './components/contentBlocks/block10_Dont_miss';
 import Support from './components/contentBlocks/page5_support_other_projects';
 import AboutProject from './components/contentBlocks/page5_about_project';
-import Header from './components/Header';
 
 const ProjectDetails = () => {
   return (
@@ -67,9 +71,15 @@ const ProjectDetails = () => {
 function App() {
   return (
     <div className="App">
-      <Header />
-      <WeHelpSurface />
-      <Page1Categories />
+      <div>
+        <Header />
+        <WeHelpSurface />
+        <Page1Categories />
+        <TeamMember />
+        <SuccessStory />
+        <OurPartnership />
+        <RecentProjects />
+      </div>
     </div>
   );
 }

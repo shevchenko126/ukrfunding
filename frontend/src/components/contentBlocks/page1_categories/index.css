@@ -1,7 +1,7 @@
 .main_container {
-    height: 876px;
     max-width: 1720px;
     justify-content: center;
+    margin-top: 200px;
 }
 
 .main_container__categories {
@@ -27,8 +27,8 @@
 }
 
 .main_container__icons {
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    min-height: 250px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -39,7 +39,6 @@
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
 }
 .main_container__icons:hover {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);

@@ -1,5 +1,6 @@
 .success_story {
     max-width: 1620px;
+    margin-top: 250px;
 }
 
 .success_story__title {
@@ -16,12 +17,16 @@
 }
 
 .success_story__text {
-    font-family: 'Open Sans';  
+    font-family: 'Open Sans';
     line-height: 28px;
 }
 
+.success_story__button-col {
+    justify-content: end;
+}
+
 .success_story__button {
-    max-width: 260px;
+    max-width: 270px;
     height: 58px;
     background: #1B8271;
     border-radius: 8px;
@@ -83,8 +88,18 @@
 }
 
 
-@media (max-width: 996px) {
+@media (max-width: 990px) {
     .success_story__main__column {
+        text-align: center;
+    }
+    .success_story__button-col {
+        justify-content: center;
+    }
+    .success_story__title,
+    .success_story__theme,
+    .success_story__text,
+    .success_story__main__title,
+    .success_story__main__text {
         text-align: center;
     }
 }

@@ -2,7 +2,7 @@ import './index.css';
 
 const WeHelpSurface = () => {
     return (
-        <div className="container mt-5 we_help_surface">
+        <div className="container we_help_surface">
         <div className="row">
             <div className="col-lg-6 col-md-12">
                 <div className="d-flex">
