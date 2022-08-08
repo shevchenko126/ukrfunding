@@ -2,78 +2,111 @@ import './index.css';
 
 const Header = () => {
     return (
-        <header className="header">
-            <div className="container-fluid">
-                <div className="header__top d-flex justify-content-between align-items-center">
-                    <div className="header__top_left-block d-flex align-items-center">
-                        <div className="header__text-welcome " >
-                            Welcome to Akcel, Crowdfunding & Charity Agency
-                        </div>
-                        <div className="header__button">
-                            <button className="button_sing d-flex align-items-center">
-                                <img src="./image/header_top_singAp.svg"/>
-                                <div className="buttom_sing-text">
-                                    Sing Up Now
-                                </div>
-                            </button>
+        <section>
+            <div className='container header-top'>
+                <div className='row header__top'>
+                    <div className='col-lg-7 col-md-12 header__top__left'>
+                        <div className='row'>
+                            <div className='col-lg-6 col-md-12 mt-4 header__top__left__text'>
+                                <div>Welcome to Akcel, Crowdfunding & Charity Agency</div>
+                            </div>
+                            <div className='col-lg-6 col-md-12 mt-3'>
+                                <button className='text-white header__top__left__button d-flex align-items-center justify-content-center'>
+                                    <img src="./image/header_top_singAp.svg" />
+                                    <div className='mx-2'>Sign Up Now</div>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div className="header__top_right-block d-flex justify-content-end">
-                        <div className="header__right-block_top d-flex">
-                            <div className="header__phone d-flex">
+                    <div className='col-lg-5 col-md-12 header__top__right'>
+                        <div className='row'>
+                            <div className='col-lg-6 col-md-12 mt-4 d-flex header__top__right__phone-email'>
                                 <img src="./image/header_top_phone.svg" />
-                                <div className="header__phone-number">
-                                    394-091-3312
-                                </div>
+                                <div className='px-3'>394-091-3312</div>
                             </div>
-                            <div className="header__email d-flex">
+                            <div className='col-lg-6 col-md-12 mt-4 d-flex header__top__right__phone-email'>
                                 <img src="./image/header_top_email.svg" />
-                                <div className="header__email-text">
-                                    support@akcel.com
-                                </div>
+                                <div style={{ marginLeft: '15px' }}>support@akcel.com</div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="header__buttom d-flex justify-content-between align-items-center">
-                    <div className="header___buttom_left-block d-flex justify-content-start">
-                        <div className="header__logo">
-                            <img src="./image/logo_Akcel.png" />
-                        </div>
-                    </div>
-
-                    <div className="header__buttom_right-block d-flex justify-content-end align-items-center">
-                        <nav className="mail-menu d-flex justify-content-end align-items-center">
-                            <div className="mail-menu__item">
-                                <a class="mail-menu__link-home" href="">Home</a>
-                            </div>
-                            <div className="mail-menu__item">
-                                <a className="mail-menu__link active" href="">About</a>
-                            </div>
-                            <div className="mail-menu__item">
-                                <a className="mail-menu__link has-child" href="">Projects</a>
-                            </div>
-                            <div className="mail-menu__item">
-                                <a className="mail-menu__link active" href="">News</a>
-                            </div>
-                            <div className="mail-menu__item">
-                                <a className="mail-menu__link active" href="">Contact Us</a>
-                            </div>
-                        </nav>
-                        <div className="header__right-block_button">
-                            <button className="button_account d-flex">
-                                <img src="./image/header_buttom_user.svg" />
-                                <div className="buttom_account-text">
-                                    My Account
-                                </div>
-                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+            <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} className='mt-4' />
+            <div className='container mt-4 header-bottom pb-4'>
+                <div className='row d-flex'>
+                    <div className='col-lg-3 col-md-12 header-bottom__logo'>
+                        <img src="./image/logo_Akcel.png" />
+                    </div>
+                    <div className='col-lg-6'>
+                        <div className='row text-center d-flex justify-content-center align-items-center'>
+                            <div className='col mt-4'>
+                                <a href='' className='header-bottom__ref'>Home</a>
+                            </div>
+                            <div className='col mt-4'>
+                                <a href='' className='header-bottom__ref'>About</a>
+                            </div>
+                            <div className='col mt-4'>
+                                <div className='d-flex justify-content-center'>
+                                    <div className='header-bottom__ref mx-2'>Projects</div>
+                                    <img src='./image/header_down_arrow.svg' />
+                                </div>
+                            </div>
+                            <div className='col mt-4'>
+                                <a href='' className='header-bottom__ref'>News</a>
+                            </div>
+                            <div className='col mt-4'>
+                                <a href='' className='header-bottom__ref'>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-3 col-md-12 d-flex align-items-center p-0 header-bottom__button'>
+                        <button className='header-bottom__button__button'>
+                            <img src="./image/header_buttom_user.svg" />
+                            <span className='mx-3'>My Account</span>
+                        </button>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
     )
 }
 
-export default Header
+export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <img src="./image/header_top_singAp.svg" /> */ }
+{/* <img src="./image/header_top_phone.svg" /> */ }
+{/* <img src="./image/header_top_email.svg" /> */ }
+{/* <img src="./image/logo_Akcel.png" /> */ }
+{/* <img src="./image/header_buttom_user.svg" /> */ }

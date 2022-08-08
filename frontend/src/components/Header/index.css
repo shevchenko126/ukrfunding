@@ -1,99 +1,74 @@
-header {
-    padding: 20px 0px;
-    font-family: 'Poppins', sans-serif;
-
+.header-top,
+.header-bottom {
+    max-width: 1620px;
 }
 
-.header__top {
-    padding: 0px 0px 20px 0px;
-    margin: 0px 0px 0px 80px;
-    border-bottom: 1px solid #EEEEEE;
-    font-style: normal;
+.header__top__left__text {
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
-
 }
 
-.button_sing {
-    padding: 7px 22px 7px 15px;
-    margin: 0px 20px;
+.header__top__left__button {
+    width: 168px;
+    height: 45px;
     background: #1B8271;
     border: 1px solid #F6FBFA;
     border-radius: 8px;
-    color: #FFFFFF;
-
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
-.buttom_sing-text {
-    padding: 0px 0px 0px 9px;
+.header__top__right__phone-email {
+    font-family: 'Poppins';
+    font-weight: 600;
+    justify-content: end;
 }
 
-.header__phone-number {
-    padding: 0px 30px 0px 9px;
-}
-
-.header__email-text {
-    padding: 0px 30px 0px 9px;
-    margin: 0px 50px 0px 0px;
-}
-
-.header__logo {
-    padding: 20px 0px 0px 80px;
-}
-
-.mail-menu__item {
-    padding: 0px 30px 0px 20px;
-}
-
-.mail-menu__link,
-.mail-menu__link:hover {
-    color: #717579;
-    font-style: normal;
+.header-bottom__ref {
+    text-decoration: none;
+    font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
-    text-decoration: none;
-
+    color: #717579;
 }
 
-.button_account {
-    padding: 16px 33px 16px 30px;
-    margin: 0px 80px 0px 0px;
-    background: #FFFFFF;
+.header-bottom__ref:hover {
+    font-family: 'Poppins';
+    color: #121E31;
+}
+
+.header-bottom__button {
+    justify-content: end;
+}
+
+.header-bottom__button__button {
+    width: 230px;
+    height: 60px;
     border: 1px solid #FF7468;
     border-radius: 8px;
+    background: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
     color: #FF7468;
 }
 
-.buttom_account-text {
-    padding: 0px 0px 0px 9px;
-    margin: 0px 0px 0px 9px;
-    font-weight: 700;
-}
+@media(max-width: 990px) {
+    .header__top__right__phone-email {
+        justify-content: center;
+    }
 
-.mail-menu__link-home,
-.mail-menu__link-home:hover {
-    color: #121E31;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-}
+    .header__top__left__text,
+    .header-bottom__logo {
+        text-align: center;
+    }
 
-.mail-menu__link.has-child {
-    position: relative;
-}
+    .header__top__left__button {
+        margin: auto;
+    }
 
-.mail-menu__link.has-child:after {
-    content: "";
-    /* background-image: url('./frontend/public/image/header_down_arrow.svg'); */
-    background-position: right center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 11px;
-    height: 6px;
-    right: -20px;
-    top: 0;
-    bottom: 0;
-    margin: auto 0px;
-
+    .header-bottom__button {
+        justify-content: center;
+    }
 }
