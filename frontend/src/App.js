@@ -54,6 +54,8 @@ import Fundraising from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import OurMission from './components/contentBlocks/page2_our_mission';
 
+import HeaderModed from './components/contentBlocks/HeaderModed';
+
 const HomePage_01 = () => { // page 1 //
   return (
     <section>
@@ -113,7 +115,7 @@ const AboutUs_02 = () => {
 function App() {
   return (
     <div className="App">
-      <AboutUs_02 />
+      <HeaderModed />
     </div>
   );
 }

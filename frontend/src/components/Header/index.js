@@ -66,9 +66,6 @@ const Header = () => {
                             <span className='mx-3'>My Account</span>
                         </button>
                     </div>
-
-
-
                 </div>
             </div>
         </section>
@@ -76,37 +73,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <img src="./image/header_top_singAp.svg" /> */ }
-{/* <img src="./image/header_top_phone.svg" /> */ }
-{/* <img src="./image/header_top_email.svg" /> */ }
-{/* <img src="./image/logo_Akcel.png" /> */ }
-{/* <img src="./image/header_buttom_user.svg" /> */ }
