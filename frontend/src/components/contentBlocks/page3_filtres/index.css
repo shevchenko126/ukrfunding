@@ -1,0 +1,51 @@
+.color1 {
+    color: #1B8271;
+}
+
+.filtres {
+    max-width: 1620px;
+}
+
+.filtres__btn_all_projects {
+    width: 175px;
+    height: 60px;
+    background: #1B8271;
+    border: 1px solid #F6FBFA;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.filtres__btn_categories {
+    width: 140px;
+    height: 60px;
+    background: rgba(0, 255, 204, 0.05);
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    border: none
+}
+
+.filtres__btn_newest__btn {
+    width: 175px;
+    height: 60px;
+    background: rgba(0, 255, 204, 0.05);
+    border: 1px solid #1B8271;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.filtres__btn_newest {
+    justify-content: end;
+}
+
+@media(max-width: 990px) {
+    .filtres__btn_newest {
+        justify-content: center;
+    }
+}

@@ -55,8 +55,10 @@ import Page2Categories from './components/contentBlocks/page2_categories';
 import OurMission from './components/contentBlocks/page2_our_mission';
 
 import HeaderModed from './components/contentBlocks/HeaderModed';
+import Filtres from './components/contentBlocks/page3_filtres';
+import Page3Projects from './components/contentBlocks/page3_projects';
 
-const HomePage_01 = () => { // page 1 //
+const HomePage_01 = () => { // page 1 
   return (
     <section>
       <Header />
@@ -74,7 +76,38 @@ const HomePage_01 = () => { // page 1 //
   )
 }
 
-const ProjectDetails_05 = () => { // page 5 //
+const AboutUs_02 = () => { // page 2
+  return (
+    <section>
+      <Header />
+      <About />
+      <WhoWeAre />
+      <Fundraising />
+      <Page2Categories />
+      <OurMission />
+      <AkselNews />
+      <DontMiss />
+      <Footer />
+    </section>
+  )
+}
+
+const Projects4Col_03 = () => { //page 3
+  return (
+    <section>
+      <HeaderModed />
+      <Filtres />
+      <Page3Projects />
+      <OurPartnership />
+      <DontMiss />
+      <Footer />
+    </section>
+  )
+}
+
+// page 4
+
+const ProjectDetails_05 = () => { // page 5
   return (
     <section>
       <Header />
@@ -96,26 +129,10 @@ const ProjectDetails_05 = () => { // page 5 //
   )
 }
 
-const AboutUs_02 = () => {
-  return (
-    <section>
-      <Header />
-      <About />
-      <WhoWeAre />
-      <Fundraising />
-      <Page2Categories />
-      <OurMission />
-      <AkselNews />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
-
 function App() {
   return (
     <div className="App">
-      <HeaderModed />
+      Hello World!
     </div>
   );
 }

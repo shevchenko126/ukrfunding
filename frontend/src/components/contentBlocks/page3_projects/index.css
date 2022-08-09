@@ -1,0 +1,83 @@
+.recent_projects {
+    max-width: 1620px;
+    margin-top: 5px;
+}
+
+.recent_projects__item {
+    max-width: 381px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    margin: 0 auto;
+}
+
+.recent_projects__item__image {
+    max-width: 379px;
+    min-height: 172px;
+    ;
+    background: #C4C4C4;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.recent_projects__item__category {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    color: #1B8271;
+}
+
+.recent_projects__item__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    color: #121E31;
+    text-decoration: none;
+}
+
+.recent_projects__item__title:hover {
+    color: rgba(18, 30, 49, 0.7);
+}
+
+.progress {
+    max-width: 345px;
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}
+
+.progress-bar {
+    background-color: #FF7468;
+}
+
+.recent_projects__item__text {
+    font-family: 'Open Sans';
+}
+
+.recent_projects__item__author__author {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.recent_projects__item__author__campaign {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    color: #1B8271;
+}
+
+.recent_projects__item__author__city {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.recent_projects__btn {
+    width: 221px;
+    height: 60px;
+    background: #FF7468;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+}

@@ -19,6 +19,7 @@
 
 input {
     min-height: 78px;
+    max-width: 430px;
     border: 1px solid #FBFBFB;
     border-radius: 8px;
     font-family: 'Poppins';

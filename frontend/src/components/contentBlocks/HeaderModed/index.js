@@ -79,10 +79,10 @@ const HeaderModed = () => {
                         </div>
                     </div>
                 </div>
-                <div className='input row'>
+                <div className='input pb-2 row'>
                     <div className='col-lg-3 col-sm-12 d-flex align-items-center justify-content-center px-5'>
                         <div className='input__category'>All Category</div>
-                        <img src='../image/header_down_arrow.svg' style={{marginLeft: '30px'}} />
+                        <img src='../image/header_down_arrow.svg' style={{ marginLeft: '30px' }} />
                     </div>
                     <div className='col-lg-8 col-sm-12 d-flex align-items-center'>
                         <input className='input__input' placeholder='Find Projects' type='text' min='3' max='50' />
@@ -97,8 +97,12 @@ const HeaderModed = () => {
                 <div className='col-lg-3 col-md-4 mt-3'>
                     <a href='' className='popular_search__search search color1'>Technology Projects</a>
                 </div>
-                <div className='col-lg-3 col-md-4 mt-3 color1 popular_search__search search'>Cancer Charity Programs</div>
-                <div className='col-lg-3 col-md-4  mt-3 color1 popular_search__search search'>Design Interior</div>
+                <div className='col-lg-3 col-md-4 mt-3 color1 popular_search__search search'>
+                    <a href='' className='popular_search__search search color1'>Cancer Charity Programs</a>
+                </div>
+                <div className='col-lg-3 col-md-4  mt-3 color1 popular_search__search search'>
+                    <a href='' className='popular_search__search search color1'>Design Interior</a>
+                </div>
             </section>
         </section>
     )
