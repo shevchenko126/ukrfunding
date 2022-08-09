@@ -39,7 +39,7 @@ import SuccessStory from './components/contentBlocks/page1_success_story';
 import OurPartnership from './components/contentBlocks/page1_our_partnership';
 import RecentProjects from './components/contentBlocks/page1_recent_projects';
 import Numbers from './components/contentBlocks/page1_numbers';
-import Page1News from './components/contentBlocks/page1_news';
+import AkselNews from './components/contentBlocks/page1_news';
 import DontMiss from './components/contentBlocks/page1_dont_miss';
 import Footer from './components/Footer/index';
 
@@ -82,7 +82,7 @@ function App() {
         <OurPartnership />
         <RecentProjects />
         <Numbers />
-        <Page1News /> {/* create map rendering */}
+        <AkselNews /> {/* create map rendering */}
         <div style={{ marginTop: '150px' }}>
           <DontMiss />
         </div>
