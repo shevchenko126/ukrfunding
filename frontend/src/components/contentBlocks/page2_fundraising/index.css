@@ -1,35 +1,45 @@
 ﻿.fundraising_main {
-    height: 896px;
-    background-color: rgba(27, 130, 113, 0.8);
+    min-height: 896px;
+    background-color: rgba(27, 130, 113, 1);
+    margin-top: 100px;
 }
 
 .fundraising_main__into {
-    max-width: 1620px;
+    max-width: 1560px;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
     background-color: #ffffff;
-    margin: -647px auto 70px auto;
+    margin: -647px auto 50px auto;
 }
 
 .fundraising_main__into__title {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 50px;
+    margin-top: 100px;
 }
 
 .fundraising_main__into__text {
     max-width: 805px;
     font-family: 'Open Sans';
-    font-weight: 400;
     line-height: 28px;
     color: #717579;
 }
 
 .fundraising_main__into__william {
     font-family: 'Open Sans';
-    font-weight: 400;
 }
 
 .fundraising_main__into__img {
     height: 100%;
+}
+
+@media(max-width: 990px) {
+    .fundraising_main__into__title,
+    .fundraising_main__into__text,
+    .fundraising_main__into__william,
+    .fundraising_main__into__photo {
+        text-align: center;
+        margin: auto;
+    }
 }

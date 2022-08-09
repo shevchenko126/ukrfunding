@@ -1,15 +1,17 @@
-const OneProject = ({project}) => {
+const OneProject = ({ project }) => {
     return (
-        <div className="col  mt-5 d-flex justify-content-center p-0">
+        <div className="col mt-5 d-flex justify-content-center p-0">
             <div className='aksel_news-main-item'>
                 <div className="aksel_news-main__logo">
                     <img src="../image/page_1_news_profile.svg" style={{ width: '100%' }} />
                     <div className="text-uppercase aksel_news-main__category">{project.category}</div>
                 </div>
-                <div className="aksel_news-main__title">{project.title}</div>
+                <a href='' className='aksel_news-main-item-href'>
+                    <div className="aksel_news-main__title">{project.title}</div>
+                </a>
                 <div className="aksel_news-main__text">{project.description}</div>
                 <div className="mb-5 aksel_news-main__author row d-flex">
-                    <div className='col-lg-2 col-sm-12'>
+                    <div className='col-lg-2 col-sm-12 p-0'>
                         <img src="../image/page_1_news_author-profile.svg" />
                     </div>
                     <div className="col-lg-10 col-sm-12 aksel_news-main__author__author">

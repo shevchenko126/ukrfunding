@@ -13,8 +13,6 @@
 
 .aksel_news-header__text {
     font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
     text-align: center;
     line-height: 28px;
     color: #121e31;
@@ -58,6 +56,14 @@
     line-height: 30px;
     max-width: 440px;
     margin: 30px 0 0 30px;
+}
+
+.aksel_news-main-item-href {
+    text-decoration: none;
+    color: #121E31;
+}
+.aksel_news-main-item-href:hover {
+    color: rgba(0, 19, 102, 0.7);
 }
 
 .aksel_news-main__text {

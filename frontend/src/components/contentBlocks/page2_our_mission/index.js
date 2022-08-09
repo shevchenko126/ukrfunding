@@ -1,16 +1,15 @@
-﻿import '/index.css';
+﻿import './index.css';
 
 const OurMission = () => {
 	return (
-		<div className="container mt-5 our_mission">
-			<div className="row">     
-				<div className="col-lg-6 col-md-12 p-0">
-					<img src="/images/page2_our_mission_panel.svg" className="mx-5 our_mission__panel" />
+		<div className="container our_mission">
+			<div className="row">
+				<div className="col-lg-6 col-md-12 d-flex align-items-center">
+					<img src="../image/page2_our_mission_panel.svg" className="img-fluid our_mission__panel" />
 				</div>
-
 				<div className="col-lg-6 col-md-12">
-					<div className="d-flex mt-5">
-						<img src="/images/page2_our_mission_rectangle.svg" />
+					<div className="d-flex our_mission-mission mt-5">
+						<img src="../image/page2_our_mission_rectangle.svg" />
 						<div className="mx-3 mt-2 our_mission__title text-success h4">Our Mission</div>
 					</div>
 					<div className="mt-5 our_mission__main">Change The World for Better Futures</div>
@@ -30,14 +29,14 @@ const OurMission = () => {
 						</div>
 					</div>
 					<div className="mt-4">
-						<img src="/images/page2_our_mission_line.svg" className="img-fluid" />
+						<img src="../image/page2_our_mission_line.svg" className="img-fluid" />
 					</div>
-					<div className="row mx-3">
+					<div className="row mx-3 our_mission-buttons">
 						<div className="col-lg-4 col-md-12 mt-5">
 							<button className="our_mission__button__first">
 								<div className="d-flex">
 									<div className="text-white mx-3">See Projects</div>
-									<img src="/images/page2_our_mission_vector.svg" className="mx-3" />
+									<img src="../image/page2_our_mission_vector.svg" className="mx-3" />
 								</div>
 							</button>
 						</div>

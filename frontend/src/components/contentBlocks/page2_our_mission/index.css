@@ -1,9 +1,6 @@
 ﻿.our_mission {
-    max-width: 1700px;
-}
-
-.our_mission__panel {
-    margin-top: 36%;
+    max-width: 1620px;
+    margin-top: 100px;
 }
 
 .our_mission__title {
@@ -57,4 +54,19 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
+}
+
+@media(max-width: 990px) {
+    .our_mission__panel,
+    .our_mission__main,
+    .our_mission__main_text,
+    .our_mission__number,
+    .our_mission__number_text,
+    .our_mission-buttons {
+        margin: auto;
+        text-align: center;
+    }
+    .our_mission-mission {
+        justify-content: center;
+    }
 }

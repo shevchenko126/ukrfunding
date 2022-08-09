@@ -2,7 +2,7 @@ import './index.css';
 
 const DontMiss = () => {
     return (
-		<div className="container-fluid mt-5 py-3 dont_miss">
+		<div className="container-fluid py-3 dont_miss">
             <div className="text-white text-center mt-5 pb-5 dont_miss__text">Don’t miss our weekly updates about donations</div>
             <div className="row" style={{marginLeft: '8%'}}>
                 <div className="col-lg-6 col-md-12 mt-5 text-white dont_miss__left_column">
