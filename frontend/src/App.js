@@ -109,7 +109,7 @@ const Projects4Col_03 = () => { //page 3
   )
 }
 
-const Projects3Col_03 = () => {
+const Projects3Col_03 = () => { // page 4
   return (
     <section>
       <HeaderModed />
@@ -156,7 +156,7 @@ const ProjectDetails_05 = () => { // page 5
 function App() {
   return (
     <div className="App">
-      <Projects3Col_03 />
+      Hello World!
     </div>
   );
 }
