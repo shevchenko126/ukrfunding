@@ -65,6 +65,12 @@ import Page4Projects from './components/contentBlocks/page4_projects';
 import Contact from './components/contentBlocks/page6_contact_us';
 import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
 
+import LatestNews from './components/contentBlocks/page7_latest_news';
+
+import NewsDetails from './components/contentBlocks/page8_news_details';
+import WriteComment from './components/contentBlocks/page8_write_comment';
+import Page8Related from './components/contentBlocks/page8_related';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -164,6 +170,20 @@ const ContactUs_06 = () => { // page 6
       <OurPartnership />
       <BecomeOurPremPartner />
       <Footer />
+    </section>
+  )
+}
+
+const NewsDetails_08 = () => { // page 8
+  return (
+    <section>
+      <Header />
+      <NewsDetails />
+      <WriteComment />
+      <Page8Related />
+      <div style={{ marginTop: '100px' }}>
+        <Footer />
+      </div>
     </section>
   )
 }
