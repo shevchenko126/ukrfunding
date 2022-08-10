@@ -13,7 +13,7 @@ const HeaderModed = () => {
                                     <div>Welcome to Akcel, Crowdfunding & Charity Agency</div>
                                 </div>
                                 <div className='col-lg-6 col-md-12 mt-3'>
-                                    <button className='text-white header__top__left__button d-flex align-items-center justify-content-center'>
+                                    <button className='text-white header__top__left__button-moded d-flex align-items-center justify-content-center'>
                                         <img src="../image/header_moded_login.svg" />
                                         <div className='mx-2 text-success'>Sign Up Now</div>
                                     </button>
@@ -43,27 +43,27 @@ const HeaderModed = () => {
                         <div className='col-lg-6'>
                             <div className='row text-center d-flex justify-content-center align-items-center'>
                                 <div className='col mt-4'>
-                                    <a href='' className='header-bottom__ref'>Home</a>
+                                    <a href='' className='header-bottom__ref-moded'>Home</a>
                                 </div>
                                 <div className='col mt-4'>
-                                    <a href='' className='header-bottom__ref'>About</a>
+                                    <a href='' className='header-bottom__ref-moded'>About</a>
                                 </div>
                                 <div className='col mt-4'>
                                     <div className='d-flex justify-content-center'>
-                                        <div className='header-bottom__ref mx-2'>Projects</div>
-                                        <img src='./image/header_down_arrow.svg' />
+                                        <div className='header-bottom__ref-moded mx-4'>Projects</div>
+                                        <img src='./image/header_down_arrow_white.svg' />
                                     </div>
                                 </div>
                                 <div className='col mt-4'>
-                                    <a href='' className='header-bottom__ref'>News</a>
+                                    <a href='' className='header-bottom__ref-moded'>News</a>
                                 </div>
                                 <div className='col mt-4'>
-                                    <a href='' className='header-bottom__ref'>Contact Us</a>
+                                    <a href='' className='header-bottom__ref-moded'>Contact Us</a>
                                 </div>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-12 mt-2 d-flex header-bottom__button'>
-                            <button className='header-bottom__button__button'>
+                            <button className='header-bottom__button__button-moded'>
                                 <img src="../image/header_moded_user.svg" />
                                 <span className='mx-3 text-white'>My Account</span>
                             </button>
@@ -88,7 +88,7 @@ const HeaderModed = () => {
                         <input className='input__input' placeholder='Find Projects' type='text' min='3' max='50' />
                     </div>
                     <div className='col-lg-1 col-sm-12 d-flex align-items-center justify-content-center'>
-                        <img src='../image/header_buttom_user.svg' />
+                        <img src='../image/header_bottom_search_moded.svg' />
                     </div>
                 </div>
             </section>

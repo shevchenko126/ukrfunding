@@ -62,6 +62,9 @@ import FilterCategory from './components/contentBlocks/page4_filter_category';
 import Donate from './components/contentBlocks/page4_donate_to';
 import Page4Projects from './components/contentBlocks/page4_projects';
 
+import Contact from './components/contentBlocks/page6_contact_us';
+import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -153,12 +156,24 @@ const ProjectDetails_05 = () => { // page 5
   )
 }
 
+const ContactUs_06 = () => { // page 6
+  return (
+    <section>
+      <Header />
+      <Contact />
+      <OurPartnership />
+      <BecomeOurPremPartner />
+      <Footer />
+    </section>
+  )
+}
+
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <ContactUs_06 />
     </div>
   );
 }
 
-export default App; <FilterCategory />
+export default App;
