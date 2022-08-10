@@ -171,7 +171,7 @@ const ContactUs_06 = () => { // page 6
 function App() {
   return (
     <div className="App">
-      <ContactUs_06 />
+      Hello World!
     </div>
   );
 }
