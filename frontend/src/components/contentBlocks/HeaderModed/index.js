@@ -28,7 +28,7 @@ const HeaderModed = () => {
                                 </div>
                                 <div className='col-lg-6 col-md-12 mt-4 d-flex header__top__right__phone-email'>
                                     <img src="../image/header_moded_email.svg" />
-                                    <div style={{ marginLeft: '15px', marginRight: '-10px' }}>support@akcel.com</div>
+                                    <div style={{ marginLeft: '15px' }}>support@akcel.com</div>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const HeaderModed = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-3 col-md-12 mt-2 d-flex p-0 header-bottom__button'>
+                        <div className='col-lg-3 col-md-12 mt-2 d-flex header-bottom__button'>
                             <button className='header-bottom__button__button'>
                                 <img src="../image/header_moded_user.svg" />
                                 <span className='mx-3 text-white'>My Account</span>

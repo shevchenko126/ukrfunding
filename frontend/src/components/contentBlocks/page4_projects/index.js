@@ -1,7 +1,7 @@
+import OneProject from "./one_project";
 import './index.css';
-import OneProject from './one_project';
 
-const Page3Projects = () => {
+const Page4Projects = () => {
 
     const projects = [
         {
@@ -34,16 +34,6 @@ const Page3Projects = () => {
             campaign: '12 Campaign',
             location: 'New York, London',
         },
-        {
-            category: 'technnology',
-            title: 'Self Driving Robot for Target Shooting Game',
-            progress: '7%',
-            raised: 'Total Raised $ 5,345',
-            days_left: '45 Days left',
-            author: 'Maren George',
-            campaign: '12 Campaign',
-            location: 'New York, London',
-        },
 
         {
             category: 'medical',
@@ -75,16 +65,6 @@ const Page3Projects = () => {
             campaign: '12 Campaign',
             location: 'New York, London',
         },
-        {
-            category: 'technnology',
-            title: 'Self Driving Robot for Target Shooting Game',
-            progress: '7%',
-            raised: 'Total Raised $ 5,345',
-            days_left: '45 Days left',
-            author: 'Maren George',
-            campaign: '12 Campaign',
-            location: 'New York, London',
-        },
 
         {
             category: 'medical',
@@ -113,33 +93,23 @@ const Page3Projects = () => {
             raised: 'Total Raised $ 5,345',
             days_left: '45 Days left',
             author: 'Skylar Gouse',
-            campaign: '12 Campaign',
-            location: 'New York, London',
-        },
-        {
-            category: 'technnology',
-            title: 'Self Driving Robot for Target Shooting Game',
-            progress: '7%',
-            raised: 'Total Raised $ 5,345',
-            days_left: '45 Days left',
-            author: 'Maren George',
             campaign: '12 Campaign',
             location: 'New York, London',
         },
     ]
 
     return (
-        <div className="container recent_projects">
-            <div className="row mt-5 mb-5">
+        <section>
+            <div className='row'>
                 {projects.map((project) => (
                     <OneProject project={project} />
                 ))}
             </div>
-            <div className='d-flex justify-content-center'>
-                <button className='text-uppercase text-white recent_projects__btn'>load more</button>
+            <div className='text-center'>
+                <button className='mt-5 text-uppercase text-white filter_category__btnn'>load more</button>
             </div>
-        </div>
+        </section>
     )
 }
 
-export default Page3Projects;
+export default Page4Projects;

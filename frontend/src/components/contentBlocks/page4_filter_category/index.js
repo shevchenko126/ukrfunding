@@ -1,4 +1,4 @@
-﻿import '/index.css';
+﻿import './index.css';
 
 const FilterCategory = () => {
 	return (
@@ -10,33 +10,31 @@ const FilterCategory = () => {
 					<input type="checkbox" className="filter__categories__checkbox" />
 					<div className="filter__categories__categories">All Projects</div>
 				</div>
-				<hr />
+				<hr className='filter__line' />
 				<div className="d-flex filter__categories__str">
 					<input type="checkbox" className="filter__categories__checkbox" />
 					<div className="filter__categories__categories">Technology</div>
 				</div>
-				<hr />
+				<hr className='filter__line'/>
 				<div className="d-flex filter__categories__str">
 					<input type="checkbox" className="filter__categories__checkbox" />
 					<div className="filter__categories__categories">Medical</div>
 				</div>
-				<hr />
+				<hr className='filter__line' />
 				<div className="d-flex filter__categories__str">
 					<input type="checkbox" className="filter__categories__checkbox" />
 					<div className="filter__categories__categories">Business</div>
 				</div>
-				<hr />
+				<hr className='filter__line' />
 				<div className="d-flex filter__categories__str">
 					<input type="checkbox" className="filter__categories__checkbox" />
 					<div className="filter__categories__categories">Fashion</div>
 				</div>
-				<hr />
+				<hr className='filter__line' />
 				<label className="filter__categories__see-more">See More Categories</label>
-				<select className="filter__categories__select">
-					<option></option>
-				</select>
+				<img src='../image/header_down_arrow.svg' className='mx-3' />
 				<hr />
-					<button>SEARCH PROJECTS</button>
+				<button className='filter__categories__btn'>SEARCH PROJECTS</button>
 			</div>
 		</div>
 	)

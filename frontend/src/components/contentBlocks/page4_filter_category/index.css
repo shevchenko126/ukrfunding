@@ -1,15 +1,12 @@
 ﻿.filter {
-    height: 800px;
-    max-width: 385px;
-    margin: 75px 0 0 8%;
+    max-width: 381px;
+    margin: 75px 8%;
 }
 
 .filter__title {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 32px;
-    line-height: 48px;
-    color: #121e31;
 }
 
 .filter__categories {
@@ -18,11 +15,11 @@
     border: 1px solid #ffffff;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
-    height: 580px;
+    margin-bottom: 50px;
 }
 
 .filter__categories__title {
-    font-family:'Poppins';
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -40,7 +37,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #121e31;
     margin-left: 7%;
 }
 
@@ -50,7 +46,7 @@
     align-items: center;
 }
 
-hr {
+.filter__line {
     color: #715779;
     border-radius: 8px;
     max-width: 333px;
@@ -59,20 +55,14 @@ hr {
 
 .filter__categories__see-more {
     font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
     line-height: 28px;
     color: #1B8271;
     margin: 15px 0 0 7%;
 }
 
-.filter__categories__select {
-    border: none;
-    color: #1B8271;
-    margin-left: 5%;
-}
-
-button {
+.filter__categories__btn {
+    width: 88%;
+    height: 60px;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
@@ -82,15 +72,23 @@ button {
     background: #1B8271;
     border-radius: 8px;
     border: none;
-    padding: 17px 22%;
-    margin: 30px 6% 0 6%;
+    margin: 30px 6% 20px 6%;
 }
 
 
-button:active {
+.filter__categories__btn:active {
     background: rgba(27, 130, 113, 0.8);
 }
 
 input:hover {
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .filter{
+        margin: auto;
+    }
+    .filter__title {
+        text-align: center;
+    }
 }

@@ -58,6 +58,10 @@ import HeaderModed from './components/contentBlocks/HeaderModed';
 import Filtres from './components/contentBlocks/page3_filtres';
 import Page3Projects from './components/contentBlocks/page3_projects';
 
+import FilterCategory from './components/contentBlocks/page4_filter_category';
+import Donate from './components/contentBlocks/page4_donate_to';
+import Page4Projects from './components/contentBlocks/page4_projects';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -105,7 +109,27 @@ const Projects4Col_03 = () => { //page 3
   )
 }
 
-// page 4
+const Projects3Col_03 = () => {
+  return (
+    <section>
+      <HeaderModed />
+      <div className='container' style={{ maxWidth: '1620px' }}>
+        <div className='row'>
+          <div className='col-xxl-3 col-lg-6 col-md-12'>
+            <FilterCategory />
+            <Donate />
+          </div>
+          <div className='col-xxl-9 col-lg-6 col-md-12 px-5'>
+            <Page4Projects />
+          </div>
+        </div>
+      </div>
+      <OurPartnership />
+      <DontMiss />
+      <Footer />
+    </section>
+  )
+}
 
 const ProjectDetails_05 = () => { // page 5
   return (
@@ -132,9 +156,9 @@ const ProjectDetails_05 = () => { // page 5
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <Projects3Col_03 />
     </div>
   );
 }
 
-export default App;
+export default App; <FilterCategory />
