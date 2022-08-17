@@ -215,7 +215,7 @@ function App() {
     <div className="App">
       <section>
         <Header />
-        <TeamMember_09/>
+        <TeamMember_09/> {/* create hover effect ( show facebbok, twitter ) */}
         <DontMiss />
         <Footer />
       </section>
