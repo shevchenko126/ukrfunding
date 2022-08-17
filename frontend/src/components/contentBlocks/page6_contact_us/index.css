@@ -23,7 +23,7 @@
 
 .contact_main {
     max-width: 1620px;
-    max-height: 814px;
+    max-height: 800px;
     background: #C4C4C4;
     border-radius: 14px;
 }
@@ -34,7 +34,6 @@
     margin-top: 15%;
     box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
     border-radius: 14px;
-    margin-bottom: 100px;
 }
 
 .contact_main__form__title {
@@ -54,7 +53,6 @@
     max-width: 304px;
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 16px;
     background: #FBFBFB;
     border: 2px solid #EEEEEE;
     border-radius: 8px;
@@ -80,14 +78,16 @@
     width: 30px;
     height: 30px;
 }
+
 .contact_main__form__checkbox:hover,
-.contact_main__form__input:hover, 
- button:hover {
+.contact_main__form__input:hover,
+.contact_main__form__btn:hover,
+.contact_main__form__input_main:hover {
     cursor: pointer;
     border: 2px solid #00000085;
 }
 
-button {
+.contact_main__form__btn {
     width: 221px;
     height: 60px;
     background: #FF7468;
@@ -99,16 +99,64 @@ button {
     font-weight: 700;
     font-size: 18px;
 }
-button:active {
+
+.contact_main__form__btn:active {
     background-color: #ff000054;
-    border: 3px solid #0000005a;
-}
-button:hover {
-    border: 2px solid #00000085;
+    border: 2px solid #0000005a;
 }
 
-.contact_main__form__input_main:hover {
+.contact_main__form__btn:hover {
+    border: 2px solid black !important;
+}
+
+.contact_main__form__btn:hover {
     border: 2px solid #FF7468;
     border-radius: 8px;
     cursor: pointer;
+}
+
+@media (max-width: 2560px) {
+    .contact_main {
+        margin-bottom: 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact_main {
+        margin-bottom: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .contact_main {
+        margin-bottom: 1700px;
+    }
+    .contact_main__form {
+        margin: auto
+    }
+}
+
+@media (max-width: 800px) {
+    .contact_main {
+        margin-bottom: 1500px;
+    }
+}
+
+@media (max-width: 680px) {
+    .contact_main {
+        margin-bottom: 1350px;
+    }
+}
+
+@media (max-width: 550px) {
+    .contact_main {
+        margin-bottom: 1200px;
+    }
+}
+
+@media (max-width: 385px) {
+    .contact_main__form__input {
+        max-width: 200px;
+        padding: 17px 0 13px 5px;
+    }
 }

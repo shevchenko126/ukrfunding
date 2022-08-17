@@ -1,27 +1,21 @@
 .background_container {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1620px;
-	height: 261px;
+	margin: 170px auto 0 auto;
+	max-width: 1590px;
+	min-height: 261px;
 	background: #1B8271;
-	margin-top: 90px;
 	border-radius: 14px;
-	background-image: url(/images/page1_background.svg);
+	background-repeat: no-repeat;
 }
 
 .numbers_container {
 	font-family: 'Poppins';
 	font-weight: 600;
 	font-size: 50px;
-	color: white;
-	text-align: center;
 }
 
 .text_container {
 	font-family: 'Poppins';
 	font-weight: 700;
 	font-size: 18px;
-	color: white;
-	padding-top: 9px;
-	text-align: center;
+	margin-top: 10px;
 }

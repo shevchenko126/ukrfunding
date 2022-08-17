@@ -4,14 +4,14 @@ const Footer = () => {
     return (
         <footer>
             <div className="contaniner-fluid footer">
-                <div className="row gx-5 pt-5 mx-0">
+                <div className="row gx-5 pt-3 mx-0">
                     <div className="col-lg-4 col-md-12 footer__first-col">
-                        <div className="mt-4 d-flex justify-content-center">
+                        <div className="mt-5 d-flex justify-content-center" style={{maxWidth: '500px'}}>
                             <img src="./image/footer_logo.svg" />
                         </div>
                         <div className="footer__first-col__text d-flex justify-content-center text-white mt-4">Akcel is a Crowdfunding & Charity Website by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
-                        <div className="row mt-4 text-center">
-                            <div className="col-2" style={{ marginLeft: '12%' }}>
+                        <div className="row mt-4 d-flex justify-content-center">
+                            <div className="col-2">
                                 <img src="./image/footer_facebook.svg" className="footer__first-col__logo" />
                             </div>
                             <div className="col-2">
@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-1 col-md-4 text-white text-center">
-                        <div className="footer__title mt-4 pb-3">Akcel</div>
+                        <div className="footer__title mt-5 pb-3">Akcel</div>
                         <div className="footer__item">Why Akcel</div>
                         <div className="footer__item">Enterprise</div>
                         <div className="footer__item">Customer Story</div>
@@ -37,7 +37,7 @@ const Footer = () => {
                         <div className="footer__item">Pricing</div>
                     </div>
                     <div className="col-lg-2 col-md-4 text-white text-center">
-                        <div className="footer__title mt-4 pb-3">Resources</div>
+                        <div className="footer__title mt-5 pb-3">Resources</div>
                         <div className="footer__item">Download</div>
                         <div className="footer__item">Help Center</div>
                         <div className="footer__item">Events</div>
@@ -46,7 +46,7 @@ const Footer = () => {
                         <div className="footer__item">Directories</div>
                     </div>
                     <div className="col-lg-1 col-md-4 text-white text-center">
-                        <div className="footer__title mt-4 pb-3">Company</div>
+                        <div className="footer__title mt-5 pb-3">Company</div>
                         <div className="footer__item">About us</div>
                         <div className="footer__item">Contact us</div>
                         <div className="footer__item">Products</div>
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-4 col-md-12 d-flex justify-content-center footer__first-col fifth_col text-white">
                         <div>
-                            <div className="footer__title mt-4 pb-4">Get in Touch with Us</div>
+                            <div className="footer__title mt-5 pb-4">Get in Touch with Us</div>
                             <div className="d-flex fifth_col__location">
                                 <img src="./image/footer_location.svg" className="mx-2" style={{ marginTop: '-20px' }} />
                                 <div className="footer__location">832  Thompson Drive, San Fransisco CA 94107, United States</div>

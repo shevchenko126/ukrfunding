@@ -1,6 +1,6 @@
 .recent_projects {
     max-width: 1620px;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 .recent_projects__title {
@@ -26,7 +26,8 @@
 
 .recent_projects__item__image {
     max-width: 379px;
-    min-height: 172px;;
+    min-height: 172px;
+    ;
     background: #C4C4C4;
     border-radius: 14px 14px 0px 0px;
 }
@@ -49,7 +50,8 @@
     border: 1px solid #D7D7D7;
     border-radius: 14px;
 }
-.progress-bar {  
+
+.progress-bar {
     background-color: #FF7468;
 }
 

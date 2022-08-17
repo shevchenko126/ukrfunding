@@ -1,8 +1,6 @@
 ﻿.about_our_company_container {
 	height: 601px;
     background: rgba(10, 98, 83);
-    text-align: center;
-    background-image: url('images/page2_about_our_company_example.png');
     background-repeat: no-repeat;  
     background-position: center;
 }
@@ -12,7 +10,6 @@
     font-weight: 600;
     font-size: 50px;
     line-height: 75px;
-    color: #ffffff;
     padding-top: 247px;
 }
 
@@ -21,6 +18,4 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    color: #ffffff;
-	margin-top: 20px;
 }

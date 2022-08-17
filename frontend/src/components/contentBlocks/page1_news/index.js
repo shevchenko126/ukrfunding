@@ -1,7 +1,36 @@
-﻿import '/index.css';
+﻿import './index.css';
+import OneProject from './OneProject';
 
-const NewsPage1 = () => {
-	return (
+const AkselNews = () => {
+	
+	const projects = [
+		{
+			category: 'health',
+			title: 'New vaccine for cattle protects against fetal calf loss from EBA – anatomy of..',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			author: 'Hawkins Junior',
+			time_read: '24min read',
+			date: 'November 21th, 2020',
+		},
+		{
+			category: 'business',
+			title: '4 Things parents learned for they jids in 2020',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			author: 'Hawkins Junior',
+			time_read: '24min read',
+			date: 'November 21th, 2020',
+		},
+		{
+			category: 'design',
+			title: 'He Created the Web. Now He’s Out to Remake the Digital World.',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			author: 'Melinda Humbles',
+			time_read: '24min read',
+			date: 'November 21th, 2020',
+		},
+	]
+	
+	return (  
 		<div>
 			<div className="container aksel_news-header">
 				<div className="aksel_news-header__title">Akcel News</div>
@@ -9,67 +38,13 @@ const NewsPage1 = () => {
 			</div>
 			<div className="container aksel_news-main">
 				<div className="row">
-					<div className="col p-0">
-						<div className="aksel_news-main__logo">
-							<img src="/images/page_1_news_profile.svg" />
-							<div className="aksel_news-main__category">HEALTH</div>
-						</div>
-						<div className="aksel_news-main__title">New vaccine for cattle protects against fetal calf loss from EBA – anatomy of..</div>
-						<div className="aksel_news-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-						<div className="aksel_news-main__author d-flex">
-							<img src="/images/page_1_news_author-profile.svg" />
-							<div className="aksel_news-main__author__author">
-								<div className="aksel_news-main__author__author__name">Hawkins Junior</div>
-								<div className="d-flex" style="margin-top: 15px;">
-									<div className="aksel_news-main__author__time-date">24min read</div>
-									<img src="/images/page_1_news_dot.svg" style="margin-left: 6px; margin-right: 6px;" />
-									<div className="aksel_news-main__author__time-date">November 21th, 2020</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="col p-0">
-						<div className="aksel_news-main__logo">
-							<img src="/images/page_1_news_profile.svg" />
-							<div className="aksel_news-main__category">HEALTH</div>
-						</div>
-						<div className="aksel_news-main__title">New vaccine for cattle protects against fetal calf loss from EBA – anatomy of..</div>
-						<div className="aksel_news-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-						<div className="aksel_news-main__author d-flex">
-							<img src="/images/page_1_news_author-profile.svg" />
-							<div className="aksel_news-main__author__author">
-								<div className="aksel_news-main__author__author__name">Hawkins Junior</div>
-								<div className="d-flex" style="margin-top: 15px;">
-									<div className="aksel_news-main__author__time-date">24min read</div>
-									<img src="/images/page_1_news_dot.svg" style="margin-left: 6px; margin-right: 6px;" />
-									<div className="aksel_news-main__author__time-date">November 21th, 2020</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="col p-0">
-						<div className="aksel_news-main__logo">
-							<img src="/images/page_1_news_profile.svg" />
-							<div className="aksel_news-main__category">HEALTH</div>
-						</div>
-						<div className="aksel_news-main__title">New vaccine for cattle protects against fetal calf loss from EBA – anatomy of..</div>
-						<div className="aksel_news-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-						<div className="aksel_news-main__author d-flex">
-							<img src="/images/page_1_news_author-profile.svg" />
-							<div className="aksel_news-main__author__author">
-								<div className="aksel_news-main__author__author__name">Hawkins Junior</div>
-								<div className="d-flex" style="margin-top: 15px;">
-									<div className="aksel_news-main__author__time-date">24min read</div>
-									<img src="/images/page_1_news_dot.svg" style="margin-left: 6px; margin-right: 6px;" />
-									<div className="aksel_news-main__author__time-date">November 21th, 2020</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					{projects.map((project) => (
+						<OneProject project={project} />
+					))}
 				</div>
 			</div>
 		</div>
-	)	
+	)
 }
 
-export default NewsPage1;
+export default AkselNews;

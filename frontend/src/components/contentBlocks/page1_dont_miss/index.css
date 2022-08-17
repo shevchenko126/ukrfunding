@@ -1,6 +1,7 @@
 .dont_miss {
     min-height: 533px;
     background: #1B8271;
+    margin-top: 150px;
 }
 
 .dont_miss__text {
@@ -16,8 +17,9 @@
     text-align: end;
 }
 
-input {
+.dont_miss__input {
     min-height: 78px;
+    max-width: 430px;
     border: 1px solid #FBFBFB;
     border-radius: 8px;
     font-family: 'Poppins';
@@ -29,7 +31,7 @@ input {
     background: #1B8271;
 }
 
-input::placeholder {
+.dont_miss__input::placeholder {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;

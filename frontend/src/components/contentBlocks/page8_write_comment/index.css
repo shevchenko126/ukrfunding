@@ -1,5 +1,5 @@
-﻿.container-fluid {
-    max-width: 1360px;
+﻿.write_comment {
+    max-width: 1280px;
 }
 
 .write_comment__title {
@@ -18,28 +18,24 @@
 }
 
 .write_comment__inputes__input {
-    width: 49%;
+    width: 100%;
     height: 66px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #121E31;
     border: 2px solid #D7D7D7;
     border-radius: 8px;
     padding-left: 28px;
 }
 
-textarea {
+.write_comment__textarea {
     width: 100%;
-    height: 157px;
+    max-height: 157px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #121E31;
     margin: 26px auto 0 auto;
     display: block;
     border: 2px solid #FF7468;
@@ -57,7 +53,7 @@ textarea {
     background: #FF7468;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
     padding: 17px 49px;
     margin: 31px auto 10px 0;
 }
@@ -76,17 +72,17 @@ textarea {
 }
 
 .write_comment__time-list {
-    margin-top: 48px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: #121E31;
     padding: 17px 30px 17px 10px;
     border: none;
-    background: #F6FBFA;
+    background: rgba(166, 255, 237, 0.2);
     border-radius: 8px;
+}
+.write_comment__time-list:hover {
+    cursor: pointer;
 }
 
 .write_comment__comments {
@@ -98,21 +94,17 @@ textarea {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: #121e31;
 }
 
 .write_comment__comments__comment {
     font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
     line-height: 28px;
-    color: #121e31;
     margin-top: 27px;
 }
 
 .write_comment__button-reply {
     margin: 20px 0 0 120px;
-    border: none;
+    border: none !important;
     background: none;
     font-family: 'Poppins';
     font-weight: 700;
@@ -126,8 +118,20 @@ textarea {
     margin: 60px auto 50px auto;
 }
 
-hr {
+.write_comment-right_col {
+    display: flex;
+    justify-content: end;
+}
+
+#hr {
 	color: rgba(125, 125, 125, 1);
 	max-width: 1620px;
-	margin: 10px 9% 50px 9%;
+	margin: 50px 9% 50px 9%;
+}
+
+@media (max-width: 991px) {
+    .write_comment-right_col {
+        justify-content: start;
+    }
+    
 }

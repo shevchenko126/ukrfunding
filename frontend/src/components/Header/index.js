@@ -48,7 +48,7 @@ const Header = () => {
                             </div>
                             <div className='col mt-4'>
                                 <div className='d-flex justify-content-center'>
-                                    <div className='header-bottom__ref mx-2'>Projects</div>
+                                    <div className='header-bottom__ref mx-4'>Projects</div>
                                     <img src='./image/header_down_arrow.svg' />
                                 </div>
                             </div>
@@ -62,13 +62,10 @@ const Header = () => {
                     </div>
                     <div className='col-lg-3 col-md-12 mt-2 d-flex p-0 header-bottom__button'>
                         <button className='header-bottom__button__button'>
-                            <img src="./image/header_buttom_user.svg" />
+                            <img src='../image/header_bottom_user.svg' />
                             <span className='mx-3'>My Account</span>
                         </button>
                     </div>
-
-
-
                 </div>
             </div>
         </section>
@@ -76,37 +73,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <img src="./image/header_top_singAp.svg" /> */ }
-{/* <img src="./image/header_top_phone.svg" /> */ }
-{/* <img src="./image/header_top_email.svg" /> */ }
-{/* <img src="./image/logo_Akcel.png" /> */ }
-{/* <img src="./image/header_buttom_user.svg" /> */ }
