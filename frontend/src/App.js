@@ -71,6 +71,8 @@ import NewsDetails from './components/contentBlocks/page8_news_details';
 import WriteComment from './components/contentBlocks/page8_write_comment';
 import Page8Related from './components/contentBlocks/page8_related';
 
+import AkcelNews_page7 from './components/contentBlocks/page7_akcel_news';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -174,6 +176,18 @@ const ContactUs_06 = () => { // page 6
   )
 }
 
+const LatestNews_07 = () => {
+  return (
+    <section>
+        <Header />
+        <AkcelNews_page7 />
+        <OurPartnership />
+        <DontMiss />
+        <Footer />
+      </section>
+  )
+}
+
 const NewsDetails_08 = () => { // page 8
   return (
     <section>
@@ -191,7 +205,9 @@ const NewsDetails_08 = () => { // page 8
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <section>
+        Hello World!
+      </section>
     </div>
   );
 }
