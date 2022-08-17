@@ -65,13 +65,13 @@ import Page4Projects from './components/contentBlocks/page4_projects';
 import Contact from './components/contentBlocks/page6_contact_us';
 import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
 
-import LatestNews from './components/contentBlocks/page7_latest_news';
+import AkcelNews_page7 from './components/contentBlocks/page7_akcel_news';
 
 import NewsDetails from './components/contentBlocks/page8_news_details';
 import WriteComment from './components/contentBlocks/page8_write_comment';
 import Page8Related from './components/contentBlocks/page8_related';
 
-import AkcelNews_page7 from './components/contentBlocks/page7_akcel_news';
+import TeamMember_09 from './components/contentBlocks/page9_team';
 
 const HomePage_01 = () => { // page 1 
   return (
@@ -202,11 +202,22 @@ const NewsDetails_08 = () => { // page 8
   )
 }
 
+/* const AkcelTeamMember_09 = () => { // page 9
+  return (
+    <secion>
+
+    </secion>
+  )
+} */
+
 function App() {
   return (
     <div className="App">
       <section>
-        Hello World!
+        <Header />
+        <TeamMember_09/>
+        <DontMiss />
+        <Footer />
       </section>
     </div>
   );
