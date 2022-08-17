@@ -1,6 +1,59 @@
 import './index.css';
+import OneProfile from './OneProfile';
 
 const TeamMember_09 = () => {
+
+    const objects = [
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+        {
+            name: 'Jason Krash',
+            job: 'Managing Director'
+        },
+    ]
+
     return (
         <section>
             <article>
@@ -17,74 +70,9 @@ const TeamMember_09 = () => {
                     </div>
                     <div className="container team_members__main">
                         <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Kaylynn Donin</div>
-                                <div className="team_members__main__job">Managing Director</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Lindsey Botosh</div>
-                                <div className="team_members__main__job">National Web Assistant</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Phillip Schleifer</div>
-                                <div className="team_members__main__job">National Intranet Specialist</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Jakob Ekstrom Bothman</div>
-                                <div className="team_members__main__job">District Accounts Analyst</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container team_members__main">
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Kaylynn Donin</div>
-                                <div className="team_members__main__job">Managing Director</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Lindsey Botosh</div>
-                                <div className="team_members__main__job">National Web Assistant</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Phillip Schleifer</div>
-                                <div className="team_members__main__job">National Intranet Specialist</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Jakob Ekstrom Bothman</div>
-                                <div className="team_members__main__job">District Accounts Analyst</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container team_members__main">
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Kaylynn Donin</div>
-                                <div className="team_members__main__job">Managing Director</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Lindsey Botosh</div>
-                                <div className="team_members__main__job">National Web Assistant</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Phillip Schleifer</div>
-                                <div className="team_members__main__job">National Intranet Specialist</div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <img src="../image/page_1_team_member_profile.svg" className="team_members__main__profile" />
-                                <div className="team_members__main__name">Jakob Ekstrom Bothman</div>
-                                <div className="team_members__main__job">District Accounts Analyst</div>
-                            </div>
+                            {objects.map((object) => (
+                                <OneProfile object={object} />
+                            ))}
                         </div>
                     </div>
                 </div>
