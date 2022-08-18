@@ -229,6 +229,8 @@ function App() {
       <section>
         <Header />
         <Stories />
+        <DontMiss />
+        <Footer />
       </section>
     </div>
   );
