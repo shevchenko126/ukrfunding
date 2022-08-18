@@ -218,7 +218,7 @@ const AkcelTeamMember_09 = () => { // page 9
   )
 }
 
-const SuccessProjectStory = () => { // page 10
+const SuccessProjectStory_10 = () => { // page 10
   return (
     <section>
       <Header />
@@ -229,10 +229,14 @@ const SuccessProjectStory = () => { // page 10
   )
 }
 
-const ProjectCategories = () => {
+const ProjectCategories_11 = () => {
   return (
     <section>
-
+      <Header />
+      <Categories />
+      <Page115Projects />
+      <BecomeOurPremPartner />
+      <Footer />
     </section>
   )
 }
@@ -241,11 +245,7 @@ function App() {
   return (
     <div className="App">
       <section>
-        <Header />
-        <Categories />
-        <Page115Projects />
-        <BecomeOurPremPartner />
-        <Footer />
+        Helo World!
       </section>
     </div>
   );
