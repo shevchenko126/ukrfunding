@@ -74,7 +74,9 @@ import Page8Related from './components/contentBlocks/page8_related';
 import TeamMember_09 from './components/contentBlocks/page9_team';
 
 import Stories from './components/contentBlocks/page10_stories';
+
 import Categories from './components/contentBlocks/page11_categories';
+import Page115Projects from './components/contentBlocks/page11_projects';
 
 const HomePage_01 = () => { // page 1 
   return (
@@ -241,6 +243,7 @@ function App() {
       <section>
         <Header />
         <Categories />
+        <Page115Projects />
       </section>
     </div>
   );
