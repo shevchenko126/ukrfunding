@@ -74,6 +74,7 @@ import Page8Related from './components/contentBlocks/page8_related';
 import TeamMember_09 from './components/contentBlocks/page9_team';
 
 import Stories from './components/contentBlocks/page10_stories';
+import Categories from './components/contentBlocks/page11_categories';
 
 const HomePage_01 = () => { // page 1 
   return (
@@ -215,22 +216,31 @@ const AkcelTeamMember_09 = () => { // page 9
   )
 }
 
-/* const SuccessProjectStory = () => {
+const SuccessProjectStory = () => { // page 10
+  return (
+    <section>
+      <Header />
+      <Stories />
+      <DontMiss />
+      <Footer />
+    </section>
+  )
+}
+
+const ProjectCategories = () => {
   return (
     <section>
 
     </section>
   )
-} */
+}
 
 function App() {
   return (
     <div className="App">
       <section>
         <Header />
-        <Stories />
-        <DontMiss />
-        <Footer />
+        <Categories />
       </section>
     </div>
   );
