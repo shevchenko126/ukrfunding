@@ -73,6 +73,8 @@ import Page8Related from './components/contentBlocks/page8_related';
 
 import TeamMember_09 from './components/contentBlocks/page9_team';
 
+import Stories from './components/contentBlocks/page10_stories';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -179,12 +181,12 @@ const ContactUs_06 = () => { // page 6
 const LatestNews_07 = () => {
   return (
     <section>
-        <Header />
-        <AkcelNews_page7 />
-        <OurPartnership />
-        <DontMiss />
-        <Footer />
-      </section>
+      <Header />
+      <AkcelNews_page7 />
+      <OurPartnership />
+      <DontMiss />
+      <Footer />
+    </section>
   )
 }
 
@@ -202,11 +204,22 @@ const NewsDetails_08 = () => { // page 8
   )
 }
 
-/* const AkcelTeamMember_09 = () => { // page 9
+const AkcelTeamMember_09 = () => { // page 9
   return (
     <secion>
-
+      <Header />
+      <TeamMember_09 /> {/* create hover effect ( show facebbok, twitter ) */}
+      <DontMiss />
+      <Footer />
     </secion>
+  )
+}
+
+/* const SuccessProjectStory = () => {
+  return (
+    <section>
+
+    </section>
   )
 } */
 
@@ -215,9 +228,7 @@ function App() {
     <div className="App">
       <section>
         <Header />
-        <TeamMember_09/> {/* create hover effect ( show facebbok, twitter ) */}
-        <DontMiss />
-        <Footer />
+        <Stories />
       </section>
     </div>
   );

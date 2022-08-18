@@ -52,6 +52,9 @@
     max-width: 100%;
     margin-top: 50px;
 }
+.team_members__main__profile:hover {
+    cursor: pointer;
+}
 
 .team_members__main__name {
     font-family: 'Poppins';
