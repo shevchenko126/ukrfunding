@@ -181,7 +181,7 @@ const ContactUs_06 = () => { // page 6
   )
 }
 
-const LatestNews_07 = () => {
+const LatestNews_07 = () => { // page 7
   return (
     <section>
       <Header />
@@ -229,7 +229,7 @@ const SuccessProjectStory_10 = () => { // page 10
   )
 }
 
-const ProjectCategories_11 = () => {
+const ProjectCategories_11 = () => { // page 11
   return (
     <section>
       <Header />
