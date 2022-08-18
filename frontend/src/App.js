@@ -244,6 +244,8 @@ function App() {
         <Header />
         <Categories />
         <Page115Projects />
+        <BecomeOurPremPartner />
+        <Footer />
       </section>
     </div>
   );
