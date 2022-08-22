@@ -73,6 +73,11 @@ import Page8Related from './components/contentBlocks/page8_related';
 
 import TeamMember_09 from './components/contentBlocks/page9_team';
 
+import Stories from './components/contentBlocks/page10_stories';
+
+import Categories from './components/contentBlocks/page11_categories';
+import Page115Projects from './components/contentBlocks/page11_projects';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -176,15 +181,15 @@ const ContactUs_06 = () => { // page 6
   )
 }
 
-const LatestNews_07 = () => {
+const LatestNews_07 = () => { // page 7
   return (
     <section>
-        <Header />
-        <AkcelNews_page7 />
-        <OurPartnership />
-        <DontMiss />
-        <Footer />
-      </section>
+      <Header />
+      <AkcelNews_page7 />
+      <OurPartnership />
+      <DontMiss />
+      <Footer />
+    </section>
   )
 }
 
@@ -202,22 +207,45 @@ const NewsDetails_08 = () => { // page 8
   )
 }
 
-/* const AkcelTeamMember_09 = () => { // page 9
+const AkcelTeamMember_09 = () => { // page 9
   return (
     <secion>
-
+      <Header />
+      <TeamMember_09 /> {/* create hover effect ( show facebbok, twitter ) */}
+      <DontMiss />
+      <Footer />
     </secion>
   )
-} */
+}
+
+const SuccessProjectStory_10 = () => { // page 10
+  return (
+    <section>
+      <Header />
+      <Stories />
+      <DontMiss />
+      <Footer />
+    </section>
+  )
+}
+
+const ProjectCategories_11 = () => { // page 11
+  return (
+    <section>
+      <Header />
+      <Categories />
+      <Page115Projects />
+      <BecomeOurPremPartner />
+      <Footer />
+    </section>
+  )
+}
 
 function App() {
   return (
     <div className="App">
       <section>
-        <Header />
-        <TeamMember_09/> {/* create hover effect ( show facebbok, twitter ) */}
-        <DontMiss />
-        <Footer />
+        Helo World!
       </section>
     </div>
   );

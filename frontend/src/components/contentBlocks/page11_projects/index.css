@@ -1,0 +1,134 @@
+.we_have_done {
+    max-width: 1620px;
+}
+
+.we_have_done__title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.we_have_done__view-more {
+    width: 258px;
+    height: 60px;
+    background: #F6FBFA;
+    border: 2px solid #4d968a;
+    border-radius: 8px;
+}
+
+.we_have_done__view-more__text {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.we_have_done__view-more {
+    margin-left: 66%;
+}
+
+.we_have_done__item {
+    max-width: 499px;
+    border-radius: 14px;
+    margin: auto;
+    border: 2px solid #EEEEEE;
+    border-radius: 14px;
+}
+
+.we_have_done__item__theme {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.we_have_done__item__text {
+    font-family: 'Open Sans';
+    line-height: 28px;
+}
+
+.we_have_done__item__author__author {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.we_have_done__item__author__campaign {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.we_have_done__item__author__location {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #717579;
+}
+
+.progress {
+    max-width: 445px;
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}
+
+.progress-bar {
+    background-color: #FF7468;
+}
+
+.we_have_done__item__raised-days {
+    font-family: 'Open Sans';
+    margin-left: 15px;
+}
+
+.we_have_done__item__heart {
+    width: 20%;
+    height: 60px;
+    background: #FF7468;
+    border-radius: 8px;
+    border: none;
+}
+
+.we_have_done__item__fund {
+    width: 75%;
+    height: 60px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    background: #1B8271;
+    border: none;
+    margin-left: 3%;
+}
+
+button:hover,
+.we_have_done__item:hover {
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.7)
+}
+
+.we_have_done__item:hover {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.we_have_done__item__heart:active {
+    background: rgba(255, 116, 104, 0.6);
+}
+
+.we_have_done__item__fund:active {
+    background: rgba(27, 130, 113, 0.7);
+}
+
+.we_have_done__view-more:active {
+    background: rgba(134, 255, 231, 0.4);   
+}
+
+@media (max-width: 995px) {
+    .we_have_done__view-more {
+        margin: 40px 0 0 0;
+    }
+}
+@media (max-width: 500px) {
+    .we_have_done__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
