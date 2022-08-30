@@ -1,35 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-/* 
-import Header from './components/Header';
-import Page3block1 from './components/contentBlocks/page3_block1_includeSearch';
-import Categories from './components/contentBlocks/page11_categories';
-import Numbers from './components/contentBlocks/page1_numbers';
-import NewsDetails from './components/contentBlocks/page8_news_details';
-import Details from './components/contentBlocks/page5_project_details';
-import Contact from './components/contentBlocks/page6_conact_us';
-import Support from './components/contentBlocks/page5_support_other_projects';
-import NewsPage1 from './components/contentBlocks/page1_news';
-import Donate from './components/contentBlocks/page4_donate_to';
-import TeamMember from './components/contentBlocks/page1_meet_our';
-import OurPartnership from './components/contentBlocks/page1_our_partnership';
-import Register from './components/contentBlocks/register';
-import Login from './components/contentBlocks/login';
-import OurMission from './components/contentBlocks/page2_about_our_company';
-import About from './components/contentBlocks/page2_our_mission';
-import FilterCategory from './components/contentBlocks/page4_filter_category';
-import LatestNews from './components/contentBlocks/page7_latest_news';
-import Fundraisng from './components/contentBlocks/page2_fundraising';
-import Page2Categories from './components/contentBlocks/page2_categories';
-import WhoWeAre from './components/contentBlocks/page2_who_we_are';
-import WriteComment from './components/contentBlocks/page8_write_comment';
-import DontMiss from './components/contentBlocks/block10_Dont_miss';
-import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
-import AboutProject from './components/contentBlocks/page5_about_project';
-import FormAddProject from './components/contentBlocks/form_add_project';
-import Page5Projects from './components/contentBlocks/page5_projects';
-import Footer from './components/Footer/index';  */
+import ReactDOM from "react-dom/client";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom"
 
 import Header from './components/Header';
 import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
@@ -125,7 +102,7 @@ const Projects4Col_03 = () => { //page 3
   )
 }
 
-const Projects3Col_03 = () => { // page 4
+const Projects3Col_04 = () => { // page 4
   return (
     <section>
       <HeaderModed />
@@ -244,9 +221,22 @@ const ProjectCategories_11 = () => { // page 11
 function App() {
   return (
     <div className="App">
-      <section>
-        Helo World!
-      </section>
+
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage_01 />} />
+          <Route path="/about-us" element={<AboutUs_02 />} />
+          <Route path="/projects-4-col" element={<Projects4Col_03 />} />
+          <Route path="/projects-3-col" element={<Projects3Col_04 />} />
+          <Route path="/project-details" element={<ProjectDetails_05 />} />
+          <Route path="/conact-us" element={<ContactUs_06 />} />
+          <Route path="/latest-news" element={<LatestNews_07 />} />
+          <Route path="/news-details" element={<NewsDetails_08 />} />
+          <Route path="/team-member" element={<AkcelTeamMember_09 />} />
+          <Route path="/success-project" element={<SuccessProjectStory_10 />} />
+          <Route path="/project-categories" element={<ProjectCategories_11 />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
