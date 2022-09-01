@@ -55,6 +55,14 @@ import Stories from './components/contentBlocks/page10_stories';
 import Categories from './components/contentBlocks/page11_categories';
 import Page115Projects from './components/contentBlocks/page11_projects';
 
+import ChangePasswordPage from './components/contentBlocks/change_password';
+
+import RegisterPage from './components/contentBlocks/register';
+
+import LoginPage from './components/contentBlocks/login';
+
+import FormAddProject from './components/contentBlocks/form_add_project';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -218,10 +226,49 @@ const ProjectCategories_11 = () => { // page 11
   )
 }
 
+const ChangePassword = () => { // change info about user
+  return (
+    <section>
+      <Header />
+      <ChangePasswordPage />
+      <Footer />
+    </section>
+  )
+};
+
+const Register = () => { // register page
+  return (
+    <section>
+      <Header />
+      <RegisterPage />
+      <Footer />
+    </section>
+  )
+};
+
+const Login = () => { // login page
+  return (
+    <section>
+      <Header />
+      <LoginPage />
+      <Footer />
+    </section>
+  )
+};
+
+const AddProject = () => { // add project form page // ADD STYLES TO PAGE
+  return (
+    <section>
+      <Header />
+      <FormAddProject />
+      <Footer />
+    </section>
+  )
+};
+
 function App() {
   return (
     <div className="App">
-
       <Router>
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
@@ -235,10 +282,14 @@ function App() {
           <Route path="/team-member" element={<AkcelTeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
+          <Route path="/change-password" element={<ChangePassword />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/add-project" element={<AddProject />} />
         </Routes>
       </Router>
     </div>
   );
-}
+};
 
 export default App;
