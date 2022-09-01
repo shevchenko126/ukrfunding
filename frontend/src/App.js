@@ -57,6 +57,8 @@ import Page115Projects from './components/contentBlocks/page11_projects';
 
 import ChangePasswordPage from './components/contentBlocks/change_password';
 
+import RegisterPage from './components/contentBlocks/register';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -220,7 +222,7 @@ const ProjectCategories_11 = () => { // page 11
   )
 }
 
-const ChangePassword = () => {
+const ChangePassword = () => { // change info about user
   return (
     <section>
       <Header />
@@ -228,12 +230,21 @@ const ChangePassword = () => {
       <Footer />
     </section>
   )
-}
+};
+
+const Register = () => { // register page
+  return (
+    <section>
+      <Header />
+      <RegisterPage />
+      <Footer />
+    </section>
+  )
+};
 
 function App() {
   return (
     <div className="App">
-
       <Router>
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
@@ -248,10 +259,11 @@ function App() {
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
           <Route path="/change-password" element={<ChangePassword />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </Router>
     </div>
   );
-}
+};
 
 export default App;
