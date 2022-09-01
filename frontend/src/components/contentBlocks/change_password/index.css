@@ -33,7 +33,7 @@
     border-radius: 12px;
     border: 2px solid rgba(251, 251, 251, 0.1);
     padding: 13px 50px 13px 50px;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .change_pswrd__btn:active {
