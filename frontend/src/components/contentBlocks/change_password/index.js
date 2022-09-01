@@ -9,9 +9,9 @@ const ChangePasswordPage = () => {
                 <div className='change_pswrd__title pt-5'>Write Your new Name</div>
                 <input className='change_pswrd__input' placeholder='Name...' />
                 <div className='change_pswrd__title pt-5'>Write Your new Password</div>
-                <input className='change_pswrd__input' placeholder='Password...' />
+                <input type='password' className='change_pswrd__input' placeholder='Password...' />
                 <div className='change_pswrd__title pt-5'>Confirm Password</div>
-                <input className='change_pswrd__input' placeholder='Confirm Password...' />
+                <input type='password' className='change_pswrd__input' placeholder='Confirm Password...' />
                 <button className='change_pswrd__btn mt-5'>Save Changes</button>
             </div>
         </section>
