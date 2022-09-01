@@ -256,7 +256,7 @@ const Login = () => { // login page
   )
 };
 
-const AddProject = () => { // add project form page
+const AddProject = () => { // add project form page // ADD STYLES TO PAGE
   return (
     <section>
       <Header />
