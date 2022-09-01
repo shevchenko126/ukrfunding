@@ -55,6 +55,8 @@ import Stories from './components/contentBlocks/page10_stories';
 import Categories from './components/contentBlocks/page11_categories';
 import Page115Projects from './components/contentBlocks/page11_projects';
 
+import ChangePasswordPage from './components/contentBlocks/change_password';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -218,6 +220,16 @@ const ProjectCategories_11 = () => { // page 11
   )
 }
 
+const ChangePassword = () => {
+  return (
+    <section>
+      <Header />
+      <ChangePasswordPage />
+      <Footer />
+    </section>
+  )
+}
+
 function App() {
   return (
     <div className="App">
@@ -235,6 +247,7 @@ function App() {
           <Route path="/team-member" element={<AkcelTeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
+          <Route path="/change-password" element={<ChangePassword />} />
         </Routes>
       </Router>
     </div>

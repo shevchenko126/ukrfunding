@@ -24,8 +24,8 @@
 }
 
 .register__input {
-	width: 76%;
-	font-family: 'Poppins';
+    width: 76%;
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     color: #121e31;
@@ -81,10 +81,11 @@
 }
 
 
-button:active {
+.register__bottom__button:active {
     background-color: rgba(255, 107, 107, 0.6);
 }
-button:hover {
+
+.register__bottom__button:hover {
     border: 1px solid rgba(0, 0, 0, 0.6)
 }
 

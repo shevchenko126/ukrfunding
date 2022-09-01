@@ -1,0 +1,45 @@
+.change_pswrd {
+    max-width: 1620px;
+    min-height: 500px;
+    margin: 50px auto 100px;
+}
+
+.change_pswrd__title {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.change_pswrd__input {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.change_pswrd__btn {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #F9F9FA;
+    background: #FF7468;
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+    border-radius: 12px;
+    border: 2px solid rgba(251, 251, 251, 0.1);
+    padding: 13px 50px 13px 50px;
+    transition: 0.2s;
+}
+
+.change_pswrd__btn:active {
+    background-color: rgba(255, 107, 107, 0.6);
+}
+
+.change_pswrd__btn:hover {
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
