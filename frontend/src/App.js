@@ -59,6 +59,8 @@ import ChangePasswordPage from './components/contentBlocks/change_password';
 
 import RegisterPage from './components/contentBlocks/register';
 
+import LoginPage from './components/contentBlocks/login';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -242,6 +244,16 @@ const Register = () => { // register page
   )
 };
 
+const Login = () => { // login page
+  return (
+    <section>
+      <Header />
+      <LoginPage />
+      <Footer />
+    </section>
+  )
+};
+
 function App() {
   return (
     <div className="App">
@@ -260,6 +272,7 @@ function App() {
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
           <Route path="/change-password" element={<ChangePassword />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>
