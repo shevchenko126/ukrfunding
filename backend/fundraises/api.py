@@ -1,12 +1,36 @@
 from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
+from rest_framework.authtoken.models import Token
 from fundraises.models import Fundraise, FundraiseCategory
 from fundraises.serializers import FundraiseSerializer, FundraiseCategorySerializer
+
+
+
+class HasUserPermission(IsAuthenticatedOrReadOnly):
+
+    def has_permission(self, request, view):
+        if request.method in ["POST", "PATCH", "DELETE"]:
+            token = request.headers['Authorization']
+            token_obj = Token.objects.filter(key=token).first()
+            if token_obj:
+                user = token_obj.user
+                print(user)
+                return True
+            else:
+                return False
+        else:
+            return True
+
 
 class GetFundraises(viewsets.ModelViewSet):
 
     serializer_class = FundraiseSerializer
 
+
+    permission_classes = [HasUserPermission]
+
+    #get_queryset
     def list(self, request):
         fundraises = Fundraise.objects.all()
         if request.GET.get('featured',0)=='1':
