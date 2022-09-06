@@ -53,7 +53,7 @@
 .header-bottom__button__button {
     width: 230px;
     height: 60px;
-    border: 1px solid #FF7468;
+    border: 2px solid #FF7468;
     border-radius: 8px;
     background: #FFFFFF;
     font-family: 'Poppins';
@@ -65,7 +65,6 @@
 
 .header-bottom__button__button:hover {
     background: rgba(214, 214, 214, 0.3);
-    border: 1px solid red;
 }
 
 @media (max-width: 990px) {
