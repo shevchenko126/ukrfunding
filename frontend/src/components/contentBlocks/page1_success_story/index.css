@@ -120,7 +120,6 @@
 
 @media(max-width: 430px) {
     .success_story__main__number {
-        font-family: 'Poppins';
         font-weight: 600;
         font-size: 30px;
     }
