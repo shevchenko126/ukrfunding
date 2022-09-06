@@ -98,9 +98,8 @@
 
 @media(max-width: 360px) {
     .we_help_surface__theme-text {
-        font-family: 'Poppins';
         font-weight: 500;
         font-size: 35px;
-        line-height: 90px;
+        line-height: 50px;
     }
 }
