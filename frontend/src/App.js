@@ -241,7 +241,6 @@ const Register = () => { // register page
     <section>
       <Header />
       <RegisterPage />
-      <ChangePasswordPage />
       <Footer />
     </section>
   )

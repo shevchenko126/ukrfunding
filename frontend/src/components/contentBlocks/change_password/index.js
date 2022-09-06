@@ -3,7 +3,9 @@ import './index.css';
 const ChangePasswordPage = () => {
     return (
         <div className="container p-0 change">
-            <form action="">
+            <form onSubmit={(event) => {
+                event.preventDefault();
+            }}>
                 <div className="change__title">Change</div>
                 <div className="change__text" for="email">New Email</div>
                 <input className="change__input" id="email" name="email" placeholder="Write Your Email" type="email" min="5" max="40" />
