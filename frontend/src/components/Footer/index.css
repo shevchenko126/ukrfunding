@@ -9,6 +9,10 @@
     margin-left: 16%;
 }
 
+.footer__first-col__logo {
+    transition: 0.6s;
+}
+
 .footer__first-col__logo:hover {
     background: #2B3E80;
     border-radius: 8px;
@@ -28,9 +32,22 @@
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .footer__item {
+    text-decoration: none;
+    color: white;
     padding-top: 20px;
     font-family: 'Open Sans';  
+    transition: 0.5s;
+}
+
+.footer__item:hover {
+    color: rgba(136, 136, 136, 1);
+    font-weight: 600;
 }
 
 .footer__location {
