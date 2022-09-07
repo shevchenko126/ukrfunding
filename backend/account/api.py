@@ -7,10 +7,10 @@ from django.core.exceptions import PermissionDenied
 
 class CustomAuthData(ObtainAuthToken):
     def post(self, request, *args, **kwargs):
-        if self.request.GET.get('username') is None:
+        if self.request.data.get('username') is None:
             raise PermissionDenied()
-        username = self.request.GET.get('username').lower()
-        password = self.request.GET.get('password')
+        username = self.request.data.get('username').lower()
+        password = self.request.data.get('password')
         try:
             user = authenticate(username=username, password=password)
             if user is not None:
@@ -23,7 +23,7 @@ class CustomAuthData(ObtainAuthToken):
                     "token": user_token_data.key,
                     "username": user.username,
                     "password": password,
-                    # - тут зашифрований пароль, щось таке: 
+                    # - тут зашифрований пароль, щось таке:
                     # "pbkdf2_sha256$320000$OeUb1DRMSzHrhMJk0sbogh$KyqIDmOSsvyIpx3y14bB9cA6/cRqwtN8v1SfcpDf3Kc="
                     "password_encrypted": user.password
                 }
@@ -44,7 +44,7 @@ class CustomAuthData(ObtainAuthToken):
                     "token": user_token_data.key,
                     "username": user_second_try.username,
                     "password": password,
-                    # - тут зашифрований пароль, щось таке: 
+                    # - тут зашифрований пароль, щось таке:
                     # "pbkdf2_sha256$320000$OeUb1DRMSzHrhMJk0sbogh$KyqIDmOSsvyIpx3y14bB9cA6/cRqwtN8v1SfcpDf3Kc="
                     "password_encrypted": user_second_try.password}
         except Exception as e:
@@ -54,29 +54,4 @@ class CustomAuthData(ObtainAuthToken):
                 "token": "",
                 "user_id": 0,
             }
-        return Response(resp)
-
-    def get(self, request, *args, **kwargs):
-        if self.request.GET.get('username') is None:
-            raise PermissionDenied()
-        username = self.request.GET.get('username').lower()
-        password = self.request.GET.get('password')
-        try:
-            user = authenticate(username=username, password=password)
-            user_id = User.objects.filter(username=username).first().id
-            token = Token.objects.filter(user_id=user_id).first().key
-            resp = {
-                "success": True,
-                "user_id": user.id,
-                "token": token,
-                "username": user.username,
-                "password": password
-            }
-        except:
-            resp = {
-                "success": False,
-                "user_id": 0,
-                "token": "",
-            }
-
         return Response(resp)
