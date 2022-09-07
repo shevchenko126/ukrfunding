@@ -6,8 +6,8 @@ const Footer = () => {
             <div className="contaniner-fluid footer">
                 <div className="row gx-5 pt-3 mx-0">
                     <div className="col-lg-4 col-md-12 footer__first-col">
-                        <div className="mt-5 d-flex justify-content-center" style={{ maxWidth: '500px' }}>
-                            <img src="./image/footer_logo.svg" />
+                        <div className="mt-5 d-flex justify-content-center">
+                            <img src="./image/footer_logo.svg" className='footer__first-col-logo' />
                         </div>
                         <div className="footer__first-col__text d-flex justify-content-center text-white mt-4">Akcel is a Crowdfunding & Charity Website by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</div>
                         <div className="row mt-4 d-flex justify-content-center">
@@ -79,12 +79,24 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-1 col-md-4 text-white text-center">
                         <div className="footer__title mt-5 pb-3">Company</div>
-                        <div className="footer__item">About us</div>
-                        <div className="footer__item">Contact us</div>
-                        <div className="footer__item">Products</div>
-                        <div className="footer__item">Login</div>
-                        <div className="footer__item">Sign Up</div>
-                        <div className="footer__item">FAQ</div>
+                        <a href=''>
+                            <div className="footer__item">About us</div>
+                        </a>
+                        <a href=''>
+                            <div className="footer__item">Contact us</div>
+                        </a>
+                        <a href=''>
+                            <div className="footer__item">Products</div>
+                        </a>
+                        <a href=''>
+                            <div className="footer__item">Login</div>
+                        </a>
+                        <a href=''>
+                            <div className="footer__item">Sign Up</div>
+                        </a>
+                        <a href=''>
+                            <div className="footer__item">FAQ</div>
+                        </a>
                     </div>
                     <div className="col-lg-4 col-md-12 d-flex justify-content-center footer__first-col fifth_col text-white">
                         <div>

@@ -42,7 +42,7 @@ a {
     color: white;
     padding-top: 20px;
     font-family: 'Open Sans';  
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .footer__item:hover {
@@ -66,5 +66,12 @@ a {
     .fifth_col__email {
         justify-content: center;
         text-align: center;
+    }
+    .footer__first-col__text {
+        text-align: center;
+        margin-left: 0;
+    }
+    .footer__first-col-logo {
+        margin: auto;
     }
 }
