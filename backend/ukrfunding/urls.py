@@ -31,6 +31,4 @@ urlpatterns = [
     path('changepassword/',ChangePassword.as_view()),
     path('changepassword/recoveryrequest', PasswordRecoveryRequest.as_view()),
     path('changepassword/passchange', PasswordChangeRedirect.as_view()),
-    
-
 ]
