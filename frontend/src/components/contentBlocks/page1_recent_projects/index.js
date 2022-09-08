@@ -47,7 +47,7 @@ const RecentProjects = () => {
     ]
 
     return (
-        <div className="container recent_projects">
+        <div className="container recent_projects" style={{marginTop: '100px'}}>
             <div className="text-center recent_projects__title">Recent Projects</div>
             <div className="mt-4 text-center recent_projects__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
             <div className="row mt-5 mb-5">

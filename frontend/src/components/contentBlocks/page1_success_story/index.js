@@ -6,7 +6,7 @@ const SuccessStory = () => {
             <div className="row pb-5">
                 <div className="col-lg-6 col-md-12">
                     <div className="text-uppercase text-success success_story__title">Success story</div>
-                    <div className="mt-4 success_story__theme">Read They Story With Akcel</div>
+                    <div className="mt-4 success_story__theme">Read The Story With Akcel</div>
                     <div className="mt-4 success_story__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
                 </div>
                 <div className="col-lg-6 col-md-12 d-flex align-items-center success_story__button-col">
@@ -32,7 +32,7 @@ const SuccessStory = () => {
                             <div className='col-lg-1 col-sm-12'>
                                 <img src="../image/page1_success_story_user.svg" />
                             </div>
-                            <div className='col-lg-11 col-sm-12'>
+                            <div className='col-lg-11 col-sm-12 success_story__main__author-author'>
                                 <div className="d-flex">
                                     <div className="success_story__main__author__author">Hendric Anderson</div>
                                     <img src="../image/page1_success_story_Vector.svg" className="mx-1" />

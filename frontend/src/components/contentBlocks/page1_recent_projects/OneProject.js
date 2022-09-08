@@ -4,7 +4,9 @@ const OneProject = ({ project }) => {
             <div className="mt-5 recent_projects__item">
                 <div className="recent_projects__item__image"></div>
                 <div className="m-3 text-uppercase text-success recent_projects__item__category">{project.category}</div>
-                <div className="m-3 recent_projects__item__theme">{project.title}</div>
+                <div className="m-3">
+                    <a href='#' className="recent_projects__item__theme">{project.title}</a>
+                </div>
                 <div className="m-3 progress">
                     <div className="progress-bar" style={{ width: project.progress }}></div>
                 </div>

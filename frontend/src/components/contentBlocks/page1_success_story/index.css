@@ -30,7 +30,17 @@
     height: 58px;
     background: #1B8271;
     border-radius: 8px;
-    border: none;
+    border: 2px solid #ffffff;
+    transition: 0.4s;
+}
+
+.success_story__button:hover {
+    border: 2px solid black;
+    background: rgba(27, 130, 113, 0.8);
+}
+
+.success_story__button:active {
+    background: rgba(27, 130, 113, 0.4);
 }
 
 .success_story__button__text {
@@ -101,14 +111,15 @@
     .success_story__theme,
     .success_story__text,
     .success_story__main__title,
-    .success_story__main__text {
+    .success_story__main__text,
+    .success_story__main__number,
+    .success_story__main__number-text {
         text-align: center;
     }
 }
 
 @media(max-width: 430px) {
     .success_story__main__number {
-        font-family: 'Poppins';
         font-weight: 600;
         font-size: 30px;
     }

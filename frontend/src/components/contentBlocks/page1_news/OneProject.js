@@ -6,7 +6,7 @@ const OneProject = ({ project }) => {
                     <img src="../image/page_1_news_profile.svg" style={{ width: '100%' }} />
                     <div className="text-uppercase aksel_news-main__category">{project.category}</div>
                 </div>
-                <a href='' className='aksel_news-main-item-href'>
+                <a href='#' className='aksel_news-main-item-href'>
                     <div className="aksel_news-main__title">{project.title}</div>
                 </a>
                 <div className="aksel_news-main__text">{project.description}</div>

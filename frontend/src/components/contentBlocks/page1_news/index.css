@@ -31,6 +31,12 @@
     border: 1px solid #EEEEEE;
     box-shadow: 0px 7px 22px rgba(143, 134, 196, 0.02);
     border-radius: 20px;
+    transition: 0.4s;
+}
+
+.aksel_news-main-item:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.2);
 }
 
 .aksel_news-main__logo {
@@ -56,14 +62,16 @@
     line-height: 30px;
     max-width: 440px;
     margin: 30px 0 0 30px;
+    transition: 0.3s;
+}
+
+.aksel_news-main__title:hover {
+    color: rgb(139, 139, 139);
 }
 
 .aksel_news-main-item-href {
     text-decoration: none;
-    color: #121E31;
-}
-.aksel_news-main-item-href:hover {
-    color: rgba(0, 19, 102, 0.7);
+    color: black;
 }
 
 .aksel_news-main__text {
