@@ -1,6 +1,6 @@
-﻿import '/index.css';
+﻿import './index.css';
 
-const Login = () => {
+const LoginPage = () => {
 	return (
 		<div className="container p-0">
 			<form action="">
@@ -36,4 +36,4 @@ const Login = () => {
 	)
 }
 
-export default Login;
+export default LoginPage;

@@ -1,6 +1,6 @@
-﻿import '/index.css';
+﻿import './index.css';
 
-const Register = () => {
+const RegisterPage = () => {
 	return (
 		<div className="container p-0 register">
 			<form action="">
@@ -27,4 +27,4 @@ const Register = () => {
 	)
 }
 
-export default Register;
+export default RegisterPage;
