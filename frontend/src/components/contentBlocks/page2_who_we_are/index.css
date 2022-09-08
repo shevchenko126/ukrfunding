@@ -12,6 +12,7 @@
 }
 
 .who_we_are__header {
+    color: #1B8271;
     margin-left: 20px;
     font-family: 'Poppins';
     font-weight: 700;
@@ -44,7 +45,8 @@
     max-width: 802px;
     background: #FFFFFF;
     border-radius: 14px;
-    border: 2px solid rgba(0, 0, 0, 0.08)
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    transition: 0.4s;
 }
 .who_we_are__item:hover {
     border: 2px solid #EEEEEE;
