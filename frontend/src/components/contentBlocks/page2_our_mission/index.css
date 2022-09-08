@@ -36,27 +36,37 @@
 .our_mission__button__first {
     width: 221px;
     height: 60px;
-    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
     background: #FF7468;
-    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
     border-radius: 8px;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
+    transition: 0.4s;
+}
+
+.our_mission__button__first:hover {
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
 }
 
 .our_mission__button__second {
+    margin-left: 90px;
     width: 167px;
     height: 60px;
-    border: none;
-    border: 1px solid #D7D7D7;
+    border: 2px solid #D7D7D7;
     border-radius: 8px;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
+    transition: 0.4s;
+}
+
+.our_mission__button__second:hover {
+    box-shadow: 0px 25px 50px rgba(156, 156, 156, 0.36);
 }
 
 @media(max-width: 990px) {
+
     .our_mission__panel,
     .our_mission__main,
     .our_mission__main_text,
@@ -66,7 +76,11 @@
         margin: auto;
         text-align: center;
     }
+
     .our_mission-mission {
         justify-content: center;
+    }
+    .our_mission__button__second {
+        margin-left: 0;
     }
 }
