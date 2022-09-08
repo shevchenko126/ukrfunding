@@ -50,6 +50,7 @@
 }
 
 .our_mission__button__second {
+    margin-left: 90px;
     width: 167px;
     height: 60px;
     border: 2px solid #D7D7D7;
@@ -78,5 +79,8 @@
 
     .our_mission-mission {
         justify-content: center;
+    }
+    .our_mission__button__second {
+        margin-left: 0;
     }
 }
