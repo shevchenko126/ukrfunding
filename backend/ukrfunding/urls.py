@@ -19,6 +19,8 @@ from django.urls import path,include
 from account.api import CustomAuthData
 
 from account.views import ChangePassword
+from account.views import PasswordRecoveryRequest
+from account.views import PasswordChangeRedirect
 
 
 urlpatterns = [
@@ -27,6 +29,8 @@ urlpatterns = [
     path('payments/', include('payments.urls')),
     path('accounts/', CustomAuthData.as_view()),
     path('changepassword/',ChangePassword.as_view()),
+    path('changepassword/recoveryrequest', PasswordRecoveryRequest.as_view()),
+    path('changepassword/passchange', PasswordChangeRedirect.as_view()),
     
 
 ]
