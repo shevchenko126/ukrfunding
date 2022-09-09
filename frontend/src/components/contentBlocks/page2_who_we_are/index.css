@@ -63,7 +63,7 @@
     margin-left: 30%;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .who_we_are-header,
     .who_we_are__title,
     .who_we_are__main_text,
@@ -72,5 +72,10 @@
         justify-content: center;
         text-align: center;
         margin: auto;
+    }
+    .who_we_are__title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
     }
 }
