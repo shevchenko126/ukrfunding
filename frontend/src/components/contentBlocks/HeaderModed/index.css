@@ -16,10 +16,15 @@
     width: 168px;
     height: 45px;
     background: white;
-    border: 1px solid #F6FBFA;
+    border: 2px solid #F6FBFA;
     border-radius: 8px;
     font-family: 'Poppins';
     font-weight: 600;
+    transition: 0.4s;
+}
+
+.header__top__left__button-moded:hover {
+    box-shadow: 0px 25px 50px rgba(44, 44, 44, 0.2);
 }
 
 .header__top__right__phone-email {
@@ -34,11 +39,12 @@
     font-weight: 500;
     font-size: 18px;
     color: white;
+    transition: 0.4s;
 }
 
 .header-bottom__ref-moded:hover {
     font-family: 'Poppins';
-    color: #121E31;
+    color: #999999;
 }
 
 .header-bottom__button-moded {
@@ -52,8 +58,13 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
-    background-color: #FF7468;
-    border: none;
+    background: #FF7468;
+    border: 2px solid #1B8271;
+    transition: 0.4s;
+}
+
+.header-bottom__button__button-moded:hover {
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.5);
 }
 
 @media(max-width: 990px) {
