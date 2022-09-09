@@ -44,7 +44,7 @@
 }
 
 .we_have_done__item__theme:hover {
-    color: rgb(134, 134, 134)
+    color: rgb(134, 134, 134);
 }
 
 .we_have_done__item__text {
@@ -110,10 +110,11 @@
 button:hover,
 .we_have_done__item:hover {
     cursor: pointer;
-    border: 2px solid rgba(0, 0, 0, 0.7)
+    border: 2px solid rgba(0, 0, 0, 0.7);
 }
 .we_have_done__item:hover {
     border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 20px 30px rgba(87, 87, 87, 0.2);
 }
 
 .we_have_done__item__heart:active {
