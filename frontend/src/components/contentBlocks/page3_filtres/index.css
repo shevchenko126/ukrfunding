@@ -34,7 +34,7 @@
     width: 175px;
     height: 60px;
     background: rgba(0, 255, 204, 0.05);
-    border: 2px solid #1B8271;
+    border: 2px solid white;
     border-radius: 8px;
     font-family: 'Poppins';
     font-weight: 700;
@@ -42,6 +42,9 @@
     transition: 0.4s;
 }
 
+.filtres__btn_newest__btn:hover {
+    border: 2px solid #1B8271;
+}
 
 .filtres__btn_newest {
     justify-content: end;
