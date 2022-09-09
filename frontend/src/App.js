@@ -272,7 +272,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
-          <Route path="/about-us" element={<AboutUs_02 />} /> {/* CHANGE TITLE FONT-SIZE <WHO WE ARE /> */}
+          <Route path="/about-us" element={<AboutUs_02 />} />
           <Route path="/projects-4-col" element={<Projects4Col_03 />} />
           <Route path="/projects-3-col" element={<Projects3Col_04 />} />
           <Route path="/project-details" element={<ProjectDetails_05 />} />
