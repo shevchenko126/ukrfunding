@@ -57,6 +57,11 @@ a {
     margin-left: 20px;
 }
 
+footer > div > div > div > div > div.col-2 {
+    display: flex;
+    justify-content: center;
+}
+
 @media(max-width: 990px) {
     .footer__title {
         text-align: center;
