@@ -5,7 +5,9 @@ const Support = () => {
 		<div className='container mt-5 support_others_projects'>
 			<div className='pt-4 text-center support_others_projects__theme'>Support others project</div>
 			<div className='mt-4 support_others_projects__background'></div>
-			<div className='mt-4 support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</div>
+			<div className='mt-4'>
+				<a href='' className='support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</a>
+			</div>
 			<div className='mt-4 support_others_projects__description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
 			<div className='row support_others_projects__author' style={{ maxWidth: '404px', margin: 'auto' }}>
 				<div className="row">
@@ -32,7 +34,9 @@ const Support = () => {
 			</div>
 			<hr style={{width: '100%', color: 'rgba(0, 0, 0, 0.5'}} className='mt-4' />
 			<div className='mt-4 support_others_projects__background'></div>
-			<div className='mt-4 support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</div>
+			<div className='mt-4'>
+				<a href='' className='support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</a>
+			</div>
 			<div className='mt-4 support_others_projects__description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
 			<div className='row support_others_projects__author' style={{ maxWidth: '404px', margin: 'auto' }}>
 				<div className="row">
