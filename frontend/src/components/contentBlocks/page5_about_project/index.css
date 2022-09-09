@@ -16,11 +16,10 @@
     font-size: 20px;
     color: #717579;
     text-decoration: none;
+    transition: 0.4s;
 }
 .about_project__main__title:hover {
-    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 32px;
     color: #121E31;
 }
 

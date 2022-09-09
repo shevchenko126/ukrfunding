@@ -14,7 +14,6 @@
 .recent_projects__item__image {
     max-width: 379px;
     min-height: 172px;
-    ;
     background: #C4C4C4;
     border-radius: 14px 14px 0px 0px;
 }
@@ -32,6 +31,7 @@
     font-size: 20px;
     color: #121E31;
     text-decoration: none;
+    transition: 0.4s;
 }
 
 .recent_projects__item__title:hover {
@@ -79,5 +79,14 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
-    border: none;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+
+.recent_projects__btn:hover {
+    box-shadow: 0px 20px 30px rgba(255, 100, 86, 0.36);
+}
+
+.recent_projects__btn:active {
+    background: rgb(255, 190, 185);
 }

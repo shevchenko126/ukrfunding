@@ -93,7 +93,7 @@ const HeaderModed = () => {
                 </div>
             </section>
             <section className='popular_search text-center row'>
-                <div className='col-lg-3 col-md-12 mt-3 popular_search__search'>Popular Search:</div>
+                <div className='col-lg-3 col-md-12 mt-3 popular_search__search' style={{fontWeight: '500'}}>Popular Search:</div>
                 <div className='col-lg-3 col-md-4 mt-3'>
                     <a href='' className='popular_search__search search color1'>Technology Projects</a>
                 </div>

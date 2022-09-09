@@ -31,7 +31,7 @@ import Fundraising from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import OurMission from './components/contentBlocks/page2_our_mission';
 
-import HeaderModed from './components/contentBlocks/HeaderModed';
+import HeaderModed from './components/contentBlocks/header_moded';
 import Filtres from './components/contentBlocks/page3_filtres';
 import Page3Projects from './components/contentBlocks/page3_projects';
 
@@ -272,7 +272,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
-          <Route path="/about-us" element={<AboutUs_02 />} /> {/* CHANGE TITLE FONT-SIZE <WHO WE ARE /> */}
+          <Route path="/about-us" element={<AboutUs_02 />} />
           <Route path="/projects-4-col" element={<Projects4Col_03 />} />
           <Route path="/projects-3-col" element={<Projects3Col_04 />} />
           <Route path="/project-details" element={<ProjectDetails_05 />} />
