@@ -78,7 +78,7 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
-    border: none;
+    border: 2px solid white;
 }
 
 .filter_category__btnn {
