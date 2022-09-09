@@ -31,7 +31,7 @@ import Fundraising from './components/contentBlocks/page2_fundraising';
 import Page2Categories from './components/contentBlocks/page2_categories';
 import OurMission from './components/contentBlocks/page2_our_mission';
 
-import HeaderModed from './components/contentBlocks/HeaderModed';
+import HeaderModed from './components/contentBlocks/header_moded';
 import Filtres from './components/contentBlocks/page3_filtres';
 import Page3Projects from './components/contentBlocks/page3_projects';
 

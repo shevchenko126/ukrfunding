@@ -158,6 +158,7 @@
 @media(max-width: 430px) {
     .header_modes__title {
         font-size: 25px;
+        line-height: 40px;
     }
 }
 
