@@ -67,7 +67,7 @@
 }
 
 .project_details__main__right__bottom {
-    max-width: 780px;
+    width: 97%;
     background: #EEEEEE;
     border: 1px solid #D7D7D7;
     border-radius: 8px;
