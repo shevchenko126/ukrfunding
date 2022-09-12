@@ -139,10 +139,10 @@ const ProjectDetails_05 = () => { // page 5
       <Details />
       <div className='container' style={{ maxWidth: '1620px' }}>
         <div className='row'>
-          <div className='col-lg-8 col-md-12 p-0'>
+          <div className='col-lg-8 col-md-12'>
             <AboutProject />
           </div>
-          <div className='col-lg-3 col-md-12 p-0 support'>
+          <div className='col-lg-3 col-md-12 support'>
             <Support />
           </div>
         </div>

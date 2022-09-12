@@ -22,11 +22,9 @@
 .support_others_projects__title {
     color: black;
     text-decoration: none;
-    max-width: 404px;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 20px;
-    margin: auto;
     transition: 0.4s;
 }
 
