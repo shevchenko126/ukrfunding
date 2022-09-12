@@ -127,8 +127,11 @@ button:hover,
     background: rgba(134, 255, 231, 0.5);
 }
 
-@media (max-width: 995px) {
-    .we_have_done__view-more {
-        margin: 40px 0 0 0;
+@media (max-width: 991px) {
+    .we_have_done__title {
+        text-align: center;
+    }
+    #button-col {
+        justify-content: center;
     }
 }
