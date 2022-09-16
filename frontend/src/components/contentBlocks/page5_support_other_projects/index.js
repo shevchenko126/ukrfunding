@@ -5,14 +5,16 @@ const Support = () => {
 		<div className='container mt-5 support_others_projects'>
 			<div className='pt-4 text-center support_others_projects__theme'>Support others project</div>
 			<div className='mt-4 support_others_projects__background'></div>
-			<div className='mt-4 support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</div>
+			<div className='mt-4' style={{maxWidth: '404px', margin: 'auto'}}>
+				<a href='' className='support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</a>
+			</div>
 			<div className='mt-4 support_others_projects__description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
 			<div className='row support_others_projects__author' style={{ maxWidth: '404px', margin: 'auto' }}>
 				<div className="row">
-					<div className="col-lg-2 col-md-12 p-0 mt-4">
-						<img src="../image/page5_support_profile.svg" className='img-fluid' />
+					<div className="col-xl-2 col-lg-12 p-0 mt-4">
+						<img src="../image/page5_support_profile.svg" />
 					</div>
-					<div className="col-lg-9 col-md-12 p-0 mt-4 support_others_projects__author-right">
+					<div className="col-xl-9 col-lg-12 p-0 mt-4 support_others_projects__author-right">
 						<div className="d-flex">
 							<div className="support_others_projects__author__author">Gustavo Mango</div>
 							<img src="../image/page5_support_star.svg" style={{ marginLeft: '10px' }} />
@@ -32,14 +34,16 @@ const Support = () => {
 			</div>
 			<hr style={{width: '100%', color: 'rgba(0, 0, 0, 0.5'}} className='mt-4' />
 			<div className='mt-4 support_others_projects__background'></div>
-			<div className='mt-4 support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</div>
+			<div className='mt-4' style={{maxWidth: '404px', margin: 'auto'}}>
+				<a href='' className='support_others_projects__title'>Gen3 Airoha Air Pro 3 TWS Cancel Headphone</a>
+			</div>
 			<div className='mt-4 support_others_projects__description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
 			<div className='row support_others_projects__author' style={{ maxWidth: '404px', margin: 'auto' }}>
 				<div className="row">
-					<div className="col-lg-2 col-md-12 p-0 mt-4">
-						<img src="../image/page5_support_profile.svg" className='img-fluid' />
+					<div className="col-xl-2 col-lg-12 p-0 mt-4">
+						<img src="../image/page5_support_profile.svg" />
 					</div>
-					<div className="col-lg-9 col-md-12 p-0 mt-4 support_others_projects__author-right">
+					<div className="col-xl-9 col-lg-12 p-0 mt-4 support_others_projects__author-right">
 						<div className="d-flex">
 							<div className="support_others_projects__author__author">Gustavo Mango</div>
 							<img src="../image/page5_support_star.svg" style={{ marginLeft: '10px' }} />

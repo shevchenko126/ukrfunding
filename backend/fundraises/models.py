@@ -64,6 +64,11 @@ class Fundraise(models.Model):
                                         null=True,
                                         default=False)
 
+    is_active = models.BooleanField(verbose_name="Активний",
+                                        blank=True,
+                                        null=True,
+                                        default=True)
+
     def __str__(self):
         return self.title
 

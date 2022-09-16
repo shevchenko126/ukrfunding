@@ -17,6 +17,8 @@ from xml.etree.ElementInclude import include
 from django.contrib import admin
 from django.urls import path,include
 from account.api import CustomAuthData
+from django.conf.urls.static import static
+from django.conf import settings
 
 from account.views import ChangePassword
 from account.views import PasswordRecoveryRequest
@@ -27,8 +29,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('fundraises/', include('fundraises.urls')),
     path('payments/', include('payments.urls')),
-    path('accounts/', CustomAuthData.as_view()),
+    path('accounts/', include('account.urls')),
     path('changepassword/',ChangePassword.as_view()),
     path('changepassword/recoveryrequest', PasswordRecoveryRequest.as_view()),
     path('changepassword/passchange', PasswordChangeRedirect.as_view()),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

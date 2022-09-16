@@ -7,7 +7,7 @@ const WhoWeAre = () => {
 				<div className="col-lg-8 col-md-12">
 					<div className="mt-3 mb-3 who_we_are-header d-flex">
 						<img src="../image/page2_who_we_are_line.svg" />
-						<span className="color1 who_we_are__header">Who We Are</span>
+						<span className="who_we_are__header">Who We Are</span>
 					</div>
 					<div className="color2 mb-4 who_we_are__title">Experienced more than 25 Years in Crowdfunding</div>
 					<div className="mb-5 who_we_are__main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>

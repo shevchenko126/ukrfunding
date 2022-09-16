@@ -12,6 +12,7 @@
 }
 
 .who_we_are__header {
+    color: #1B8271;
     margin-left: 20px;
     font-family: 'Poppins';
     font-weight: 700;
@@ -44,7 +45,8 @@
     max-width: 802px;
     background: #FFFFFF;
     border-radius: 14px;
-    border: 2px solid rgba(0, 0, 0, 0.08)
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    transition: 0.4s;
 }
 .who_we_are__item:hover {
     border: 2px solid #EEEEEE;
@@ -61,7 +63,7 @@
     margin-left: 30%;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .who_we_are-header,
     .who_we_are__title,
     .who_we_are__main_text,
@@ -70,5 +72,13 @@
         justify-content: center;
         text-align: center;
         margin: auto;
+    }
+    .who_we_are__title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .who_we_are__item__right__title {
+        font-size: 20px;
     }
 }

@@ -1,17 +1,16 @@
-﻿.register {
+.change {
     max-width: 600px;
-    min-height: 790px;
     background: #FFFFFF;
     border-radius: 14px;
     margin: 50px auto 100px auto;
     transition: 0.4s;
 }
 
-.register:hover {
+.change:hover {
     box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
 }
 
-.register__title {
+.change__title {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 32px;
@@ -19,7 +18,7 @@
     padding: 25px 0 0 10%;
 }
 
-.register__text {
+.change__text {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
@@ -27,7 +26,7 @@
     margin: 30px 0 0 10%;
 }
 
-.register__input {
+.change__input {
     width: 76%;
     font-family: 'Poppins';
     font-weight: 600;
@@ -41,24 +40,7 @@
     transition: 0.4s;
 }
 
-.register__bottom {
-    margin: 30px 0 0 10%;
-}
-
-.register__checkbox {
-    width: 30px;
-    height: 30px;
-    border: 3px solid #544E5D;
-    border-radius: 4px;
-}
-
-.register__accept {
-    font-family: 'Open Sans';
-    line-height: 28px;
-    margin: 10px;
-}
-
-.register__bottom__button {
+.change__button {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
@@ -68,31 +50,28 @@
     box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
     border-radius: 8px;
     border: 2px solid rgba(251, 251, 251, 0.1);
-    margin-right: 64px;
     padding: 13px 50px 13px 50px;
-    margin: -10px 0 50px 0;
     transition: 0.3s;
+    margin: 60px auto 30px auto;
 }
 
-.register:hover {
+.change:hover {
     border: 1px solid rgba(0, 0, 0, 0.2d);
     cursor: pointer;
 }
 
-.register__input:hover,
-.register__checkbox:hover {
+.change__input:hover {
     cursor: pointer;
 }
 
-
-.register__bottom__button:active {
+.change__button:active {
     background-color: rgba(255, 107, 107, 0.6);
 }
 
-.register__bottom__button:hover {
+.change__button:hover {
     border: 2px solid rgba(0, 0, 0, 0.6)
 }
 
-input:hover {
+.change__input:hover {
     border: 2px solid rgba(0, 0, 0, 0.4)
 }

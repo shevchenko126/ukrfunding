@@ -20,7 +20,7 @@
 .dont_miss__input {
     min-height: 78px;
     max-width: 430px;
-    border: 1px solid #FBFBFB;
+    border: 2px solid #FBFBFB;
     border-radius: 8px;
     font-family: 'Poppins';
     font-weight: 600;
@@ -29,6 +29,13 @@
     padding-right: 20%;
     color: #FBFBFB;
     background: #1B8271;
+    transition: 0.4s;
+    outline: none;
+}
+
+.dont_miss__input:hover,
+.dont_miss__input:focus {
+    border: 2px solid rgb(161, 161, 161);
 }
 
 .dont_miss__input::placeholder {
@@ -39,18 +46,25 @@
 }
 
 .dont_miss__button {
-    border: none;
+    border: 2px solid #1B8271;
     width: 221px;
     height: 78px;
     background: #FF7468;
-    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
     border-radius: 8px;
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
     color: #F9F9FA;
+    transition: 0.4s;
 }
 
+.dont_miss__button:hover {
+    box-shadow: 0px 25px 30px rgba(255, 100, 86, 0.36);
+}
+
+.dont_miss__button:active {
+    background: rgb(255, 190, 185);
+}
 
 @media (max-width: 995px) {
     .dont_miss__left_column,

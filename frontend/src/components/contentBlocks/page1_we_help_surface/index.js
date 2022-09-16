@@ -3,9 +3,9 @@ import './index.css';
 const WeHelpSurface = () => {
     return (
         <div className="container we_help_surface">
-            <div className="row">
+            <div className="row we_help_surface-row">
                 <div className="col-lg-6 col-md-12">
-                    <div className="d-flex">
+                    <div className="d-flex we_help_surface-row-title">
                         <img src="../image/page1_we_help_surface_panel.svg" />
                         <div className="text-success mx-3 we_help_surface__title">Crowdfunding</div>
                     </div>
