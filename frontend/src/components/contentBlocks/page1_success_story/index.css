@@ -49,6 +49,11 @@
     font-size: 18px;
 }
 
+.success_story__main {
+    display: flex;
+    align-items: center;
+}
+
 .success_story__main__column__photo {
     width: 95%;
 }

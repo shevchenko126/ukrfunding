@@ -23,7 +23,7 @@ const SuccessStory = () => {
                     <img src="../image/page1_success_story_placeholder.svg" className="success_story__main__column__photo" />
                 </div>
                 <div className="col-lg-6 col-md-12">
-                    <div className="mt-5 success_story__main__title">Samcung Okulus Rivt PC - Powered VR  Gaming Headset</div>
+                    <div className="success_story__main__title">Samcung Okulus Rivt PC - Powered VR  Gaming Headset</div>
                     <div className="mt-4 success_story__main__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit au</div>
                     <div className="mt-4 text-success success_story__main__number">$ 24,553,852.24</div>
                     <div className="mt-2 success_story__main__number-text">Total funded</div>
