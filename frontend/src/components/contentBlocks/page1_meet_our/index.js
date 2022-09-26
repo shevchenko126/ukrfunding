@@ -1,4 +1,6 @@
-﻿import './index.css';
+﻿import { CgFacebook } from 'react-icons/cg';
+
+import './index.css';
 
 const TeamMember = () => {
 
@@ -35,10 +37,13 @@ const TeamMember = () => {
 			<div className="container team_members__main">
 				<div className="row">
 					{team.map(({ img, name, job }) =>
-						<div className="col-lg-3 col-md-6 col-sm-12">
+						<div className="col-lg-3 col-md-6 col-sm-12" style={{ position: 'relative' }}>
 							<img src={img} className="team_members__main__profile" />
 							<div className="team_members__main__name">{name}</div>
 							<div className="team_members__main__job">{job}</div>
+							{/* <div className='team_members__main__links'>
+								<CgFacebook />
+							</div> */}
 						</div>
 					)}
 				</div>
