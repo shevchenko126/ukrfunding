@@ -11,10 +11,12 @@ const Header = () => {
                                 <div>Welcome to Akcel, Crowdfunding & Charity Agency</div>
                             </div>
                             <div className='col-lg-6 col-md-12 mt-3'>
-                                <button className='text-white header__top__left__button d-flex align-items-center justify-content-center'>
-                                    <img src="./image/header_top_singAp.svg" />
-                                    <div className='mx-2'>Sign Up Now</div>
-                                </button>
+                                <a href="/register">
+                                    <button className='text-white header__top__left__button d-flex align-items-center justify-content-center'>
+                                        <img src="./image/header_top_singAp.svg" />
+                                        <div className='mx-2'>Sign Up Now</div>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -48,15 +50,15 @@ const Header = () => {
                             </div>
                             <div className='col mt-4'>
                                 <div className='d-flex justify-content-center'>
-                                    <div className='header-bottom__ref mx-4'>Projects</div>
-                                    <img src='./image/header_down_arrow.svg' />
+                                    <a href='/' className='header-bottom__ref'>Projects</a>
+                                    {/* <img src='./image/header_down_arrow.svg' /> */}
                                 </div>
                             </div>
                             <div className='col mt-4'>
-                                <a href='' className='header-bottom__ref'>News</a>
+                                <a href='/latest-news' className='header-bottom__ref'>News</a>
                             </div>
                             <div className='col mt-4'>
-                                <a href='' className='header-bottom__ref'>Contact Us</a>
+                                <a href='/conact-us' className='header-bottom__ref'>Contact Us</a>
                             </div>
                         </div>
                     </div>
