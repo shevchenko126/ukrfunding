@@ -1,6 +1,14 @@
 import './index.css';
 
 const SuccessStory = () => {
+
+/*     const data = {
+        title: '',
+        description: '',
+        totalFounded: '',
+        autho
+    } */
+
     return (
         <div className="container success_story">
             <div className="row pb-5">
