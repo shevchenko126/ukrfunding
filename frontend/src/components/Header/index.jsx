@@ -41,10 +41,10 @@ const Header = () => {
                     <div className='col-lg-6'>
                         <div className='row text-center d-flex justify-content-center align-items-center'>
                             <div className='col mt-4'>
-                                <a href='' className='header-bottom__ref'>Home</a>
+                                <a href='/' className='header-bottom__ref'>Home</a>
                             </div>
                             <div className='col mt-4'>
-                                <a href='' className='header-bottom__ref'>About</a>
+                                <a href='/about-us' className='header-bottom__ref'>About</a>
                             </div>
                             <div className='col mt-4'>
                                 <div className='d-flex justify-content-center'>
