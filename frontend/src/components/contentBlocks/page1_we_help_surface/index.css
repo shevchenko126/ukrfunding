@@ -33,7 +33,6 @@
     max-width: 240px;
     height: 60px;
     background: #FF7468;
-    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
     border-radius: 8px;
     border: 2px solid rgba(255, 255, 255, 0.1);
     font-family: 'Poppins';
@@ -73,7 +72,7 @@
 }
 
 .we_help_surface__buttons__learn_more:hover {
-    background: rgba(255, 116, 104, 0.9);
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
 }
 
 .we_help_surface__buttons__learn_more:active {
@@ -81,7 +80,7 @@
 }
 
 .we_help_surface__buttons__donate:hover {
-    background: rgba(94, 94, 94, 0.1);
+    box-shadow: 0px 25px 50px rgba(82, 82, 82, 0.36);
 }
 
 .we_help_surface__buttons__donate:active {

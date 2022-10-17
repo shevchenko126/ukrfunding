@@ -28,15 +28,14 @@
 .success_story__button {
     max-width: 270px;
     height: 58px;
-    background: #1B8271;
+    background: rgb(27, 130, 113);
     border-radius: 8px;
     border: 2px solid #ffffff;
     transition: 0.4s;
 }
 
 .success_story__button:hover {
-    border: 2px solid black;
-    background: rgba(27, 130, 113, 0.8);
+    box-shadow: 0px 25px 50px rgba(27, 130, 113, 0.2);
 }
 
 .success_story__button:active {
@@ -47,6 +46,11 @@
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
+}
+
+.success_story__main {
+    display: flex;
+    align-items: center;
 }
 
 .success_story__main__column__photo {
