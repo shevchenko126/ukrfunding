@@ -61,8 +61,6 @@ import RegisterPage from './components/contentBlocks/register';
 
 import LoginPage from './components/contentBlocks/login';
 
-import FormAddProject from './components/contentBlocks/form_add_project';
-
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -256,16 +254,6 @@ const Login = () => { // login page
   )
 };
 
-const AddProject = () => { // add project form page // ADD STYLES TO PAGE
-  return (
-    <section>
-      <Header />
-      <FormAddProject />
-      <Footer />
-    </section>
-  )
-};
-
 function App() {
   return (
     <div className="App">
@@ -285,7 +273,6 @@ function App() {
           <Route path="/change-password" element={<ChangePassword />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/add-project" element={<AddProject />} />
         </Routes>
       </Router>
     </div>
