@@ -61,6 +61,8 @@ import RegisterPage from './components/contentBlocks/register';
 
 import LoginPage from './components/contentBlocks/login';
 
+import FormAddProject from './components/contentBlocks/form_add_project';
+
 const HomePage_01 = () => { // page 1 
   return (
     <section>
@@ -254,6 +256,16 @@ const Login = () => { // login page
   )
 };
 
+const AddProject = () => { // add project form page // ADD STYLES TO PAGE
+  return (
+    <section>
+      <Header />
+      <FormAddProject />
+      <Footer />
+    </section>
+  )
+};
+
 function App() {
   return (
     <div className="App">
@@ -264,7 +276,7 @@ function App() {
           <Route path="/projects-4-col" element={<Projects4Col_03 />} />
           <Route path="/projects-3-col" element={<Projects3Col_04 />} />
           <Route path="/project-details" element={<ProjectDetails_05 />} />
-          <Route path="/contact-us" element={<ContactUs_06 />} />
+          <Route path="/conact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
           <Route path="/news-details" element={<NewsDetails_08 />} />
           <Route path="/team-member" element={<AkcelTeamMember_09 />} />
@@ -273,6 +285,7 @@ function App() {
           <Route path="/change-password" element={<ChangePassword />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/add-project" element={<AddProject />} />
         </Routes>
       </Router>
     </div>
