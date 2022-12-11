@@ -1,0 +1,6 @@
+asgiref
+Django
+djangorestframework
+pytz
+sqlparse
+tzdata
