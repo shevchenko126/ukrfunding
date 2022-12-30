@@ -6,7 +6,7 @@ const WeHelpSurface = () => {
             <div className="row we_help_surface-row">
                 <div className="col-lg-6 col-md-12">
                     <div className="d-flex we_help_surface-row-title">
-                        <img src="../image/page1_we_help_surface_panel.svg" />
+                        <img src="../image/page1_we_help_surface_panel.svg" alt="" />
                         <div className="text-success mx-3 we_help_surface__title">Crowdfunding</div>
                     </div>
                     <div className="mt-3 we_help_surface__theme">We Help Surface</div>
@@ -17,7 +17,7 @@ const WeHelpSurface = () => {
                             <button className="mt-5 text-white we_help_surface__buttons__learn_more">
                                 <div className="d-flex">
                                     <div className="px-3">Learn More</div>
-                                    <img src="../image/page1_we_help_surface_arrow.svg" className="mx-4" />
+                                    <img src="../image/page1_we_help_surface_arrow.svg" className="mx-4" alt="" />
                                 </div>
                             </button>
                         </div>
@@ -28,18 +28,18 @@ const WeHelpSurface = () => {
                     <div className="mt-5 we_help_surface__our_partners">Our Partners</div>
                     <div className="mt-1 text-center row we_help_surface__logotypes">
                         <div className="col">
-                            <img src="../image/page1_we_help_surface_highlow.svg" className="mt-3" />
+                            <img src="../image/page1_we_help_surface_highlow.svg" className="mt-3" alt="" />
                         </div>
                         <div className="col">
-                            <img src="../image/page1_we_help_surface_imagine.svg" class="mt-3" />
+                            <img src="../image/page1_we_help_surface_imagine.svg" class="mt-3" alt="" />
                         </div>
                         <div className="col">
-                            <img src="../image/page1_we_help_surface_glowup.svg" className="mt-3" />
+                            <img src="../image/page1_we_help_surface_glowup.svg" className="mt-3" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12 d-flex justify-content-center">
-                    <img src="../image/page1_we_help_surface_panels.svg" className="img-fluid mt-5" />
+                    <img src="../image/page1_we_help_surface_panels.svg" className="img-fluid mt-5" alt="" />
                 </div>
             </div>
         </div>

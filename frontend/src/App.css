@@ -11,3 +11,91 @@ body {
         margin-left: 0;
     }
 }
+
+/* Typography */
+
+:root {
+    --primary: #121E31;
+    --green: #1B8271;
+    --pink: #FF7468;
+    --gray: #717579;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--primary);
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+button {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.button-bg-green-text-white {
+    background: var(--#1B8271);
+    padding: 8px 19px;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-bg-green-text-white:hover {
+    box-shadow: 0px 25px 50px rgba(27, 130, 113, 0.2);
+}
+
+.button-bg-white-text-pink {
+    background: none;
+    padding: 16px 30px;
+    color: var(--pink);
+    border: 2px solid var(--pink);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.button-bg-white-text-gray {
+    background: none;
+    padding: 16px 50px;
+    color: var(--gray);
+    border: 2px solid #D7D7D7;
+    font-weight: 700;
+    border: 2px solid #FBFBFB;
+    font-size: 18px;
+    line-height: 27px;
+}
