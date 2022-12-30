@@ -86,6 +86,9 @@ button {
     line-height: 27px;
     border: 2px solid rgba(255, 255, 255, 0.1)
 }
+button:hover {
+   border: 2px solid black; 
+}
 
 .container {
     max-width: 1620px;
@@ -100,7 +103,6 @@ button {
 }
 .button-bg-green-text-white:hover {
     box-shadow: 0px 25px 50px rgba(27, 130, 113, 0.2);
-    border: 2px solid black;
 }
 
 .button-bg-white-text-pink {
@@ -111,7 +113,6 @@ button {
 } 
 .button-bg-white-text-pink:hover {
     box-shadow: 0px 25px 50px rgba(88, 88, 88, 0.2);
-    border: 2px solid black;
 }
 
 .button-bg-white-text-gray {
@@ -122,4 +123,13 @@ button {
 }
 .button-bg-white-text-gray:hover {
     box-shadow: 0px 25px 50px rgba(82, 82, 82, 0.36);
+}
+
+.button-bg-pink-text-white {
+    background: var(--pink);
+    padding: 16px 35px;
+    color: white;
+}
+.button-bg-pink-text-white:hover {
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
 }
