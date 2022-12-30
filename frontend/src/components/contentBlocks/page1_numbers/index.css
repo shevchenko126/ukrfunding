@@ -1,21 +1,14 @@
 .background_container {
 	margin: 170px auto 0 auto;
-	max-width: 1590px;
-	min-height: 261px;
-	background: #1B8271;
+	max-width: 1600px;
+	padding: 80px;
+	background: var(--green);
 	border-radius: 14px;
 	background-repeat: no-repeat;
 }
 
-.numbers_container {
-	font-family: 'Poppins';
-	font-weight: 600;
-	font-size: 50px;
-}
-
-.text_container {
-	font-family: 'Poppins';
+.donations-text {
 	font-weight: 700;
 	font-size: 18px;
-	margin-top: 10px;
+	line-height: 27px;
 }
