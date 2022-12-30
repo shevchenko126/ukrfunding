@@ -5,74 +5,9 @@
     justify-content: end;
 }
 
-.success_story__main__title {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-}
-
-.success_story__main__text {
-    font-family: 'Open Sans';
-    line-height: 28px;
-}
-
-.success_story__main__number {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-}
-
-.success_story__main__number-text {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-}
-
-.success_story__main__author__author {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.success_story__main__author__campaign {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.success_story__main__author__city {
-    font-family: 'Open Sans';
-    font-size: 14px;
-    color: #717579;
-}
-
 
 @media (max-width: 990px) {
-    .success_story__main__column {
-        text-align: center;
-    }
-
     .success_story__button-col {
         justify-content: center;
-    }
-
-    .success_story__title,
-    .success_story__theme,
-    .success_story__text,
-    .success_story__main__title,
-    .success_story__main__text,
-    .success_story__main__number,
-    .success_story__main__number-text {
-        text-align: center;
-    }
-}
-
-@media(max-width: 430px) {
-    .success_story__main__number {
-        font-weight: 600;
-        font-size: 30px;
     }
 }
