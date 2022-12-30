@@ -17,15 +17,15 @@ const OurMission = () => {
 						<p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
 					</div>
 					<div className="row">
-						<div className="col-lg-4 col-md-12 mt-3">
+						<div className="col-xxl-4 mt-3">
 							<h2>4,556</h2>
 							<h4>Total Donor</h4>
 						</div>
-						<div className="col-lg-3 col-md-12 mt-3">
+						<div className="col-xxl-3 mt-3">
 							<h2>874</h2>
 							<h4>Projects</h4>
 						</div>
-						<div className="col-lg-5 col-md-12 mt-3">
+						<div className="col-xxl-5 mt-3">
 							<h2>$ 195,234k</h2>
 							<h4>Total Donation</h4>
 						</div>
