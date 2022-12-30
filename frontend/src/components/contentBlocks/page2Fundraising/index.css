@@ -15,9 +15,20 @@
     height: 100%;
 }
 
+.fundraising-img {
+    width: 100%;
+}
+
 @media(max-width: 400px) {
     .fundraising-title {
         font-size: 35px;
         line-height: 50px;
+    }
+}
+
+@media(max-width: 991px) {
+    .fundraising-img {
+        width: 100%;
+        padding: 0 25px;
     }
 }

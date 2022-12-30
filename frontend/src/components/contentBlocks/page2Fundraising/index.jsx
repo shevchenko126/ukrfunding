@@ -6,8 +6,8 @@ const Fundraising = () => {
 			<div className="container-fluid fundraising_main"></div>
 			<div className="container fundraising_main__into">
 				<div className="row">
-					<div className="col-lg-5 p-0 fundraising_main__into__photo">
-						<img alt="#" src="../image/page2_fundraising_icon_image.svg" className="img-fluid fundraising_main__into__img" />
+					<div className="col-lg-5 p-0 fundraising_main__into__photo d-flex align-items-center">
+						<img alt="#" src="../image/page2_fundraising_icon_image.svg" className="img-fluid fundraising-img" />
 					</div>
 					<div className="col-lg-7 px-4 mt-5 d-flex align-items-center">
 						<div>
