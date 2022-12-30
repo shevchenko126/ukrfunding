@@ -37,7 +37,7 @@ const WhoWeAre = () => {
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-12 d-flex align-items-center">
-					<img alt="#" src="../image/page2_who_we_are_panel.svg" className='img-fluid who_we_are__panel' />
+					<img alt="#" src="../image/page2_who_we_are_panel.svg" className='img-fluid who-panel' />
 				</div>
 			</div>
 		</div>
