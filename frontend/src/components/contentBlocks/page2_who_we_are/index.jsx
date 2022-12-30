@@ -20,7 +20,7 @@ const WhoWeAre = () => {
 							</div>
 							<div className="mt-4 who_we_are__item__right">
 								<div className="who-title">Trusted Partner</div>
-								<div className="mt-2 pb-4 who_we_are__item__right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+								<div className="mt-2 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
 							</div>
 						</div>
 					</div>
@@ -30,8 +30,8 @@ const WhoWeAre = () => {
 								<img alt="#" src="../image/page2_who_we_are_trust.svg" className="mt-4 who_we_are__item__icon" />
 							</div>
 							<div className="mt-4 who_we_are__item__right">
-								<div className="who_we_are__item__right__title">Responsibility</div>
-								<div className="mt-2 pb-4 who_we_are__item__right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+								<div className="who-title">Responsibility</div>
+								<div className="mt-2 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
 							</div>
 						</div>
 					</div>
