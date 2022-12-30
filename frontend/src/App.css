@@ -113,6 +113,22 @@ button:hover {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
 }
 
+.item-category {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--green)
+}
+
+.item-title {
+    transition: 0.3s;
+    color: var(--primary);
+}
+.item-title:hover {
+    color: rgba(18, 30, 49, 0.7)
+}
+
 .container {
     max-width: 1620px;
 }
