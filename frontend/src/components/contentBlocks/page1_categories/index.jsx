@@ -34,7 +34,7 @@ const Page1Categories = () => {
         <div className="container">
             <div className='text-center mx-auto container-text'>
                 <h4 className="text-uppercase text-success mt-5">categories</h4>
-                <h2 className="mt-4">Explore Our Crowdfunding Featured Categories</h2>
+                <h2 className="mt-4 categories-explore-title">Explore Our Crowdfunding Featured Categories</h2>
                 <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
             </div>
             <div className="row d-flex justify-content-center">

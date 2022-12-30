@@ -10,3 +10,9 @@
         justify-content: center;
     }
 }
+
+@media(max-width: 380px) {
+    .success-story-founded {
+        font-size: 30px;
+    }
+}

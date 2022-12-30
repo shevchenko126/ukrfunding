@@ -12,3 +12,10 @@
     display: flex;
     margin: 0 10px 0 10px;
 }
+
+@media(max-width: 430px) {
+    .categories-explore-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
