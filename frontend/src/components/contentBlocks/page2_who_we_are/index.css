@@ -1,37 +1,17 @@
-﻿.color1 {
-    color: #1B8271;
-}
-.color2 {
-    color:#121E31;
-}
-
-
-.who_we_are {
+﻿.who_we_are {
     max-width: 1620px;
     margin-top: 100px;
 }
 
-.who_we_are__header {
-    color: #1B8271;
-    margin-left: 20px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-}
-
 .who_we_are__title {
     max-width: 670px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
 }
 
 .who_we_are__main_text {
     max-width: 600px;
 }
 
-.who_we_are__item__right__title {
+.who-title {
     font-family: 'Poppins';
     font-weight: 800;
     font-size: 24px;
@@ -39,20 +19,6 @@
 
 .who_we_are__item__right {
     margin-left: 40px;
-}
-
-.who_we_are__item {
-    max-width: 802px;
-    background: #FFFFFF;
-    border-radius: 14px;
-    border: 2px solid rgba(0, 0, 0, 0.08);
-    transition: 0.4s;
-}
-.who_we_are__item:hover {
-    border: 2px solid #EEEEEE;
-    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.05), 0px 10px 10px rgba(0, 0, 0, 0.04);
-    border-radius: 14px;
-    cursor: pointer;
 }
 
 .who_we_are__item__right__text {
