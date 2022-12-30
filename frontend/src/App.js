@@ -12,7 +12,7 @@ import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
 import Page1Categories from './components/contentBlocks/page1_categories';
 import TeamMember from './components/contentBlocks/page1_meet_our';
 import SuccessStory from './components/contentBlocks/page1_success_story';
-import OurPartnership from './components/contentBlocks/page1_our_partnership';
+import OurPartnership from './components/contentBlocks/OurPartnership';
 import RecentProjects from './components/contentBlocks/page1_recent_projects';
 import Numbers from './components/contentBlocks/page1_numbers';
 import AkselNews from './components/contentBlocks/page1_news';

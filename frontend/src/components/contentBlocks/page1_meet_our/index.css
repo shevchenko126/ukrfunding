@@ -5,17 +5,3 @@
 .team_members__text {
     max-width: 795px;
 }
-
-.team-member-name {
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 36px;
-}
-
-.team_members__main__profile {
-    margin: 0 auto 0 auto;
-}
-
-.team-member-job {
-    color: #717579;
-}

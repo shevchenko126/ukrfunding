@@ -1,29 +1,7 @@
 ﻿import './index.css';
+import OneTeamMember from '../Items/OneTeamMember';
 
-const TeamMember = () => {
-
-	const team = [
-		{
-			img: '../image/page_1_team_member_profile.svg',
-			name: 'Kaylynn Donin',
-			job: 'Managing Director'
-		},
-		{
-			img: '../image/page_1_team_member_profile.svg',
-			name: 'Lindsey Botosh',
-			job: 'National Web Assistant'
-		},
-		{
-			img: '../image/page_1_team_member_profile.svg',
-			name: 'Phillip Schleifer',
-			job: 'National Intranet Specialist'
-		},
-		{
-			img: '../image/page_1_team_member_profile.svg',
-			name: 'Jakob Ekstrom Bothman',
-			job: 'District Accounts Analyst'
-		},
-	]
+const TeamMember = (props) => {
 
 	return (
 		<div className='team_members container'>
@@ -34,12 +12,8 @@ const TeamMember = () => {
 			</div>
 			<div>
 				<div className="row">
-					{team.map(({ img, name, job }) =>
-						<div className="col-lg-3 col-md-6 col-sm-12 text-center mx-auto mt-4">
-							<img alt="profile" src={img} className="team_members__main__profile" />
-							<div className='team-member-name mt-4'>{name}</div>
-							<p className="team-member-job">{job}</p>
-						</div>
+					{props.team.map((teamMember) =>
+						<OneTeamMember teamMember={teamMember} />
 					)}
 				</div>
 			</div>
