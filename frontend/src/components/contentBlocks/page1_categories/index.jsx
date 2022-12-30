@@ -31,18 +31,20 @@ const Page1Categories = () => {
     ]
 
     return (
-        <div className="container main_container">
-            <div className="main_container__categories text-uppercase text-center text-success mt-5">categories</div>
-            <div className="main_container__explore_our mt-4 text-center">Explore Our Crowdfunding Featured Categories</div>
-            <div className="main_container__main_text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
+        <div className="container">
+            <div className='text-center mx-auto container-text'>
+                <h4 className="text-uppercase text-success mt-5">categories</h4>
+                <h2 className="mt-4">Explore Our Crowdfunding Featured Categories</h2>
+                <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+            </div>
             <div className="row d-flex justify-content-center">
                 {categories.map(({ img, title }) =>
-                    <div className="main_container__icons col-lg-2 mt-5">
+                    <section className="main_container__icon item col-lg-2 mt-5">
                         <figure>
-                            <img src={img} />
-                            <figcaption className='mt-4'>{title}</figcaption>
+                            <img src={img} alt="icon" />
+                            <h5 className='mt-4'>{title}</h5>
                         </figure>
-                    </div>
+                    </section>
                 )}
             </div>
         </div>
