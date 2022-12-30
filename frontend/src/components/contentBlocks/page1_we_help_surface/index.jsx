@@ -3,15 +3,15 @@ import './index.css';
 const WeHelpSurface = () => {
     return (
         <div className="container we_help_surface">
-            <div className="row we_help_surface-row">
+            <div className="row">
                 <div className="col-lg-6 col-md-12">
-                    <div className="d-flex we_help_surface-row-title">
+                    <div className="d-flex align-items-center">
                         <img src="../image/page1_we_help_surface_panel.svg" alt="" />
-                        <div className="text-success mx-3 we_help_surface__title">Crowdfunding</div>
+                        <h4 className="text-success mx-3">Crowdfunding</h4>
                     </div>
-                    <div className="mt-3 we_help_surface__theme">We Help Surface</div>
-                    <div className="mt-1 we_help_surface__theme-text">Innovations In Technology</div>
-                    <div className="mt-4 we_help_surface__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
+                    <h1 className="mt-3">We Help Surface</h1>
+                    <h2 className="mt-1">Innovations In Technology</h2>
+                    <p className="mt-4 we_help_surface__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
                     <div className="d-flex row pb-5 we_help_surface__buttons">
                         <div className='col-lg-4 col-md-12'>
                             <button className="mt-5 text-white we_help_surface__buttons__learn_more">
@@ -22,7 +22,7 @@ const WeHelpSurface = () => {
                             </button>
                         </div>
                         <div className='col-lg-8 col-md-12'>
-                            <button className="mt-5 we_help_surface__buttons__donate">Donate</button>
+                            <button className="mt-5 button-bg-white-text-gray">Donate</button>
                         </div>
                     </div>
                     <div className="mt-5 we_help_surface__our_partners">Our Partners</div>
