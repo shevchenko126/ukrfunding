@@ -14,3 +14,10 @@
 .fundraising_main__into__img {
     height: 100%;
 }
+
+@media(max-width: 400px) {
+    .fundraising-title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
