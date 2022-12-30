@@ -1,60 +1,8 @@
 .success_story {
-    max-width: 1620px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
-
-.success_story__title {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.success_story__theme {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-}
-
-.success_story__text {
-    font-family: 'Open Sans';
-    line-height: 28px;
-}
-
 .success_story__button-col {
     justify-content: end;
-}
-
-.success_story__button {
-    max-width: 270px;
-    height: 58px;
-    background: rgb(27, 130, 113);
-    border-radius: 8px;
-    border: 2px solid #ffffff;
-    transition: 0.4s;
-}
-
-.success_story__button:hover {
-    box-shadow: 0px 25px 50px rgba(27, 130, 113, 0.2);
-}
-
-.success_story__button:active {
-    background: rgba(27, 130, 113, 0.4);
-}
-
-.success_story__button__text {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.success_story__main {
-    display: flex;
-    align-items: center;
-}
-
-.success_story__main__column__photo {
-    width: 95%;
 }
 
 .success_story__main__title {
