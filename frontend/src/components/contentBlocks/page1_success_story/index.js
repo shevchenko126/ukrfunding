@@ -38,8 +38,8 @@ const SuccessStory = () => {
                     <h3 className="">{data.title}</h3>
                     <p className="mt-4">{data.description}</p>
                     <h2 className="mt-4 text-success">{data.totalFounded}</h2>
-                    <h5 className="mt-2 success_story__main__number-text">Total funded</h5>
-                    <div className="mt-5 success_story__main__author">
+                    <h5 className="mt-2">Total funded</h5>
+                    <div className="mt-5">
                         <div className="row d-flex">
                             <div className='col-lg-1 col-sm-12'>
                                 <img src="./image/page1_success_story_user.svg" alt="user" />
