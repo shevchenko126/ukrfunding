@@ -1,0 +1,16 @@
+﻿.fundraising_main {
+    min-height: 896px;
+    background-color: rgb(27, 130, 113);
+    margin-top: 100px;
+}
+
+.fundraising_main__into {
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    background-color: white;
+    margin: -647px auto 50px auto;
+}
+
+.fundraising_main__into__img {
+    height: 100%;
+}
