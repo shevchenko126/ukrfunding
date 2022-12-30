@@ -6,7 +6,7 @@ import SuccessStory from '../contentBlocks/page1_success_story';
 import OurPartnership from '../contentBlocks/OurPartnership';
 import RecentProjects from '../contentBlocks/page1_recent_projects';
 import Numbers from '../contentBlocks/page1_numbers';
-import AkselNews from '../contentBlocks/page1_news';
+import AkselNews from '../contentBlocks/AkselNews';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer/index';
 
@@ -103,7 +103,7 @@ export const HomePage_01 = () => {
             time_read: '24min read',
             date: 'November 21th, 2020',
         },
-    ]
+    ];
 
     return (
         <section>

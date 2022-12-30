@@ -15,7 +15,7 @@ import SuccessStory from './components/contentBlocks/page1_success_story';
 import OurPartnership from './components/contentBlocks/OurPartnership';
 import RecentProjects from './components/contentBlocks/page1_recent_projects';
 import Numbers from './components/contentBlocks/page1_numbers';
-import AkselNews from './components/contentBlocks/page1_news';
+import AkselNews from './components/contentBlocks/AkselNews';
 import DontMiss from './components/contentBlocks/DontMiss';
 import Footer from './components/Footer/index';
 
@@ -64,22 +64,7 @@ import FormAddProject from './components/contentBlocks/form_add_project';
 
 /* Pages */
 import { HomePage_01 } from './components/pages/01_HomePage';
-
-const AboutUs_02 = () => { // page 2
-  return (
-    <section>
-      <Header />
-      <About />
-      <WhoWeAre />
-      <Fundraising />
-      <Page2Categories />
-      <OurMission />
-      <AkselNews />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
+import { AboutUs_02 } from './components/pages/02_AboutUs';
 
 const Projects4Col_03 = () => { //page 3
   return (
