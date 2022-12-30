@@ -90,6 +90,17 @@ button:hover {
    border: 2px solid black; 
 }
 
+.progress {
+    max-width: 345px;
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}
+
+.progress-bar {
+    background-color: var(--pink);
+}
+
 .author-campaign {
     font-family: 'Open Sans';
     font-weight: 700;

@@ -2,60 +2,9 @@
     max-width: 669px;
 }
 
-.recent_projects__item__image {
+.project-img {
     max-width: 379px;
     min-height: 172px;
     background: #C4C4C4;
     border-radius: 14px 14px 0px 0px;
-}
-
-.recent_projects__item__category {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.recent_projects__item__theme {
-    text-decoration: none;
-    color: black;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-    transition: 0.4s;
-}
-
-.recent_projects__item__theme:hover {
-    color: rgb(126, 126, 126);
-}
-
-.progress {
-    max-width: 345px;
-    height: 12px;
-    border: 1px solid #D7D7D7;
-    border-radius: 14px;
-}
-
-.progress-bar {
-    background-color: #FF7468;
-}
-
-.recent_projects__item__text {
-    font-family: 'Open Sans';
-}
-
-.recent_projects__item__author__author {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.recent_projects__item__author__campaign {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.recent_projects__item__author__city {
-    font-family: 'Open Sans';
-    font-size: 14px;
 }

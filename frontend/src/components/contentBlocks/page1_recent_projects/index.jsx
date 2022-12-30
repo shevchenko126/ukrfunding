@@ -55,7 +55,7 @@ const RecentProjects = () => {
                 {projects.map((project) => (
                     <div className="col-xl-3 col-md-6">
                         <div className="mt-5 item" style={{ maxWidth: '380px' }}>
-                            <div className="recent_projects__item__image"></div>
+                            <div className="project-img"></div>
                             <div className="m-3 text-success item-category">{project.category}</div>
                             <h4 className="m-3">
                                 <a href='/' className="item-title">{project.title}</a>
