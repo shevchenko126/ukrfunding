@@ -54,7 +54,7 @@ import Stories from './components/contentBlocks/page10_stories';
 import Categories from './components/contentBlocks/page11_categories';
 import Page115Projects from './components/contentBlocks/page11_projects';
 
-import ChangePasswordPage from './components/contentBlocks/change_password';
+import ChangePasswordPage from './components/contentBlocks/ChangePassword';
 
 import RegisterPage from './components/contentBlocks/register';
 
