@@ -1,20 +1,11 @@
 ﻿.about_our_company_container {
 	height: 601px;
-    background: rgba(10, 98, 83);
+    background: var(--green);
     background-repeat: no-repeat;  
     background-position: center;
 }
 
-.about_our_company_container__first-part {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-    padding-top: 247px;
-}
-
-.about_our_company_container__second-part {
-    font-family: 'Open Sans';
+.about-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
