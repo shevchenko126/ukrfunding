@@ -76,6 +76,7 @@ p {
     font-size: 16px;
     line-height: 28px;
     font-family: 'Open Sans';
+    margin-bottom: 0;
 }
 
 button {
