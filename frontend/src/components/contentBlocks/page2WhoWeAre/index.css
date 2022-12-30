@@ -1,14 +1,5 @@
 ﻿.who_we_are {
-    max-width: 1620px;
     margin-top: 100px;
-}
-
-.who_we_are__title {
-    max-width: 670px;
-}
-
-.who_we_are__main_text {
-    max-width: 600px;
 }
 
 .who-title {
@@ -16,14 +7,9 @@
     font-size: 24px;
 }
 
-.who_we_are__item__right {
-    margin-left: 40px;
-}
-
-.who_we_are__item__right__text {
-    max-width: 625px
-}
-
-.who_we_are__item__icon {
-    margin-left: 30%;
+@media(max-width: 400px) {
+    .who-we-are-title {
+        font-size: 35px;
+        line-height: 50px;
+    }
 }
