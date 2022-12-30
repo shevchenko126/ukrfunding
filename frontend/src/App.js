@@ -27,8 +27,7 @@ import AboutProject from './components/contentBlocks/page5_about_project';
 import About from './components/contentBlocks/page2AboutOurCompany';
 import WhoWeAre from './components/contentBlocks/page2WhoWeAre';
 import Fundraising from './components/contentBlocks/page2Fundraising';
-import Page2Categories from './components/contentBlocks/page2_categories';
-import OurMission from './components/contentBlocks/page2_our_mission';
+import Page2Categories from './components/contentBlocks/page2Categories';
 
 import HeaderModed from './components/contentBlocks/header_moded';
 import Filtres from './components/contentBlocks/page3_filtres';

@@ -26,21 +26,21 @@ const Page2Categories = () => {
 	]
 
 	return (
-		<div className='container' style={{ maxWidth: '1620px' }}>
-			<div className="text-center p-0 categories">
-				<div className="categories__header">CATEGORIES</div>
-				<div className="categories__title">Why choose Akcel</div>
-				<div className="categories__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no</div>
+		<div className='container' style={{marginTop: '100px'}}>
+			<div className="text-center mx-auto" style={{maxWidth: '805px'}}>
+				<h4 className="text-success">CATEGORIES</h4>
+				<h2>Why choose Akcel</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no</p>
 			</div>
-			<div className="p-0 categories-main">
+			<div className="p-0">
 				<div className="row d-flex justify-content-between">
 					{categories.map(({ img, title, description }) =>
 						<div className="col-lg-6 col-md-12">
-							<div className="d-flex categories-main__part mt-5">
+							<div className="d-flex item mt-5">
 								<img src={img} className="categories-main__part__logo" />
-								<div style={{ marginLeft: '3%' }}>
-									<div className="categories-main__part__title">{title}</div>
-									<div className="categories-main__part__text">{description}</div>
+								<div style={{ marginLeft: '2%' }}>
+									<div className="categories-title mt-2">{title}</div>
+									<p className='my-2'>{description}</p>
 								</div>
 							</div>
 						</div>
