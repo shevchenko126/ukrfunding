@@ -1,87 +1,18 @@
-.header-top,
-.header-bottom {
-    max-width: 1620px;
-}
-
-.header__top__left__text {
-    font-family: 'Poppins';
-    font-weight: 600;
-}
-
-.header__top__left__button {
-    width: 168px;
-    height: 45px;
-    background: rgb(27, 130, 113);
-    border: 2px solid #F6FBFA;
-    border-radius: 8px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    transition: 0.4s;
-}
-
-.header__top__left__button:hover {
-    box-shadow: 0px 25px 50px rgba(27, 130, 113, 0.2);
-}
-.header__top__left__button:active {
-    background: rgba(27, 130, 113, 0.7);
-}
-
-.header__top__right__phone-email {
-    font-family: 'Poppins';
-    font-weight: 600;
-    justify-content: end;
-}
 
 .header-bottom__ref {
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-    color: #717579;
     transition: 0.3s;
+    text-decoration: none;
+    color: var(--gray);
 }
 
 .header-bottom__ref:hover {
     color: #000000;
-    font-weight: 600;
 }
 
 .header-bottom__button {
     justify-content: end;
 }
 
-.header-bottom__button__button {
-    width: 230px;
-    height: 60px;
-    border: 2px solid #FF7468;
-    border-radius: 8px;
-    background: #FFFFFF;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 18px;
-    color: #FF7468;
-    transition: 0.3s;
-}
-
-.header-bottom__button__button:hover {
-    box-shadow: 0px 25px 50px rgba(88, 88, 88, 0.2);
-}
-
-@media (max-width: 990px) {
-    .header__top__right__phone-email {
-        justify-content: center;
-    }
-
-    .header__top__left__text,
-    .header-bottom__logo {
-        text-align: center;
-    }
-
-    .header__top__left__button {
-        margin: auto;
-    }
-
-    .header-bottom__button {
-        justify-content: center;
-    }
+.header-top-email-phone {
+    justify-content: end;
 }
