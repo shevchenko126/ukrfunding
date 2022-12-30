@@ -62,23 +62,8 @@ import LoginPage from './components/contentBlocks/login';
 
 import FormAddProject from './components/contentBlocks/form_add_project';
 
-const HomePage_01 = () => { // page 1 
-  return (
-    <section>
-      <Header />
-      <WeHelpSurface />
-      <Page1Categories />
-      <TeamMember />
-      <SuccessStory />
-      <OurPartnership />
-      <RecentProjects />
-      <Numbers />
-      <AkselNews />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
+/* Pages */
+import { HomePage_01 } from './components/pages/01_HomePage';
 
 const AboutUs_02 = () => { // page 2
   return (
