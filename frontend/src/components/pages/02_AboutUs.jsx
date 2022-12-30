@@ -1,6 +1,6 @@
 import Header from '../Header';
 import About from '../contentBlocks/page2AboutOurCompany';
-import WhoWeAre from '../contentBlocks/page2_who_we_are';
+import WhoWeAre from '../contentBlocks/page2WhoWeAre';
 import Fundraising from '../contentBlocks/page2Fundraising';
 import Categories from '../contentBlocks/page2_categories';
 import OurMission from '../contentBlocks/page2_our_mission';
