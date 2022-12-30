@@ -7,7 +7,7 @@ import OurPartnership from '../contentBlocks/OurPartnership';
 import RecentProjects from '../contentBlocks/page1_recent_projects';
 import Numbers from '../contentBlocks/page1_numbers';
 import AkselNews from '../contentBlocks/page1_news';
-import DontMiss from '../contentBlocks/page1_dont_miss';
+import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer/index';
 
 export const HomePage_01 = () => {

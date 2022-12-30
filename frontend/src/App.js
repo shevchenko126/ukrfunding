@@ -16,7 +16,7 @@ import OurPartnership from './components/contentBlocks/OurPartnership';
 import RecentProjects from './components/contentBlocks/page1_recent_projects';
 import Numbers from './components/contentBlocks/page1_numbers';
 import AkselNews from './components/contentBlocks/page1_news';
-import DontMiss from './components/contentBlocks/page1_dont_miss';
+import DontMiss from './components/contentBlocks/DontMiss';
 import Footer from './components/Footer/index';
 
 import Details from './components/contentBlocks/page5_project_details';
