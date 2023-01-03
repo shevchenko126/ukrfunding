@@ -1,129 +1,67 @@
-﻿.contact_header__title {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-}
-
-.contact_header__text {
+﻿.contact-text {
     max-width: 805px;
-    margin: auto;
-}
-
-.contact_header__item__title {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.contact_header__item__text {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
 }
 
 .contact_main {
-    max-width: 1620px;
-    max-height: 800px;
     background: #C4C4C4;
     border-radius: 14px;
 }
 
-.contact_main__form {
+.contact-form {
     max-width: 773px;
+    margin-top: 100px;
     min-height: 818px;
-    margin-top: 15%;
     box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
     border-radius: 14px;
 }
 
-.contact_main__form__title {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.contact_main__form__text {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
+.contact-item-text {
     color: #717579;
 }
 
-.contact_main__form__input {
-    max-width: 304px;
-    font-family: 'Poppins';
+.contact-input {
+    width: 100%;
     font-weight: 600;
-    background: #FBFBFB;
+    background: white;
     border: 2px solid #EEEEEE;
     border-radius: 8px;
     padding: 17px 20px 13px;
     outline: none;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
-.contact_main__form__input_main {
-    width: 81%;
+.contact-message {
+    width: 88%;
     height: 109px;
     padding: 15px 0 60px 15px;
-    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     color: #06040A;
-    background: #FBFBFB;
+    background: white;
     border: 2px solid #EEEEEE;
     border-radius: 8px;
     outline: none;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
-.contact_main__form__checkbox {
+.btn-contact {
+    width: 75%;
+}
+
+.contact-checkbox {
     width: 30px;
     height: 30px;
 }
 
-.contact_main__form__checkbox:hover,
-.contact_main__form__input:hover,
-.contact_main__form__btn:hover,
-.contact_main__form__input_main:hover {
+.contact-input:hover,
+.contact-message:hover {
     cursor: pointer;
     border: 2px solid #00000085;
 }
 
-.contact_main__form__input:focus, 
-.contact_main__form__input_main:focus {
+.contact-input:focus, 
+.contact-message:focus {
     border: 2px solid #00000085;
-}
-
-.contact_main__form__btn {
-    width: 221px;
-    height: 60px;
-    background: #FF7468;
-    border-radius: 8px;
-    border: 2px solid white;
-    margin-bottom: 30px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 18px;
-    transition: 0.4s;
-}
-
-.contact_main__form__btn:hover {
-    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
-}
-
-.contact_main__form__btn:active {
-    background-color: #ff000054;
-    border: 2px solid #0000005a;
-}
-
-.contact_main__form__btn:hover {
-    border: 2px solid black !important;
-}
-
-.contact_main__form__btn:hover {
-    border: 2px solid #FF7468;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 .contact_main__form {
