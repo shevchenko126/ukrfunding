@@ -102,6 +102,11 @@ button:hover {
     background-color: var(--pink);
 }
 
+.author-name {
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .author-campaign {
     font-family: 'Open Sans';
     font-weight: 700;
