@@ -1,5 +1,5 @@
 import Header from '../Header';
-import Contact from '../contentBlocks/page6_contact_us';
+import Contact from '../contentBlocks/ContactUs';
 import OurPartnership from '../contentBlocks/OurPartnership';
 import BecomeOurPremPartner from '../contentBlocks/page6_Become_our_Premium_Partner';
 import Footer from '../Footer';
