@@ -1,7 +1,11 @@
-import './index.css';
-import OneProject from './one_project';
+import HeaderModed from '../contentBlocks/HeaderModed';
+import Filters from '../contentBlocks/Filters';
+import Page3Projects from '../contentBlocks/page3Projects';
+import OurPartnership from '../contentBlocks/OurPartnership';
+import DontMiss from '../contentBlocks/DontMiss';
+import Footer from '../Footer';
 
-const Page3Projects = () => {
+export const Project4Col_03 = () => { // page 3
 
     const projects = [
         {
@@ -126,20 +130,16 @@ const Page3Projects = () => {
             campaign: '12 Campaign',
             location: 'New York, London',
         },
-    ]
+    ];
 
     return (
-        <div className="container recent_projects">
-            <div className="row mt-5 mb-5">
-                {projects.map((project) => (
-                    <OneProject project={project} />
-                ))}
-            </div>
-            <div className='d-flex justify-content-center'>
-                <button className='text-uppercase text-white recent_projects__btn'>load more</button>
-            </div>
-        </div>
+        <section>
+            <HeaderModed />
+            <Filters />
+            <Page3Projects projects={projects} />
+            <OurPartnership />
+            <DontMiss />
+            <Footer />
+        </section>
     )
 }
-
-export default Page3Projects;

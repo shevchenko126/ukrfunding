@@ -30,8 +30,7 @@ import Fundraising from './components/contentBlocks/page2Fundraising';
 import Page2Categories from './components/contentBlocks/page2Categories';
 
 import HeaderModed from './components/contentBlocks/HeaderModed';
-import Filtres from './components/contentBlocks/Filters';
-import Page3Projects from './components/contentBlocks/page3_projects';
+import Page3Projects from './components/contentBlocks/page3Projects';
 
 import FilterCategory from './components/contentBlocks/page4_filter_category';
 import Donate from './components/contentBlocks/page4_donate_to';
@@ -64,19 +63,7 @@ import FormAddProject from './components/contentBlocks/form_add_project';
 /* Pages */
 import { HomePage_01 } from './components/pages/01_HomePage';
 import { AboutUs_02 } from './components/pages/02_AboutUs';
-
-const Projects4Col_03 = () => { //page 3
-  return (
-    <section>
-      <HeaderModed />
-      <Filtres />
-      <Page3Projects />
-      <OurPartnership />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
+import { Project4Col_03 } from './components/pages/03_Project4Col';
 
 const Projects3Col_04 = () => { // page 4
   return (
@@ -241,7 +228,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
           <Route path="/about-us" element={<AboutUs_02 />} />
-          <Route path="/projects-4-col" element={<Projects4Col_03 />} />
+          <Route path="/projects-4-col" element={<Project4Col_03 />} />
           <Route path="/projects-3-col" element={<Projects3Col_04 />} />
           <Route path="/project-details" element={<ProjectDetails_05 />} />
           <Route path="/conact-us" element={<ContactUs_06 />} />

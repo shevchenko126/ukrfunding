@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './index.css';
 
-const Filtres = () => {
+const Filters = () => {
 
     const [activeBtn, setActiveBtn] = useState('all');
 
@@ -37,4 +37,4 @@ const Filtres = () => {
     );
 };
 
-export default Filtres;
+export default Filters;
