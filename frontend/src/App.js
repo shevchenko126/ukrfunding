@@ -8,13 +8,13 @@ import {
 } from "react-router-dom"
 
 import Header from './components/Header';
-import WeHelpSurface from './components/contentBlocks/page1_we_help_surface';
-import Page1Categories from './components/contentBlocks/page1_categories';
-import TeamMember from './components/contentBlocks/page1_meet_our';
-import SuccessStory from './components/contentBlocks/page1_success_story';
+import WeHelpSurface from './components/contentBlocks/page1WeHelpSurface';
+import Page1Categories from './components/contentBlocks/page1Categories';
+import TeamMember from './components/contentBlocks/page1MeetOur';
+import SuccessStory from './components/contentBlocks/page1SuccessStory';
 import OurPartnership from './components/contentBlocks/OurPartnership';
-import RecentProjects from './components/contentBlocks/page1_recent_projects';
-import Numbers from './components/contentBlocks/page1_numbers';
+import RecentProjects from './components/contentBlocks/page1RecentProjects';
+import Numbers from './components/contentBlocks/page1Numbers';
 import AkselNews from './components/contentBlocks/AkselNews';
 import DontMiss from './components/contentBlocks/DontMiss';
 import Footer from './components/Footer/index';
