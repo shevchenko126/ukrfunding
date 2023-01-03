@@ -14,7 +14,7 @@ const HeaderModed = () => {
                                 </div>
                                 <div className='col-lg-6 col-md-12 mt-3'>
                                     <button className='text-white sign-up-btn d-flex align-items-center justify-content-center'>
-                                        <img src="../image/header_moded_login.svg" />
+                                        <img alt='login' src="/image/header_moded_login.svg" />
                                         <div className='mx-2 text-success'>Sign Up Now</div>
                                     </button>
                                 </div>
@@ -23,11 +23,11 @@ const HeaderModed = () => {
                         <div className='col-lg-5 col-md-12'>
                             <div className='row text-white'>
                                 <div className='col-lg-6 col-md-12 mt-4 d-flex justify-content-end'>
-                                    <img src="../image/header_moded_phone.svg" />
+                                    <img alt="#" src="/image/header_moded_phone.svg" />
                                     <h6 className='px-3'>394-091-3312</h6>
                                 </div>
                                 <div className='col-lg-6 col-md-12 mt-4 d-flex justify-content-end'>
-                                    <img src="../image/header_moded_email.svg" />
+                                    <img alt="#" src="/image/header_moded_email.svg" />
                                     <h6 style={{ marginLeft: '15px' }}>support@akcel.com</h6>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ const HeaderModed = () => {
                     <div className='row d-flex'>
                         <div className='col-lg-3 col-md-12'>
                             <a href="/">
-                                <img src="/image/header_moded_logo.svg" />
+                                <img alt="#" src="/image/header_moded_logo.svg" />
                             </a>
                         </div>
                         <div className='col-lg-6'>
@@ -84,13 +84,13 @@ const HeaderModed = () => {
                 <div className='header-input-container pb-2 row'>
                     <div className='col-lg-3 col-sm-12 d-flex align-items-center justify-content-center px-5'>
                         <h5>All Category</h5>
-                        <img src='../image/header_down_arrow.svg' style={{ marginLeft: '30px' }} />
+                        <img alt="more" src='/image/header_down_arrow.svg' style={{ marginLeft: '30px' }} />
                     </div>
                     <div className='col-lg-8 col-sm-12 d-flex align-items-center'>
                         <input className='header-input' placeholder='Find Projects' type='text' min='3' max='50' />
                     </div>
                     <div className='col-lg-1 col-sm-12 d-flex align-items-center justify-content-center'>
-                        <img src='../image/header_bottom_search_moded.svg' />
+                        <img alt="search" src='../image/header_bottom_search_moded.svg' />
                     </div>
                 </div>
             </section>
