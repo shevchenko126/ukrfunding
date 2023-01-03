@@ -1,6 +1,6 @@
 const OneNews = ({ news }) => {
     return (
-        <article className="col-xxl-4 mt-5 d-flex justify-content-center p-0">
+        <article className="col-xxl-4 mt-5 d-flex justify-content-center">
             <div className='item'>
                 <div className="aksel_news-main__logo">
                     <img alt="#" src="../image/page_1_news_profile.svg" style={{ width: '100%' }} />
