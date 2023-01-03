@@ -38,7 +38,7 @@
 
 .header-input-container {
     max-width: 1056px;
-    min-height: 110px;
+    padding: 20px;
     background: #FFFFFF;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -64,4 +64,11 @@
 .header-popular-search {
     max-width: 1050px;
     margin: 100px auto;
+}
+
+@media(max-width: 470px) {
+    .header-title {
+        font-size: 35px;
+        line-height: 50px;
+    }
 }

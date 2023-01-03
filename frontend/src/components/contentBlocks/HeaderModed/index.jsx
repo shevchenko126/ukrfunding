@@ -81,10 +81,11 @@ const HeaderModed = () => {
                         </div>
                     </div>
                 </div>
-                <div className='header-input-container pb-2 row'>
+                <div className='header-input-container row'>
                     <div className='col-lg-3 col-sm-12 d-flex align-items-center justify-content-center px-5'>
-                        <h5>All Category</h5>
-                        <img alt="more" src='/image/header_down_arrow.svg' style={{ marginLeft: '30px' }} />
+                        <select>
+                            <option value="All Category">All Category</option>
+                        </select>
                     </div>
                     <div className='col-lg-8 col-sm-12 d-flex align-items-center'>
                         <input className='header-input' placeholder='Find Projects' type='text' min='3' max='50' />
