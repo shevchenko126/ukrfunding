@@ -18,3 +18,13 @@
 .filter-unactive:hover {
     box-shadow: 0px 25px 50px rgb(225, 255, 234);
 }
+
+.select-time-filter {
+    justify-content: end;
+}
+
+@media(max-width: 991px) {
+    .select-time-filter {
+        justify-content: center;
+    }
+}

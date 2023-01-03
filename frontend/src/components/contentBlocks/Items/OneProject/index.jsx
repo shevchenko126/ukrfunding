@@ -1,9 +1,11 @@
+import './index.css';
+
 const OneProject = ({ project, col }) => {
 
     switch (col) {
         case 'col-3':
             return (
-                <div className="col-xl-3 col-md-6">
+                <div className="col-xl-3 col-lg-6 col-md-12">
                     <div className="mt-5 item" style={{ maxWidth: '380px' }}>
                         <div className="project-img"></div>
                         <div className="m-3 text-success item-category">{project.category}</div>
