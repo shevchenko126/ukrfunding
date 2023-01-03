@@ -1,0 +1,20 @@
+.filter-active {
+    width: 175px;
+    height: 60px;
+    background: var(--green);
+    border: 2px solid #ffffff;
+    color: white;
+}
+.filter-active:hover {
+    box-shadow: 0px 25px 50px rgb(188, 227, 199);
+}
+
+.filter-unactive {
+    width: 140px;
+    height: 60px;
+    background: rgba(0, 255, 204, 0.05);
+    color: var(--green);
+}
+.filter-unactive:hover {
+    box-shadow: 0px 25px 50px rgb(225, 255, 234);
+}

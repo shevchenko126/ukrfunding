@@ -30,7 +30,7 @@ import Fundraising from './components/contentBlocks/page2Fundraising';
 import Page2Categories from './components/contentBlocks/page2Categories';
 
 import HeaderModed from './components/contentBlocks/HeaderModed';
-import Filtres from './components/contentBlocks/page3_filtres';
+import Filtres from './components/contentBlocks/Filters';
 import Page3Projects from './components/contentBlocks/page3_projects';
 
 import FilterCategory from './components/contentBlocks/page4_filter_category';
