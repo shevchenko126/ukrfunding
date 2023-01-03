@@ -21,12 +21,12 @@
 }
 
 @media(max-width: 991px) {
-    .become_our_prem__row-btn {
+    .become-partner-btn-col {
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .become_our_prem__row__text {
+    .become-partner-content {
         text-align: center;
     }
 }
