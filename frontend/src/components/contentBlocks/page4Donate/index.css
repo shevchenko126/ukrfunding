@@ -26,3 +26,9 @@
 .donate-btn {
     margin: 40px 0 30px 7%;
 }
+
+@media(max-width: 991px) {
+    .donate_to {
+        margin: 0 auto;
+    }
+}

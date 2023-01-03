@@ -57,3 +57,12 @@
 .filter-category-btn:hover {
     box-shadow: 0px 25px 50px rgba(15, 70, 34, 0.2);
 }
+
+@media(max-width: 991px) {
+    .filter {
+        margin: 0 auto;
+    }
+    .filter-title {
+        text-align: center;
+    }
+}

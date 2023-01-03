@@ -3,7 +3,7 @@
 const FilterCategory = () => {
 	return (
 		<div className="container filter p-0">
-			<h3>Filter</h3>
+			<h3 className='filter-title'>Filter</h3>
 			<div className="filter-categories">
 				<h4 className="filter-category-title">Category</h4>
 				<div className="d-flex filter-item">
