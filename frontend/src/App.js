@@ -66,18 +66,7 @@ import { AboutUs_02 } from './components/pages/02_AboutUs';
 import { Project4Col_03 } from './components/pages/03_Project4Col';
 import { Project3Col_04 } from './components/pages/04_Project3Col';
 import { ProjectDetails_05 } from './components/pages/05_ProjectDetails';
-
-const ContactUs_06 = () => { // page 6
-  return (
-    <section>
-      <Header />
-      <Contact />
-      <OurPartnership />
-      <BecomeOurPremPartner />
-      <Footer />
-    </section>
-  )
-}
+import { ContactUs_06 } from './components/pages/06_ContactUs';
 
 const LatestNews_07 = () => { // page 7
   return (
@@ -189,7 +178,7 @@ function App() {
           <Route path="/projects-4-col" element={<Project4Col_03 />} />
           <Route path="/projects-3-col" element={<Project3Col_04 />} />
           <Route path="/project-details/:project" element={<ProjectDetails_05 />} />
-          <Route path="/conact-us" element={<ContactUs_06 />} />
+          <Route path="/contact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
           <Route path="/news-details" element={<NewsDetails_08 />} />
           <Route path="/team-member" element={<AkcelTeamMember_09 />} />
