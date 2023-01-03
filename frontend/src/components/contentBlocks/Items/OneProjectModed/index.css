@@ -1,3 +1,11 @@
+.project-title {
+    color: var(--primary);
+    transition: 0.3s;
+}
+.project-title:hover {
+    color: gray;
+}
+
 .btn-heart {
     width: 100px;
     height: 60px;

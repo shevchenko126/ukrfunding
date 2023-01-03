@@ -3,9 +3,10 @@ import './index.css';
 const OneProjectModed = ({ project }) => {
     return (
         <div className="col-lg-4 col-md-12 mt-5">
-            <div className="item px-4" style={{maxWidth: '500px'}}>
+            <div className="item px-4" style={{ maxWidth: '500px' }}>
                 <img src="/image/page5_project_background.svg" className="mt-4 img-fluid" />
-                <h4 className="mt-4">{project.title}</h4>
+                <h4 className="mt-4">
+                    <a className='project-title' href={'/project-details/' + project.title}>{project.title}</a></h4>
                 <p className="mt-4">{project.description}</p>
                 <div className="row mt-4">
                     <div className="col-lg-2 col-md-12">
