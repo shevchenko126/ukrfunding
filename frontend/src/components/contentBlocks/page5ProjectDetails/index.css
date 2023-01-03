@@ -1,0 +1,49 @@
+﻿.project-details {
+    background: rgb(27, 130, 113);
+    min-height: 232px;
+}
+
+.project-details-main {
+    border-radius: 14px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.main-video {
+    width: 100%;
+    min-height: 556px;
+}
+
+.project-number {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.project-details-btn {
+    background: var(--green);
+    border: 2px solid white;
+    width: 97%;
+    height: 60px;
+    margin: auto;
+}
+.project-details-btn:hover {
+    box-shadow: 0px 10px 15px rgba(12, 73, 43, 0.357);
+}
+
+.project-notes {
+    width: 97%;
+    background: #EEEEEE;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+    padding: 40px 70px;
+    margin-top: 41px;
+}
+
+.progress.details {
+    max-width: 99%;
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}

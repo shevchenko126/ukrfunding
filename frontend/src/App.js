@@ -19,10 +19,10 @@ import AkselNews from './components/contentBlocks/AkselNews';
 import DontMiss from './components/contentBlocks/DontMiss';
 import Footer from './components/Footer/index';
 
-import Details from './components/contentBlocks/page5_project_details';
-import Page5Projects from './components/contentBlocks/page5_projects';
-import Support from './components/contentBlocks/page5_support_other_projects';
-import AboutProject from './components/contentBlocks/page5_about_project';
+import Details from './components/contentBlocks/page5ProjectDetails';
+import Page5Projects from './components/contentBlocks/page5Projects';
+import Support from './components/contentBlocks/page5SupportOtherProjects';
+import AboutProject from './components/contentBlocks/page5AboutProject';
 
 import About from './components/contentBlocks/page2AboutOurCompany';
 import WhoWeAre from './components/contentBlocks/page2WhoWeAre';
@@ -65,28 +65,7 @@ import { HomePage_01 } from './components/pages/01_HomePage';
 import { AboutUs_02 } from './components/pages/02_AboutUs';
 import { Project4Col_03 } from './components/pages/03_Project4Col';
 import { Project3Col_04 } from './components/pages/04_Project3Col';
-
-const ProjectDetails_05 = () => { // page 5
-  return (
-    <section>
-      <Header />
-      <Details />
-      <div className='container' style={{ maxWidth: '1620px' }}>
-        <div className='row'>
-          <div className='col-lg-8 col-md-12'>
-            <AboutProject />
-          </div>
-          <div className='col-lg-3 col-md-12 support'>
-            <Support />
-          </div>
-        </div>
-      </div>
-      <Page5Projects />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
+import { ProjectDetails_05 } from './components/pages/05_ProjectDetails';
 
 const ContactUs_06 = () => { // page 6
   return (
