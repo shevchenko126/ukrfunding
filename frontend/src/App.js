@@ -180,7 +180,7 @@ function App() {
           <Route path="/project-details/:project" element={<ProjectDetails_05 />} />
           <Route path="/contact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
-          <Route path="/news-details" element={<NewsDetails_08 />} />
+          <Route path="/news-details/:news" element={<NewsDetails_08 />} />
           <Route path="/team-member" element={<AkcelTeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
