@@ -230,7 +230,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs_02 />} />
           <Route path="/projects-4-col" element={<Project4Col_03 />} />
           <Route path="/projects-3-col" element={<Projects3Col_04 />} />
-          <Route path="/project-details" element={<ProjectDetails_05 />} />
+          <Route path="/project-details/:project" element={<ProjectDetails_05 />} />
           <Route path="/conact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
           <Route path="/news-details" element={<NewsDetails_08 />} />
