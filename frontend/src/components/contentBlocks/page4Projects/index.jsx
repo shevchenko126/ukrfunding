@@ -10,7 +10,7 @@ const Page4Projects = (props) => {
                 ))}
             </div>
             <div className='text-center'>
-                <button className='mt-5 text-uppercase text-white filter_category__btnn'>load more</button>
+                <button className='mt-5 text-uppercase button-bg-pink-text-white'>load more</button>
             </div>
         </section>
     )
