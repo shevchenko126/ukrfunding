@@ -77,7 +77,9 @@ const Contact = () => {
 						</div>
 					</div>
 					<h5 className="mt-3 mx-5 contact-item-text" for="message">Message</h5>
-					<input className="mt-4 mx-5 contact-message" type="text" placeholder="Write Text here..." id="message" name="message" min="5" max="250" />
+					<div className='mx-5'>
+						<input className="mt-4 contact-message" type="text" placeholder="Write Text here..." id="message" name="message" min="5" max="250" />
+					</div>
 					<div className="row mx-5 mt-5">
 						<div className="col-lg-6 col-md-12 p-0 d-flex align-items-center mt-4">
 							<input type="checkbox" className="contact-checkbox" />
