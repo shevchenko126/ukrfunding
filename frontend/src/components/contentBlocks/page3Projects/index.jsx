@@ -11,10 +11,10 @@ const Page3Projects = (props) => {
                 ))}
             </div>
             <div className='d-flex justify-content-center'>
-                <button className='text-uppercase text-white recent_projects__btn'>load more</button>
+                <button className='text-uppercase button-bg-pink-text-white'>load more</button>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Page3Projects;
