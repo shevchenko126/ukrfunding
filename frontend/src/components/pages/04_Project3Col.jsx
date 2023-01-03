@@ -1,7 +1,12 @@
-import OneProject from "./one_project";
-import './index.css';
+import HeaderModed from '../contentBlocks/HeaderModed';
+import FilterCategory from '../contentBlocks/page4FilterCategory';
+import Donate from '../contentBlocks/page4Donate';
+import Page4Projects from '../contentBlocks/page4Projects';
+import OurPartnership from '../contentBlocks/OurPartnership';
+import DontMiss from '../contentBlocks/DontMiss';
+import Footer from '../Footer';
 
-const Page4Projects = () => {
+export const Project3Col_04 = () => { // page 4
 
     const projects = [
         {
@@ -96,20 +101,25 @@ const Page4Projects = () => {
             campaign: '12 Campaign',
             location: 'New York, London',
         },
-    ]
+    ];
 
     return (
         <section>
-            <div className='row'>
-                {projects.map((project) => (
-                    <OneProject project={project} />
-                ))}
+            <HeaderModed />
+            <div className='container' style={{ maxWidth: '1620px' }}>
+                <div className='row'>
+                    <div className='col-xxl-3 col-lg-6 col-md-12'>
+                        <FilterCategory />
+                        <Donate />
+                    </div>
+                    <div className='col-xxl-9 col-lg-6 col-md-12 px-5'>
+                        <Page4Projects projects={projects} />
+                    </div>
+                </div>
             </div>
-            <div className='text-center'>
-                <button className='mt-5 text-uppercase text-white filter_category__btnn'>load more</button>
-            </div>
+            <OurPartnership />
+            <DontMiss />
+            <Footer />
         </section>
     )
 }
-
-export default Page4Projects;

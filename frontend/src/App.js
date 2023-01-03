@@ -32,9 +32,9 @@ import Page2Categories from './components/contentBlocks/page2Categories';
 import HeaderModed from './components/contentBlocks/HeaderModed';
 import Page3Projects from './components/contentBlocks/page3Projects';
 
-import FilterCategory from './components/contentBlocks/page4_filter_category';
-import Donate from './components/contentBlocks/page4_donate_to';
-import Page4Projects from './components/contentBlocks/page4_projects';
+import FilterCategory from './components/contentBlocks/page4FilterCategory';
+import Donate from './components/contentBlocks/page4Donate';
+import Page4Projects from './components/contentBlocks/page4Projects';
 
 import Contact from './components/contentBlocks/page6_contact_us';
 import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
@@ -64,28 +64,7 @@ import FormAddProject from './components/contentBlocks/form_add_project';
 import { HomePage_01 } from './components/pages/01_HomePage';
 import { AboutUs_02 } from './components/pages/02_AboutUs';
 import { Project4Col_03 } from './components/pages/03_Project4Col';
-
-const Projects3Col_04 = () => { // page 4
-  return (
-    <section>
-      <HeaderModed />
-      <div className='container' style={{ maxWidth: '1620px' }}>
-        <div className='row'>
-          <div className='col-xxl-3 col-lg-6 col-md-12'>
-            <FilterCategory />
-            <Donate />
-          </div>
-          <div className='col-xxl-9 col-lg-6 col-md-12 px-5'>
-            <Page4Projects />
-          </div>
-        </div>
-      </div>
-      <OurPartnership />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
+import { Project3Col_04 } from './components/pages/04_Project3Col';
 
 const ProjectDetails_05 = () => { // page 5
   return (
@@ -229,7 +208,7 @@ function App() {
           <Route path="/" element={<HomePage_01 />} />
           <Route path="/about-us" element={<AboutUs_02 />} />
           <Route path="/projects-4-col" element={<Project4Col_03 />} />
-          <Route path="/projects-3-col" element={<Projects3Col_04 />} />
+          <Route path="/projects-3-col" element={<Project3Col_04 />} />
           <Route path="/project-details/:project" element={<ProjectDetails_05 />} />
           <Route path="/conact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
