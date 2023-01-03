@@ -1,0 +1,19 @@
+.btn-heart {
+    width: 20%;
+    height: 60px;
+    background: #FF7468;
+}
+.btn-heart:hover {
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+}
+
+.btn-fund {
+    width: 360px;
+    height: 60px;
+    background: var(--green);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.btn-fund:hover {
+    box-shadow: 0px 25px 50px rgba(18, 78, 36, 0.36);
+}
