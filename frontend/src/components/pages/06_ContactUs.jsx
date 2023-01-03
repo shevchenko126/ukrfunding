@@ -1,7 +1,7 @@
 import Header from '../Header';
 import Contact from '../contentBlocks/ContactUs';
 import OurPartnership from '../contentBlocks/OurPartnership';
-import BecomeOurPremPartner from '../contentBlocks/page6_Become_our_Premium_Partner';
+import BecomeOurPremPartner from '../contentBlocks/BecomeOurPremiumPartner';
 import Footer from '../Footer';
 
 export const ContactUs_06 = () => { // page 6

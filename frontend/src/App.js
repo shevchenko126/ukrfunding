@@ -37,7 +37,7 @@ import Donate from './components/contentBlocks/page4Donate';
 import Page4Projects from './components/contentBlocks/page4Projects';
 
 import Contact from './components/contentBlocks/ContactUs';
-import BecomeOurPremPartner from './components/contentBlocks/page6_Become_our_Premium_Partner';
+import BecomeOurPremPartner from './components/contentBlocks/BecomeOurPremiumPartner';
 
 import AkcelNews_page7 from './components/contentBlocks/page7_akcel_news';
 
