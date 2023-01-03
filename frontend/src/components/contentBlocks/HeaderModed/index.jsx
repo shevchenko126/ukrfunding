@@ -5,9 +5,9 @@ const HeaderModed = () => {
     return (
         <section>
             <section style={{ backgroundColor: '#1B8271' }}>
-                <div className='container header-top'>
-                    <div className='row header__top'>
-                        <div className='col-lg-7 col-md-12 header__top__left px-3'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-7 col-md-12 px-3'>
                             <div className='row'>
                                 <div className='col-lg-6 col-md-12 text-white mt-4'>
                                     <h6>Welcome to Akcel, Crowdfunding & Charity Agency</h6>
@@ -20,7 +20,7 @@ const HeaderModed = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-5 col-md-12 header__top__right'>
+                        <div className='col-lg-5 col-md-12'>
                             <div className='row text-white'>
                                 <div className='col-lg-6 col-md-12 mt-4 d-flex justify-content-end'>
                                     <img src="../image/header_moded_phone.svg" />
@@ -35,9 +35,9 @@ const HeaderModed = () => {
                     </div>
                 </div>
                 <hr style={{ width: '100%', color: 'white' }} className='mt-4' />
-                <div className='container mt-4 header-bottom pb-4'>
+                <div className='container mt-4 pb-4'>
                     <div className='row d-flex'>
-                        <div className='col-lg-3 col-md-12 header-bottom__logo'>
+                        <div className='col-lg-3 col-md-12'>
                             <a href="/">
                                 <img src="/image/header_moded_logo.svg" />
                             </a>
@@ -75,7 +75,7 @@ const HeaderModed = () => {
             </section>
             <section>
                 <div className='header-bg'>
-                    <div className='container header_modes'>
+                    <div className='container'>
                         <div style={{ backgroundImage: `url(${background})` }} className='header-bg-picture'>
                             <h2 className='text-center text-white header-title'>Let’s find a crowdfunding projects around the world</h2>
                         </div>
@@ -83,7 +83,7 @@ const HeaderModed = () => {
                 </div>
                 <div className='header-input-container pb-2 row'>
                     <div className='col-lg-3 col-sm-12 d-flex align-items-center justify-content-center px-5'>
-                        <h5 className=''>All Category</h5>
+                        <h5>All Category</h5>
                         <img src='../image/header_down_arrow.svg' style={{ marginLeft: '30px' }} />
                     </div>
                     <div className='col-lg-8 col-sm-12 d-flex align-items-center'>
