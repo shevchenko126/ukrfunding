@@ -3,7 +3,7 @@ import './index.css';
 const OneProjectModed = ({ project }) => {
     return (
         <div className="col-lg-4 col-md-12 mt-5">
-            <div className="item px-4">
+            <div className="item px-4" style={{maxWidth: '500px'}}>
                 <img src="/image/page5_project_background.svg" className="mt-4 img-fluid" />
                 <h4 className="mt-4">{project.title}</h4>
                 <p className="mt-4">{project.description}</p>
@@ -40,7 +40,7 @@ const OneProjectModed = ({ project }) => {
                         <span style={{ marginLeft: '10px' }}>{project.daysLeft}</span>
                     </div>
                 </div>
-                <div className='d-flex justify-content-between'>
+                <div className='d-flex gap-3 justify-content-between'>
                     <button className="mt-5 btn-heart">
                         <img src="/image/page5_project_heart.svg" />
                     </button>
