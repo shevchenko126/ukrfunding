@@ -4,7 +4,6 @@ import './index.css';
 const Filtres = () => {
 
     const [activeBtn, setActiveBtn] = useState('all');
-    console.log(activeBtn)
 
     return (
         <div className='container mt-5 filtres'>
@@ -35,7 +34,7 @@ const Filtres = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Filtres;
