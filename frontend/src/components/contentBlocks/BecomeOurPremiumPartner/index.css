@@ -1,34 +1,22 @@
-.become_our_prem {
+.become-partner {
     margin-top: 100px;
-    min-height: 335px;
 }
 
-.become_our_prem__row {
-    max-width: 1620px;
+.become-partner-content {
     min-height: 335px;
     margin: auto;
 }
 
-.become_our_prem__row__text {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-}
-
-.become_our_prem__row__button {
+.become-partner-btn {
     width: 221px;
     height: 78px;
     background: #121E31;
-    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
-    border-radius: 8px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 18px;
-    border: none;
+}
+.become-partner-btn:hover {
+    box-shadow: 0px 45px 35px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
 }
 
-.become_our_prem__row-btn {
+.become-partner-btn-col {
     justify-content: end;
 }
 
