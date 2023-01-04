@@ -13,6 +13,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '1bvnty',
         },
         {
             category: 'business',
@@ -21,6 +22,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: 'c1hgxc',
         },
         {
             category: 'design',
@@ -29,6 +31,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Melinda Humbles',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '1gfh554',
         },
         {
             category: 'health',
@@ -37,6 +40,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '1gfbvn',
         },
         {
             category: 'business',
@@ -45,6 +49,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '1gfhf',
         },
         {
             category: 'design',
@@ -53,6 +58,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Melinda Humbles',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: 'gfd451',
         },
         {
             category: 'health',
@@ -61,6 +67,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '532g1',
         },
         {
             category: 'business',
@@ -69,6 +76,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '1564bg',
         },
         {
             category: 'design',
@@ -77,6 +85,7 @@ export const LatestNews_07 = () => { // page 7
             author: 'Melinda Humbles',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '3121',
         },
     ];
 

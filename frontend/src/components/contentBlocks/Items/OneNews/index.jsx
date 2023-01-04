@@ -1,4 +1,4 @@
-import { Link } from 'react'
+import { Link } from 'react-router-dom'
 
 const OneNews = ({ news }) => {
     return (
@@ -8,9 +8,9 @@ const OneNews = ({ news }) => {
                     <img alt="#" src="../image/page_1_news_profile.svg" style={{ width: '100%' }} />
                     <div className="text-uppercase aksel_news-main__category">{news.category}</div>
                 </div>
-                <a href='#a' className='item-title'>
+                <Link to={'/news-details/' + news.slug} className='item-title'>
                     <h4 className="aksel_news-main__title">{news.title}</h4>
-                </a>
+                </Link>
                 <p className="aksel_news-main__text">{news.description}</p>
                 <div className="mb-5 aksel_news-main__author row d-flex">
                     <div className='col-lg-2 col-sm-12 p-0'>
@@ -27,7 +27,7 @@ const OneNews = ({ news }) => {
                 </div>
             </div>
         </article>
-    )
-}
+    );
+};
 
 export default OneNews;

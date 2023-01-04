@@ -11,7 +11,7 @@ const RecentProjects = (props) => {
             </div>
             <div className="row my-5">
                 {props.projects.map((project) => (
-                    <OneProject col='col-3' project={project} />
+                    <OneProject col='3' project={project} />
                 ))}
             </div>
         </div>
