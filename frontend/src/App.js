@@ -43,7 +43,7 @@ import AkcelNews_page7 from './components/contentBlocks/page7AkcelNews';
 
 import NewsDetails from './components/contentBlocks/page8NewsDetails';
 import WriteComment from './components/contentBlocks/page8WriteComment';
-import Page8Related from './components/contentBlocks/page8Related';
+import Page8Related from './components/contentBlocks/page8News';
 
 import TeamMember_09 from './components/contentBlocks/page9_team';
 
