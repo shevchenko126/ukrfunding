@@ -39,7 +39,7 @@ import Page4Projects from './components/contentBlocks/page4Projects';
 import Contact from './components/contentBlocks/ContactUs';
 import BecomeOurPremPartner from './components/contentBlocks/BecomeOurPremiumPartner';
 
-import AkcelNews_page7 from './components/contentBlocks/page7_akcel_news';
+import AkcelNews_page7 from './components/contentBlocks/page7AkcelNews';
 
 import NewsDetails from './components/contentBlocks/page8_news_details';
 import WriteComment from './components/contentBlocks/page8_write_comment';

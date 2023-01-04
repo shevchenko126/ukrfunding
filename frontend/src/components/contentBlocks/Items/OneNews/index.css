@@ -1,0 +1,29 @@
+.aksel_news-main__logo {
+    position: relative;
+}
+
+.news-category {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    padding: 18px 18px 18px 22px;
+    background: #FF7468;
+    border-radius: 14px;
+    position: absolute;
+    margin: -60% 0 0 13px;
+}
+
+.aksel_news-main__title {
+    max-width: 440px;
+    margin: 30px 0 0 30px;
+}
+
+.aksel_news-main__text {
+    line-height: 28px;
+    max-width: 450px;
+    margin: 20px auto 0 30px;
+}
+
+.aksel_news-main__author {
+    margin: 20px 0 0 30px;
+}

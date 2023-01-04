@@ -7,15 +7,15 @@ const AkcelNews_page7 = (props) => {
         <section>
             <article>
                 <div className="container-fluid text-white text-center akcel_news">
-                    <div className='pt-4 akcel_news__title'>Akcel News</div>
-                    <div className="mt-3 pb-5 aksel_news__text">Aut neque sed libero reiciendis repellendus laboriosam dolore omnis. Eligendi perspiciatis voluptate et est. Cumque aut aut et repellendus a delectus ipsum tempore excepturi. Distinctio dignissimos unde.</div>
+                    <h2 className='pt-4'>Akcel News</h2>
+                    <p className="mt-3 pb-5 mx-auto news-text">Aut neque sed libero reiciendis repellendus laboriosam dolore omnis. Eligendi perspiciatis voluptate et est. Cumque aut aut et repellendus a delectus ipsum tempore excepturi. Distinctio dignissimos unde.</p>
                 </div>
             </article>
             <article>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-xl-6 col-lg-12 mt-5 d-flex'>
-                            <input type='text' placeholder='Search Articles' min='5' max='50' className='color1 filters__left__input px-4' />
+                            <input type='text' placeholder='Search Articles' min='5' max='50' className='color1 filter-input px-4' />
                         </div>
                         <div className='col-xl-6 col-lg-12 p-0 row'>
                             <div className="col-xl-8 col-lg-12 mt-5 d-flex filters__right-col">
@@ -32,9 +32,9 @@ const AkcelNews_page7 = (props) => {
                                         control: (baseStyles, state) => ({
                                             ...baseStyles,
                                             border: 'none',
-                                            background: 'rgba(163, 163, 163, 0.15)',   
-                                            width: '200px',   
-                                            paddingLeft: '10px'                                
+                                            background: 'rgba(163, 163, 163, 0.15)',
+                                            width: '200px',
+                                            paddingLeft: '10px'
                                         }),
                                     }}
                                 />
@@ -51,8 +51,8 @@ const AkcelNews_page7 = (props) => {
                                             ...baseStyles,
                                             border: 'none',
                                             background: 'rgba(163, 163, 163, 0.15)',
-                                            width: '175px',   
-                                            paddingLeft: '10px' 
+                                            width: '175px',
+                                            paddingLeft: '10px'
                                         }),
                                     }}
                                 />
@@ -63,7 +63,7 @@ const AkcelNews_page7 = (props) => {
             </article>
             <article>
                 <div>
-                    <div className="container aksel_news-main">
+                    <div className="container">
                         <div className="row">
                             {props.news.map((news) => (
                                 <OneNews news={news} />

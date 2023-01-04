@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import './index.css';
 
 const OneNews = ({ news }) => {
     return (
@@ -6,7 +7,7 @@ const OneNews = ({ news }) => {
             <div className='item'>
                 <div className="aksel_news-main__logo">
                     <img alt="#" src="../image/page_1_news_profile.svg" style={{ width: '100%' }} />
-                    <div className="text-uppercase aksel_news-main__category">{news.category}</div>
+                    <div className="text-uppercase news-category">{news.category}</div>
                 </div>
                 <Link to={'/news-details/' + news.slug} className='item-title'>
                     <h4 className="aksel_news-main__title">{news.title}</h4>
@@ -17,11 +18,11 @@ const OneNews = ({ news }) => {
                         <img alt="#" src="../image/page_1_news_author-profile.svg" />
                     </div>
                     <div className="col-lg-10 col-sm-12">
-                        <h5>{news.author}</h5>
+                        <h5 className='author-name'>{news.author}</h5>
                         <div className="d-flex" style={{ marginTop: '15px' }}>
-                            <p className="aksel_news-main__author__time-date">{news.time_read}</p>
+                            <p>{news.timeRead}</p>
                             <img alt="#" src="../image/page_1_news_dot.svg" style={{ marginLeft: '6px', marginRight: '6px' }} />
-                            <p className="aksel_news-main__author__time-date">{news.date}</p>
+                            <p>{news.date}</p>
                         </div>
                     </div>
                 </div>
