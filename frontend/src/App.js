@@ -47,8 +47,8 @@ import Page8Related from './components/contentBlocks/page8News/index.jsx';
 
 import Stories from './components/contentBlocks/page10Stories';
 
-import Categories from './components/contentBlocks/page11_categories';
-import Page115Projects from './components/contentBlocks/page11_projects';
+import Categories from './components/contentBlocks/page11Categories';
+import Page115Projects from './components/contentBlocks/page11Projects';
 
 import ChangePasswordPage from './components/contentBlocks/ChangePassword';
 
@@ -69,18 +69,7 @@ import { LatestNews_07 } from './components/pages/07_LatestNews';
 import { NewsDetails_08 } from './components/pages/08_NewsDetails';
 import { TeamMember_09 } from './components/pages/09_TeamMember';
 import { SuccessProjectStory_10 } from './components/pages/10_SuccessProject';
-
-const ProjectCategories_11 = () => { // page 11
-  return (
-    <section>
-      <Header />
-      <Categories />
-      <Page115Projects />
-      <BecomeOurPremPartner />
-      <Footer />
-    </section>
-  )
-}
+import { ProjectCategories_11 } from './components/pages/11_ProjectCategories';
 
 const ChangePassword = () => { // change info about user
   return (

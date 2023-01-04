@@ -1,0 +1,28 @@
+﻿.categories-input {
+    width: 75%;
+    height: 67px;
+    border-radius: 8px;
+    border: 2px solid #D7D7D7;
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.categories-input:focus {
+    border: 2px solid gray;
+}
+
+.category-item {
+    max-width: 370px;
+}
+
+.categories__input__input::placeholder {
+    color: #ADADAE;
+}
+
+.category-img {
+    width: 90px;
+    height: 90px;
+}
