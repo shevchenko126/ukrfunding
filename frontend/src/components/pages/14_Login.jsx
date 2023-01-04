@@ -1,12 +1,12 @@
 import Header from '../Header';
-import RegisterPage from '../contentBlocks/Register';
+import LoginPage from '../contentBlocks/Login';
 import Footer from '../Footer';
 
-export const Register = () => { // page 13
+export const Login = () => { // page 14
     return (
         <section>
             <Header />
-            <RegisterPage />
+            <LoginPage />
             <Footer />
         </section>
     );

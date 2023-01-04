@@ -50,9 +50,9 @@ import Stories from './components/contentBlocks/page10Stories';
 import Categories from './components/contentBlocks/page11Categories';
 import Page115Projects from './components/contentBlocks/page11Projects';
 
-import RegisterPage from './components/contentBlocks/register';
+import RegisterPage from './components/contentBlocks/Register';
 
-import LoginPage from './components/contentBlocks/login';
+import LoginPage from './components/contentBlocks/Login';
 
 import FormAddProject from './components/contentBlocks/form_add_project';
 
@@ -70,16 +70,7 @@ import { SuccessProjectStory_10 } from './components/pages/10_SuccessProject';
 import { ProjectCategories_11 } from './components/pages/11_ProjectCategories';
 import { ChangePassword } from './components/pages/12_ChangePassword';
 import { Register } from './components/pages/13_Register';
-
-const Login = () => { // login page
-  return (
-    <section>
-      <Header />
-      <LoginPage />
-      <Footer />
-    </section>
-  )
-};
+import { Login } from './components/pages/14_Login';
 
 const AddProject = () => { // add project form page // ADD STYLES TO PAGE
   return (
