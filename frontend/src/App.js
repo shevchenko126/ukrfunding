@@ -54,7 +54,7 @@ import RegisterPage from './components/contentBlocks/Register';
 
 import LoginPage from './components/contentBlocks/Login';
 
-import FormAddProject from './components/contentBlocks/form_add_project';
+import FormAddProject from './components/contentBlocks/FormAddProject';
 
 /* Pages */
 import { HomePage_01 } from './components/pages/01_HomePage';
@@ -71,16 +71,8 @@ import { ProjectCategories_11 } from './components/pages/11_ProjectCategories';
 import { ChangePassword } from './components/pages/12_ChangePassword';
 import { Register } from './components/pages/13_Register';
 import { Login } from './components/pages/14_Login';
-
-const AddProject = () => { // add project form page // ADD STYLES TO PAGE
-  return (
-    <section>
-      <Header />
-      <FormAddProject />
-      <Footer />
-    </section>
-  )
-};
+import { AddProject } from './components/pages/15_AddProject';
+import { PageNotFound } from './components/pages/16_PageNotFound';
 
 function App() {
   return (
@@ -102,7 +94,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/add-project" element={<AddProject />} />
-          <Route path="*" />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </div>

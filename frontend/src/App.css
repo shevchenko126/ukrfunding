@@ -189,3 +189,8 @@ button:hover {
 .button-bg-pink-text-white:hover {
     box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
 }
+
+.btn-back {
+    height: 60px;
+    width: 200px;
+}
