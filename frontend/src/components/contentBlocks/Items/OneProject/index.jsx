@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const OneProject = ({ project, col }) => {
@@ -7,7 +8,7 @@ const OneProject = ({ project, col }) => {
                 <div className="project-img"></div>
                 <div className="m-3 text-success item-category">{project.category}</div>
                 <h4 className="m-3">
-                    <a href={'/project-details/' + project.title} className="item-title">{project.title}</a>
+                    <Link to={'/project-details/' + project.slug} className="item-title">{project.title}</Link>
                 </h4>
                 <div className="m-3 progress">
                     <div className="progress-bar" style={{ width: project.progress }}></div>

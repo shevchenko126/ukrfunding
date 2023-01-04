@@ -22,6 +22,7 @@ export const HomePage_01 = () => {
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '1bvnty',
         },
         {
             category: 'design',
@@ -32,6 +33,7 @@ export const HomePage_01 = () => {
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '1bvnty',
         },
         {
             category: 'technnology',
@@ -42,6 +44,7 @@ export const HomePage_01 = () => {
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '1bvnty',
         },
         {
             category: 'technnology',
@@ -52,6 +55,7 @@ export const HomePage_01 = () => {
             author: 'Maren George',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '1bvnty',
         },
     ];
 

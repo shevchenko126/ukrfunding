@@ -18,6 +18,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -28,6 +29,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -38,6 +40,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
 
         {
@@ -49,6 +52,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -59,6 +63,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -69,6 +74,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
 
         {
@@ -80,6 +86,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -90,6 +97,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -100,6 +108,7 @@ export const Project3Col_04 = () => { // page 4
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
     ];
 

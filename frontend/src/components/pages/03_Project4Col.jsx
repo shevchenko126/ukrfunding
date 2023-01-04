@@ -17,6 +17,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -27,6 +28,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -37,6 +39,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -47,6 +50,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Maren George',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
 
         {
@@ -58,6 +62,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -68,6 +73,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -78,6 +84,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -88,6 +95,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Maren George',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
 
         {
@@ -99,6 +107,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Cheyenne Curtis',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -109,6 +118,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Ahmad Schleifer',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -119,6 +129,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Skylar Gouse',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
         {
             category: 'technnology',
@@ -129,6 +140,7 @@ export const Project4Col_03 = () => { // page 3
             author: 'Maren George',
             campaign: '12 Campaign',
             location: 'New York, London',
+            slug: '123fs',
         },
     ];
 

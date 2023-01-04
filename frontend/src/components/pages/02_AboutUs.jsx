@@ -18,6 +18,7 @@ export const AboutUs_02 = () => { // page 2
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '123fs',
         },
         {
             category: 'business',
@@ -26,6 +27,7 @@ export const AboutUs_02 = () => { // page 2
             author: 'Hawkins Junior',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '123fs',
         },
         {
             category: 'design',
@@ -34,6 +36,7 @@ export const AboutUs_02 = () => { // page 2
             author: 'Melinda Humbles',
             time_read: '24min read',
             date: 'November 21th, 2020',
+            slug: '123fs',
         },
     ];
 
