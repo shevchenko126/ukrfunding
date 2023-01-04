@@ -50,8 +50,6 @@ import Stories from './components/contentBlocks/page10Stories';
 import Categories from './components/contentBlocks/page11Categories';
 import Page115Projects from './components/contentBlocks/page11Projects';
 
-import ChangePasswordPage from './components/contentBlocks/ChangePassword';
-
 import RegisterPage from './components/contentBlocks/register';
 
 import LoginPage from './components/contentBlocks/login';
@@ -70,16 +68,7 @@ import { NewsDetails_08 } from './components/pages/08_NewsDetails';
 import { TeamMember_09 } from './components/pages/09_TeamMember';
 import { SuccessProjectStory_10 } from './components/pages/10_SuccessProject';
 import { ProjectCategories_11 } from './components/pages/11_ProjectCategories';
-
-const ChangePassword = () => { // change info about user
-  return (
-    <section>
-      <Header />
-      <ChangePasswordPage />
-      <Footer />
-    </section>
-  )
-};
+import { ChangePassword_12 } from './components/pages/12_ChangePassword';
 
 const Register = () => { // register page
   return (
@@ -127,7 +116,7 @@ function App() {
           <Route path="/team-members" element={<TeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
-          <Route path="/change-password" element={<ChangePassword />} />
+          <Route path="/change-password" element={<ChangePassword_12 />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/add-project" element={<AddProject />} />
