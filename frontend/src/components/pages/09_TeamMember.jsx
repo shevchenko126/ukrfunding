@@ -5,11 +5,11 @@ import Footer from '../Footer';
 
 export const TeamMember_09 = () => { // page 9
     return (
-        <secion>
+        <section>
             <Header />
             <TeamMembers_09 /> {/* create hover effect ( show facebbok, twitter ) */}
             <DontMiss />
             <Footer />
-        </secion>
+        </section>
     );
 };

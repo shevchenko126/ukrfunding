@@ -1,71 +1,7 @@
 .team {
-    min-height: 210px;
     background: rgb(27, 130, 113);
 }
 
-.team__title {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-}
-
-.team__tetxt {
-    max-width: 805px;
-    font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 19px;
-    margin: auto;
-}
-
-.team_members__header {
-    margin-top: 150px;
-}
-
-.team_members__header__header {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #1B8271;
-    margin-top: 50px;
-}
-
-.team_members__header__title {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-}
-
-.team_members__header__text {
-    font-family: 'Poppins';
-    line-height: 28px;
-    max-width: 795px;
-}
-
-.team_members__main {
-    max-width: 1620px;
-}
-
-.team_members__main__profile {
-    max-width: 100%;
-    margin-top: 50px;
-}
-.team_members__main__profile:hover {
-    cursor: pointer;
-}
-
-.team_members__main__name {
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 15px;
-}
-
-.team_members__main__job {
-    font-family: 'Open Sans';
-    line-height: 28px;
-    color: #717579;
+.team-text {
+    max-width: 800px;
 }
