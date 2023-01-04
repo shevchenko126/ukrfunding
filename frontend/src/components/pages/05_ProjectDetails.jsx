@@ -19,6 +19,7 @@ export const ProjectDetails_05 = () => { // page 5
             progress: 90,
             raised: 'Total Raised $ 5,345',
             daysLeft: '45 Days left',
+            slug: '321dsf',
         },
         {
             title: 'Mirror One | Your life at a glance',
@@ -30,6 +31,7 @@ export const ProjectDetails_05 = () => { // page 5
             progress: 10,
             raised: 'Total Raised $ 5,345',
             daysLeft: '45 Days left',
+            slug: '321dsf',
         },
         {
             title: 'Mirror One | Your life at a glance',
@@ -41,6 +43,7 @@ export const ProjectDetails_05 = () => { // page 5
             progress: 50,
             raised: 'Total Raised $ 5,345',
             daysLeft: '45 Days left',
+            slug: '321dsf',
         },
     ];
 

@@ -1,4 +1,5 @@
 import './index.css';
+import { Link } from 'react-router-dom';
 
 const OneProjectModed = ({ project }) => {
     return (
@@ -6,7 +7,7 @@ const OneProjectModed = ({ project }) => {
             <div className="item px-4" style={{ maxWidth: '500px' }}>
                 <img src="/image/page5_project_background.svg" className="mt-4 img-fluid" />
                 <h4 className="mt-4">
-                    <a className='project-title' href={'/project-details/' + project.title}>{project.title}</a></h4>
+                    <Link className='project-title' to={'/project-details/' + project.slug}>{project.title}</Link></h4>
                 <p className="mt-4">{project.description}</p>
                 <div className="row mt-4">
                     <div className="col-lg-2 col-md-12">

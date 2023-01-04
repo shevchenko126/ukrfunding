@@ -11,7 +11,7 @@ export const ProjectCategories_11 = () => { // page 11
             title: 'Mirror One | Your life at a glance',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             author: 'Gustavo Mango',
-            /* rate: '' */
+            slug: '32fdgfd',
             campaign: '12 Campaign',
             place: 'New York, London',
             progress: '4',
@@ -22,7 +22,7 @@ export const ProjectCategories_11 = () => { // page 11
             title: 'Mirror One | Your life at a glance',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             author: 'Roger Bergson',
-            /* rate: '' */
+            slug: '32fdgfd',
             campaign: '12 Campaign',
             place: 'New York, London',
             progress: '94',
@@ -33,7 +33,7 @@ export const ProjectCategories_11 = () => { // page 11
             title: 'Mirror One | Your life at a glance',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip',
             author: 'James Westervelt',
-            /* rate: '' */
+            slug: '32fdgfd',
             campaign: '12 Campaign',
             place: 'New York, London',
             progress: '32',
