@@ -45,8 +45,6 @@ import NewsDetails from './components/contentBlocks/page8NewsDetails';
 import WriteComment from './components/contentBlocks/page8WriteComment';
 import Page8Related from './components/contentBlocks/page8News/index.jsx';
 
-import TeamMember_09 from './components/contentBlocks/page9_team';
-
 import Stories from './components/contentBlocks/page10_stories';
 
 import Categories from './components/contentBlocks/page11_categories';
@@ -69,17 +67,7 @@ import { ProjectDetails_05 } from './components/pages/05_ProjectDetails';
 import { ContactUs_06 } from './components/pages/06_ContactUs';
 import { LatestNews_07 } from './components/pages/07_LatestNews';
 import { NewsDetails_08 } from './components/pages/08_NewsDetails';
-
-const AkcelTeamMember_09 = () => { // page 9
-  return (
-    <secion>
-      <Header />
-      <TeamMember_09 /> {/* create hover effect ( show facebbok, twitter ) */}
-      <DontMiss />
-      <Footer />
-    </secion>
-  )
-}
+import { TeamMember_09 } from './components/pages/09_TeamMember';
 
 const SuccessProjectStory_10 = () => { // page 10
   return (
@@ -157,7 +145,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
           <Route path="/news-details/:news" element={<NewsDetails_08 />} />
-          <Route path="/team-member" element={<AkcelTeamMember_09 />} />
+          <Route path="/team-members" element={<TeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
           <Route path="/change-password" element={<ChangePassword />} />
