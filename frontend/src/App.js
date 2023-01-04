@@ -68,21 +68,7 @@ import { Project3Col_04 } from './components/pages/04_Project3Col';
 import { ProjectDetails_05 } from './components/pages/05_ProjectDetails';
 import { ContactUs_06 } from './components/pages/06_ContactUs';
 import { LatestNews_07 } from './components/pages/07_LatestNews';
-
-
-const NewsDetails_08 = () => { // page 8
-  return (
-    <section>
-      <Header />
-      <NewsDetails />
-      <WriteComment />
-      <Page8Related />
-      <div style={{ marginTop: '100px' }}>
-        <Footer />
-      </div>
-    </section>
-  )
-}
+import { NewsDetails_08 } from './components/pages/08_NewsDetails';
 
 const AkcelTeamMember_09 = () => { // page 9
   return (

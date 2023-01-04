@@ -3,44 +3,10 @@
     background: #C4C4C4;
 }
 
-.news_details {
-    max-width: 1350px;
-    margin-top: 70px auto;
-}
-
-.news_details__header {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 75px;
-}
-
-.news_details__header__left__name {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-}
-
-.news_details__header__left__bottom {
-    margin: 25px 0 0 0;
-}
-
-.news_details__header__left__bottom__text {
-    font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 19px;
-    color: #717579;
-}
-
-.news_details__header__left__bottom__dot {
-    margin: 1px 10px 0 10px;
-}
-
-.news_details__header__right__logo {
+.btn-share {
     width: 180px;
     height: 55px;
-    border: 1px solid #E4F0F7;
+    border: 2px solid #E4F0F7;
     border-radius: 14px;
     background: #FFFFFF;
     display: flex;
@@ -49,16 +15,8 @@
     margin-top: 7px;
 }
 
-.news_details__header__right__logo__text {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #121e31;
-    padding: 15px 15px 15px 10px;
-}
 
-.news_details__header__right__whatsapp {
+.share-viber {
     border: none;
     width: 68px;
     height: 68px;
@@ -66,44 +24,17 @@
     border-radius: 14px;
 }
 
-.news_details__title {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #06040A;
-    margin-top: 100px;
-}
-
-.news_details__title-section {
-	font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #06040A;
-    margin-top: 100px;
-}
-
-.news_details__text {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #121e31;
-    margin-top: 28px;
-}
-
-.news_details__comment {
+.comment-comment {
     max-width: 1267px;
     height: 300px;
     margin: 90px 0 0 auto;
 }
 
-.news_details__comment__author-text {
+.comment {
     margin-left: 4%;
 }
 
-.news_details__comment__author-text__author {
+.comment-title {
     font-family: 'Lora';
     font-weight: 500;
     font-size: 40px;
@@ -112,9 +43,8 @@
     margin-top: 40px;
 }
 
-.news_details__comment__author-text__text {
+.comment-text {
     font-family: 'Lora';
-    font-weight: 400;
     font-size: 24px;
     line-height: 46px;
     margin-top: 40px;
@@ -127,25 +57,16 @@
     margin-top: 57px;
 }
 
-.news_details__header__right-col {
+.btn-share-col {
     display: flex;
     justify-content: end;
 }
 
-.news_details__header__right__logo:hover,
-.news_details__header__right__whatsapp:hover {
-    border: 1px solid rgba(156, 132, 179, 0.7);
-}
-.news_details__header__right__logo:active,
-.news_details__header__right__whatsapp:active {
-    background: rgba(87, 87, 87, 0.2);
-}
-
 @media (max-width: 991px) {
-    .news_details__header__right-col {
+    .btn-share-col {
         justify-content: start;
     }
-    .news_details__header__right__whatsapp {
+    .share-viber {
         margin-top: 10px;
     }
 }
