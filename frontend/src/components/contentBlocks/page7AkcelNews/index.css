@@ -22,6 +22,10 @@
     font-size: 18px;
     transition: 0.3s;
 }
+.filter-input:focus {
+    outline: none;
+    border: 2px solid gray;
+}
 
 .filters__right-col {
     justify-content: end;

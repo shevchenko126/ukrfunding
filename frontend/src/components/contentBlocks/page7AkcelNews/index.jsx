@@ -73,7 +73,7 @@ const AkcelNews_page7 = (props) => {
                 </div>
             </article>
             <div className='text-center'>
-                <button className='mt-5 text-uppercase text-white filter_category__btnn'>load more</button>
+                <button className='mt-5 text-uppercase text-white button-bg-pink-text-white'>load more</button>
             </div>
         </section>
     )
