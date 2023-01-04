@@ -45,7 +45,7 @@ import NewsDetails from './components/contentBlocks/page8NewsDetails';
 import WriteComment from './components/contentBlocks/page8WriteComment';
 import Page8Related from './components/contentBlocks/page8News/index.jsx';
 
-import Stories from './components/contentBlocks/page10_stories';
+import Stories from './components/contentBlocks/page10Stories';
 
 import Categories from './components/contentBlocks/page11_categories';
 import Page115Projects from './components/contentBlocks/page11_projects';
@@ -68,17 +68,7 @@ import { ContactUs_06 } from './components/pages/06_ContactUs';
 import { LatestNews_07 } from './components/pages/07_LatestNews';
 import { NewsDetails_08 } from './components/pages/08_NewsDetails';
 import { TeamMember_09 } from './components/pages/09_TeamMember';
-
-const SuccessProjectStory_10 = () => { // page 10
-  return (
-    <section>
-      <Header />
-      <Stories />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
+import { SuccessProjectStory_10 } from './components/pages/10_SuccessProject';
 
 const ProjectCategories_11 = () => { // page 11
   return (

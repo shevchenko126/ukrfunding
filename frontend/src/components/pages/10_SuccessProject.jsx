@@ -1,13 +1,13 @@
 import Header from '../Header';
-import TeamMembers_09 from '../contentBlocks/page9Team';
+import Stories from '../contentBlocks/page10Stories';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer';
 
-export const TeamMember_09 = () => { // page 9
+export const SuccessProjectStory_10 = () => { // page 10
     return (
         <section>
             <Header />
-            <TeamMembers_09 /> {/* create hover effect ( show facebbok, twitter ) */}
+            <Stories />
             <DontMiss />
             <Footer />
         </section>
