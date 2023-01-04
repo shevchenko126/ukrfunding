@@ -67,18 +67,8 @@ import { Project4Col_03 } from './components/pages/03_Project4Col';
 import { Project3Col_04 } from './components/pages/04_Project3Col';
 import { ProjectDetails_05 } from './components/pages/05_ProjectDetails';
 import { ContactUs_06 } from './components/pages/06_ContactUs';
+import { LatestNews_07 } from './components/pages/07_LatestNews';
 
-const LatestNews_07 = () => { // page 7
-  return (
-    <section>
-      <Header />
-      <AkcelNews_page7 />
-      <OurPartnership />
-      <DontMiss />
-      <Footer />
-    </section>
-  )
-}
 
 const NewsDetails_08 = () => { // page 8
   return (
