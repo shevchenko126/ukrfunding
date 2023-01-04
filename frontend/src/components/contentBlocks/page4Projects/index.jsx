@@ -6,7 +6,7 @@ const Page4Projects = (props) => {
         <section>
             <div className='row'>
                 {props.projects.map((project) => (
-                    <OneProject col='col-4' project={project} />
+                    <OneProject col='4' project={project} />
                 ))}
             </div>
             <div className='text-center'>

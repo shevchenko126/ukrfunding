@@ -1,3 +1,5 @@
+import { Link } from 'react'
+
 const OneNews = ({ news }) => {
     return (
         <article className="col-xxl-4 mt-5 d-flex justify-content-center">

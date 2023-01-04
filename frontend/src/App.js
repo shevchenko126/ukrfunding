@@ -178,6 +178,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/add-project" element={<AddProject />} />
+          <Route path="*" />
         </Routes>
       </Router>
     </div>

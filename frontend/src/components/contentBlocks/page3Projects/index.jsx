@@ -7,7 +7,7 @@ const Page3Projects = (props) => {
         <div className="container recent_projects">
             <div className="row mt-5 mb-5">
                 {props.projects.map((project) => (
-                    <OneProject col='col-3' project={project} />
+                    <OneProject col='3' project={project} />
                 ))}
             </div>
             <div className='d-flex justify-content-center'>
