@@ -32,7 +32,7 @@ export const NewsDetails_08 = () => { // page 8
             author: 'Melinda Humbles',
             timeRead: '24min read',
             date: 'November 21th, 2020',
-            slug: 'dgfvg321gf',
+            slug: 'j768',
         },
     ];
 
