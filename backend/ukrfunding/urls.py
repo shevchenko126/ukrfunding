@@ -21,6 +21,8 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 from account.views import ChangePassword
+from account.views import PasswordRecoveryRequest
+from account.views import PasswordChangeRedirect
 
 
 urlpatterns = [
@@ -29,5 +31,6 @@ urlpatterns = [
     path('payments/', include('payments.urls')),
     path('accounts/', include('account.urls')),
     path('changepassword/',ChangePassword.as_view()),
-
+    path('changepassword/recoveryrequest', PasswordRecoveryRequest.as_view()),
+    path('changepassword/passchange', PasswordChangeRedirect.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
