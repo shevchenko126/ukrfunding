@@ -22,7 +22,7 @@ export const Projects = () => { // page 3
             slug: '123fs',
         },
         {
-            category: 'medical',
+            category: 'technology',
             title: 'Beautiful color for designers & students',
             progress: '45%',
             raised: '5,345',
@@ -42,7 +42,7 @@ export const Projects = () => { // page 3
             slug: '123fs',
         },
         {
-            category: 'medical',
+            category: 'business',
             title: 'Beautiful color for designers & students',
             progress: '45%',
             raised: '5,345',
@@ -52,7 +52,7 @@ export const Projects = () => { // page 3
             slug: '123fs',
         },
         {
-            category: 'medical',
+            category: 'fashion',
             title: 'Beautiful color for designers & students',
             progress: '45%',
             raised: '5,345',
@@ -62,7 +62,7 @@ export const Projects = () => { // page 3
             slug: '123fs',
         },
         {
-            category: 'medical',
+            category: 'fashion',
             title: 'Beautiful color for designers & students',
             progress: '45%',
             raised: '5,345',
@@ -76,16 +76,31 @@ export const Projects = () => { // page 3
     const [inputValue, setInputValue] = useState('');
     const [projects, setProjects] = useState(projectsAll);
     const [filteredProjects, setFilteredProjects] = useState(projects);
+    const [checkboxes, setCheckboxes] = useState({
+        technologyChecked: false,
+        medicalChecked: false,
+        businessChecked: false,
+        fasionChecked: false,
+    });
+    const [filters, setFilters] = useState(['all']);
 
     useEffect(() => {
         let data = projects;
-
         if (inputValue) {
             data = data.filter((project) => project.title.toLowerCase().includes(inputValue.toLowerCase()));
         };
-
         setFilteredProjects(data)
     }, [inputValue]);
+
+    useEffect(() => {
+        setFilters([
+            checkboxes.technologyChecked && 'technology',
+            checkboxes.medicalChecked && 'medical',
+            checkboxes.businessChecked && 'business',
+            checkboxes.fasionChecked && 'fashion',
+        ]);
+
+    }, [checkboxes, filteredProjects]);
 
     return (
         <section>
@@ -93,7 +108,27 @@ export const Projects = () => { // page 3
             <div className='container' style={{ maxWidth: '1620px' }}>
                 <div className='row'>
                     <div className='col-xxl-3 col-lg-6 col-md-12'>
-                        <FilterCategory />
+                        <FilterCategory
+                            technologyChecked={checkboxes.technologyChecked}
+                            setTechnologyCheckbox={() => setCheckboxes({ ...checkboxes, technologyChecked: !checkboxes.technologyChecked })}
+
+                            medicalChecked={checkboxes.medicalChecked}
+                            setMedicalCheckbox={() => setCheckboxes({ ...checkboxes, medicalChecked: !checkboxes.medicalChecked })}
+
+                            businessChecked={checkboxes.businessChecked}
+                            setBusinessCheckbox={() => setCheckboxes({ ...checkboxes, businessChecked: !checkboxes.businessChecked })}
+
+                            fasionChecked={checkboxes.fasionChecked}
+                            setFashionCheckbox={() => setCheckboxes({ ...checkboxes, fasionChecked: !checkboxes.fasionChecked })}
+
+                            onClick={() => {
+                                let data = projects;
+                                if (checkboxes.technologyChecked || checkboxes.businessChecked || checkboxes.fasionChecked || checkboxes.medicalChecked) {
+                                    data = data.filter((project) => [...filters].includes(project.category))
+                                }
+                                setFilteredProjects(data)
+                            }}
+                        />
                         <Donate />
                     </div>
                     <div className='col-xxl-9 col-lg-6 col-md-12 px-5'>
