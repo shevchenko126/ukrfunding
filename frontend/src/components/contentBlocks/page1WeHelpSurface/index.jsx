@@ -9,7 +9,7 @@ const WeHelpSurface = () => {
                         <img src="/image/page1_we_help_surface_panel.svg" alt="" />
                         <h4 className="text-success mx-3">Crowdfunding</h4>
                     </div>
-                    <div className='title-tile'>
+                    <div className='title-title'>
                         <h1 className="mt-3">We Help Surface</h1>
                         <h2 className="mt-1">Innovations In Technology</h2>
                         <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
