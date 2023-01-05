@@ -194,3 +194,16 @@ button:hover {
     height: 60px;
     width: 200px;
 }
+
+/* Centering elements */
+
+
+@media(max-width: 991px) {
+    .title, .btn-center {
+        display: flex;
+        justify-content: center;
+    }
+    .title-tile {
+        text-align: center;
+    }
+}

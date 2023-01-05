@@ -10,11 +10,7 @@
     .help-panel {
         display: none;
     }
-    .title, .btn-center {
-        display: flex;
-        justify-content: center;
-    }
-    .title-tile, .partners {
+    .partners {
         text-align: center;
     }
     .logotypes {
