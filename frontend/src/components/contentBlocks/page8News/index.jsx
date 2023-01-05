@@ -4,7 +4,7 @@ const Page8RelatedNews = (props) => {
 
     return (
         <section className='container'>
-            <h2>Related Articles</h2>
+            <h2 className='title-title'>Related Articles</h2>
             <div>
                 <section className="row">
                     {props.news.map((news) => (
