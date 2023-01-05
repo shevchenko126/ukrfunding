@@ -15,11 +15,11 @@ const OneProject = ({ project, col }) => {
                 </div>
                 <div className="d-flex m-3 mt-4">
                     <img alt="" src="/image/page1_recent_projects_coins.svg" />
-                    <p className="mx-3 my-0">{project.raised}</p>
+                    <p className="mx-3 my-0">Total raised $ {project.raised}</p>
                 </div>
                 <div className="d-flex align-items-center m-3 mt-4">
                     <img alt="" src="/image/page1_recent_projects_calendar.svg" />
-                    <p className="mx-3 my-0">{project.daysLeft}</p>
+                    <p className="mx-3 my-0">Days left {project.daysLeft}</p>
                 </div>
                 <div className="pb-4">
                     <div className="d-flex">

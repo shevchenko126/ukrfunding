@@ -31,11 +31,11 @@ function App() {
           <Route path="/projects" element={<Project3Col_04 />} />
           <Route path="/project/:project" element={<ProjectDetails_05 />} />
           <Route path="/contact-us" element={<ContactUs_06 />} />
-          <Route path="/latest-news" element={<LatestNews_07 />} />
+          <Route path="/news" element={<LatestNews_07 />} />
           <Route path="/news/:news" element={<NewsDetails_08 />} />
           <Route path="/team-members" element={<TeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
-          <Route path="/project-categories" element={<ProjectCategories_11 />} />
+          <Route path="/categories" element={<ProjectCategories_11 />} />
           <Route path="/change-password" element={<ChangePassword />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
