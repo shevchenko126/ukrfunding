@@ -205,5 +205,6 @@ button:hover {
     }
     .title-title {
         text-align: center;
+        margin: 0 auto;
     }
 }

@@ -5,11 +5,11 @@ const WhoWeAre = () => {
 		<div className="container who_we_are">
 			<div className="row">
 				<div className="col-lg-8 col-md-12">
-					<div className="mt-3 mb-3 d-flex">
+					<div className="mt-3 mb-3 d-flex title">
 						<img alt="#" src="../image/page2_who_we_are_line.svg" />
 						<h4 className="text-success mx-3">Who We Are</h4>
 					</div>
-					<div style={{ maxWidth: '669px' }}>
+					<div className='title-title' style={{ maxWidth: '669px' }}>
 						<h2 className="mb-4 who-we-are-title">Experienced more than 25 Years in Crowdfunding</h2>
 						<p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
 					</div>
