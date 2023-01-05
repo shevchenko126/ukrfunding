@@ -1,10 +1,10 @@
 import Header from '../Header';
-import NewsDetails from '../contentBlocks/page8NewsDetails';
+import NewsDetailsBlock from '../contentBlocks/page8NewsDetails';
 import WriteComment from '../contentBlocks/page8WriteComment';
 import Page8RelatedNews from '../contentBlocks/page8News/index.jsx';
 import Footer from '../Footer';
 
-export const NewsDetails_08 = () => { // page 8
+export const NewsDetails = () => { // page 7
 
     const news = [
         {
@@ -39,7 +39,7 @@ export const NewsDetails_08 = () => { // page 8
     return (
         <section>
             <Header />
-            <NewsDetails />
+            <NewsDetailsBlock />
             <WriteComment />
             <Page8RelatedNews news={news} />
             <div style={{ marginTop: '100px' }}>

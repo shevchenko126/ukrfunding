@@ -6,7 +6,7 @@ import Page5Projects from '../contentBlocks/page5Projects';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer';
 
-export const ProjectDetails_05 = () => { // page 5
+export const ProjectDetails = () => { // page 4
 
     const projects = [
         {

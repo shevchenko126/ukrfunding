@@ -4,7 +4,7 @@ import Page115Projects from '../contentBlocks/page11Projects';
 import BecomeOurPremPartner from '../contentBlocks/BecomeOurPremiumPartner';
 import Footer from '../Footer';
 
-export const ProjectCategories_11 = () => { // page 11
+export const ProjectCategories = () => { // page 10
 
     const projects = [
         {

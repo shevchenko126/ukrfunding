@@ -2,7 +2,7 @@ import './index.css';
 
 const ChangePasswordPage = () => {
     return (
-        <div className="container p-0">
+        <div className="container">
             <form className='change' onSubmit={(event) => {
                 event.preventDefault();
                 alert("successfuly changed");

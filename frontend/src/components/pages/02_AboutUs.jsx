@@ -8,7 +8,7 @@ import AkselNews from '../contentBlocks/AkselNews';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer';
 
-export const AboutUs_02 = () => { // page 2
+export const AboutUs = () => { // page 2
 
     const news = [
         {

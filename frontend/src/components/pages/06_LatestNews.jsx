@@ -4,7 +4,7 @@ import AkcelNews_page7 from '../contentBlocks/page7AkcelNews';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer';
 
-export const LatestNews_07 = () => { // page 7
+export const LatestNews = () => { // page 6
 
     const newsAll = [
         {

@@ -3,7 +3,7 @@ import Stories from '../contentBlocks/page10Stories';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer';
 
-export const SuccessProjectStory_10 = () => { // page 9
+export const SuccessProjectStory = () => { // page 9
     return (
         <section>
             <Header />

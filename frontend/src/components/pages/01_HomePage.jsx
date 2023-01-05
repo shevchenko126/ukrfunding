@@ -10,7 +10,7 @@ import AkselNews from '../contentBlocks/AkselNews';
 import DontMiss from '../contentBlocks/DontMiss';
 import Footer from '../Footer/index';
 
-export const HomePage_01 = () => {
+export const HomePage = () => { // page 1
 
     const projects = [
         {
