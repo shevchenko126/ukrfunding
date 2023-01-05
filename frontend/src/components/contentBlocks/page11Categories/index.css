@@ -26,3 +26,10 @@
     width: 90px;
     height: 90px;
 }
+
+@media(max-width: 400px) {
+    .categoriess-title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}

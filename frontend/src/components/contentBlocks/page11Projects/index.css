@@ -12,7 +12,15 @@
 
 @media(max-width: 991px) {
     .btn-col {
-        justify-content: start;
+        justify-content: center;
         margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .projects-title {
+        font-size: 35px;
+        line-height: 45px;
     }
 }
