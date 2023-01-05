@@ -1,10 +1,4 @@
-﻿
-
-
-input:hover {
-    cursor: pointer;
-}
-.register {
+﻿.register {
     max-width: 600px;
     background: white;
     border-radius: 14px;

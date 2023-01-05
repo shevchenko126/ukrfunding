@@ -1,12 +1,12 @@
 import Header from '../Header';
-import FormAddProject from '../contentBlocks/FormAddProject';
+import AddProjectBlock from '../contentBlocks/AddProject';
 import Footer from '../Footer';
 
 export const AddProject = () => { // page 14
     return (
         <section>
             <Header />
-            <FormAddProject />
+            <AddProjectBlock />
             <Footer />
         </section>
     );

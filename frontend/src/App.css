@@ -91,6 +91,8 @@ button:hover {
    border: 2px solid black; 
 }
 
+/* Items */
+
 .progress {
     height: 12px;
     border: 1px solid #D7D7D7;
