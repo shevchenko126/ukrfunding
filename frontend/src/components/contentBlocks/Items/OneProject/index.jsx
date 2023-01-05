@@ -29,13 +29,8 @@ const OneProject = ({ project, col }) => {
                         <div className='col-lg-10 col-sm-12 mt-4'>
                             <div className="d-flex">
                                 <h5 className="mx-4">{project.author}</h5>
-                                <img alt="" src="/image/page1_recent_projects_star.svg" className="mx-1" />
-                                <img alt="" src="/image/page1_recent_projects_star.svg" className="mx-1" />
-                                <img alt="" src="/image/page1_recent_projects_star.svg" className="mx-1" />
                             </div>
-                            <div className="d-flex mx-4 mt-3">
-                                <div className="text-success author-campaign">{project.campaign}</div>
-                                <img alt="" src="/image/page1_recent_projects_dot.svg" className="mx-3" />
+                            <div className="d-flex mx-4">
                                 <div className="author-city">{project.location}</div>
                             </div>
                         </div>

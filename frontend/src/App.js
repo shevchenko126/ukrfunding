@@ -1,60 +1,6 @@
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom"
-
-import Header from './components/Header';
-import WeHelpSurface from './components/contentBlocks/page1WeHelpSurface';
-import Page1Categories from './components/contentBlocks/page1Categories';
-import TeamMember from './components/contentBlocks/page1MeetOur';
-import SuccessStory from './components/contentBlocks/page1SuccessStory';
-import OurPartnership from './components/contentBlocks/OurPartnership';
-import RecentProjects from './components/contentBlocks/page1RecentProjects';
-import Numbers from './components/contentBlocks/page1Numbers';
-import AkselNews from './components/contentBlocks/AkselNews';
-import DontMiss from './components/contentBlocks/DontMiss';
-import Footer from './components/Footer/index';
-
-import Details from './components/contentBlocks/page5ProjectDetails';
-import Page5Projects from './components/contentBlocks/page5Projects';
-import Support from './components/contentBlocks/page5SupportOtherProjects';
-import AboutProject from './components/contentBlocks/page5AboutProject';
-
-import About from './components/contentBlocks/page2AboutOurCompany';
-import WhoWeAre from './components/contentBlocks/page2WhoWeAre';
-import Fundraising from './components/contentBlocks/page2Fundraising';
-import Page2Categories from './components/contentBlocks/page2Categories';
-
-import HeaderModed from './components/contentBlocks/HeaderModed';
-import Page3Projects from './components/contentBlocks/page3Projects';
-
-import FilterCategory from './components/contentBlocks/page4FilterCategory';
-import Donate from './components/contentBlocks/page4Donate';
-import Page4Projects from './components/contentBlocks/page4Projects';
-
-import Contact from './components/contentBlocks/ContactUs';
-import BecomeOurPremPartner from './components/contentBlocks/BecomeOurPremiumPartner';
-
-import AkcelNews_page7 from './components/contentBlocks/page7AkcelNews';
-
-import NewsDetails from './components/contentBlocks/page8NewsDetails';
-import WriteComment from './components/contentBlocks/page8WriteComment';
-import Page8Related from './components/contentBlocks/page8News/index.jsx';
-
-import Stories from './components/contentBlocks/page10Stories';
-
-import Categories from './components/contentBlocks/page11Categories';
-import Page115Projects from './components/contentBlocks/page11Projects';
-
-import RegisterPage from './components/contentBlocks/Register';
-
-import LoginPage from './components/contentBlocks/Login';
-
-import FormAddProject from './components/contentBlocks/FormAddProject';
 
 /* Pages */
 import { HomePage_01 } from './components/pages/01_HomePage';
@@ -81,12 +27,12 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
           <Route path="/about-us" element={<AboutUs_02 />} />
-          <Route path="/projects-4-col" element={<Project4Col_03 />} />
-          <Route path="/projects-3-col" element={<Project3Col_04 />} />
-          <Route path="/project-details/:project" element={<ProjectDetails_05 />} />
+          {/* <Route path="/projects-4-col" element={<Project4Col_03 />} /> */}
+          <Route path="/projects" element={<Project3Col_04 />} />
+          <Route path="/project/:project" element={<ProjectDetails_05 />} />
           <Route path="/contact-us" element={<ContactUs_06 />} />
           <Route path="/latest-news" element={<LatestNews_07 />} />
-          <Route path="/news-details/:news" element={<NewsDetails_08 />} />
+          <Route path="/news/:news" element={<NewsDetails_08 />} />
           <Route path="/team-members" element={<TeamMember_09 />} />
           <Route path="/success-project" element={<SuccessProjectStory_10 />} />
           <Route path="/project-categories" element={<ProjectCategories_11 />} />
