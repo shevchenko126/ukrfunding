@@ -9,9 +9,9 @@ const LoginPage = () => {
 			}}>
 				<h3>Login</h3>
 				<h5 className="register-text" for="name">Name</h5>
-				<input className="register-input" id="name" name="name" placeholder="Write Your Name" type="text" min="5" max="30" />
+				<input className="input-login-register" id="name" name="name" placeholder="Write Your Name" type="text" min="5" max="30" />
 				<h5 className="register-text" for="password">Password</h5>
-				<input className="register-input" id="password" name="password" placeholder="Write Your Password" type="password" min="5" max="30" />
+				<input className="input-login-register" id="password" name="password" placeholder="Write Your Password" type="password" min="5" max="30" />
 				<div className="row align-items-center">
 					<div className="col-lg-6 col-sm-12 mt-3 d-flex align-items-center">
 						<input type="checkbox" className="register-checkbox" />

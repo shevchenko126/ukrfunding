@@ -194,8 +194,31 @@ button:hover {
     width: 200px;
 }
 
-/* Centering elements */
+/* Inputes */
 
+input:hover {
+    cursor: pointer;
+}
+
+.input-login-register {
+    width: 100%;
+    font-weight: 600;
+    padding: 18px 0 18px 10px;
+    margin-top: 18px;
+    background: #fbfbfb;
+    border: 2px solid #EEEEEE;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.input-login-register:focus {
+    outline: none;
+    border: 2px solid gray;
+}
+.input-login-register:hover {
+    border: 2px solid gray;
+}
+
+/* Centering elements */
 
 @media(max-width: 991px) {
     .title, .btn-center {
