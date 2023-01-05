@@ -31,8 +31,8 @@ function App() {
           <Route path="/contact" element={<ContactUs_06 />} />
           <Route path="/news" element={<LatestNews_07 />} />
           <Route path="/news/:news" element={<NewsDetails_08 />} />
-          <Route path="/team-members" element={<TeamMember_09 />} />
-          <Route path="/success-project" element={<SuccessProjectStory_10 />} />
+          <Route path="/team" element={<TeamMember_09 />} />
+          <Route path="/success-story" element={<SuccessProjectStory_10 />} />
           <Route path="/categories" element={<ProjectCategories_11 />} />
           <Route path="/change-password" element={<ChangePassword />} />
           <Route path="/register" element={<Register />} />

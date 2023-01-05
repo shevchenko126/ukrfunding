@@ -19,53 +19,35 @@ const Stories = () => {
                             <div className="col-lg-5 col-md-12 mt-5 d-flex story-profile">
                                 <img src='/image/page10_profile.svg' className='img-fluid' />
                             </div>
-                            <div className="col-lg-7 col-md-12 mt-5">
+                            <div className="col-lg-7 col-md-12 mt-5 title-title">
                                 <h3 style={{ marginTop: '35px' }}>Samcung Okulus Rivt PC - Powered VR  Gaming Headset</h3>
                                 <p className='mt-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit au</p>
-                                <h2 className='text-success mt-4'>$ 24,553,852.24</h2>
+                                <h2 className='text-success mt-4 total-founded'>$ 24,553,852.24</h2>
                                 <h5 className='mt-3'>Total funded</h5>
-                                <div className='d-flex mt-5'>
-                                    <img src='./image/page10_author.svg' />
-                                    <div>
-                                        <div className='d-flex'>
-                                            <h5 className='mx-3'>Hendric Anderson</h5>
-                                            <img src='/image/page5_project_star.svg' />
-                                            <img src='/image/page5_project_star.svg' className='mx-1' />
-                                            <img src='/image/page5_project_star.svg' />
-                                        </div>
-                                        <div className='d-flex mx-3 mt-2'>
-                                            <div className='author-campaign'>12 Campaign</div>
-                                            <img src='/image/page_8_dot.svg' className='mx-3' />
-                                            <div className='author-city'>New York, London</div>
-                                        </div>
+                                <div className='d-flex mt-5 title'>
+                                    <img src='/image/page10_author.svg' />
+                                    <div className='mx-3'>
+                                        <h5>Hendric Anderson</h5>
+                                        <div className='author-city text-start'>New York, London</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </article>
                 </div>
-                <div className='container success-story_main'>
+                <div className='container success-story_main title-title'>
                     <article className='success_story_main'>
                         <div className='row mt-4'>
                             <div className="col-lg-7 col-md-12 mt-5">
                                 <h3 style={{ marginTop: '35px' }}>Samcung Okulus Rivt PC - Powered VR  Gaming Headset</h3>
                                 <p className='mt-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit au</p>
-                                <h2 className='text-success mt-4'>$ 24,553,852.24</h2>
+                                <h2 className='text-success mt-4 total-founded'>$ 24,553,852.24</h2>
                                 <h5 className='mt-3'>Total funded</h5>
-                                <div className='d-flex mt-5'>
+                                <div className='d-flex title mt-5'>
                                     <img src='/image/page10_author.svg' />
-                                    <div>
-                                        <div className='d-flex'>
-                                            <h5 className='mx-3'>Hendric Anderson</h5>
-                                            <img src='/image/page5_project_star.svg' />
-                                            <img src='/image/page5_project_star.svg' className='mx-1' />
-                                            <img src='/image/page5_project_star.svg' />
-                                        </div>
-                                        <div className='d-flex mx-3 mt-2'>
-                                            <div className='author-campaign'>12 Campaign</div>
-                                            <img src='/image/page_8_dot.svg' className='mx-3' />
-                                            <div className='author-city'>New York, London</div>
-                                        </div>
+                                    <div className='mx-3'>
+                                        <h5>Hendric Anderson</h5>
+                                        <div className='author-city text-start'>New York, London</div>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +57,7 @@ const Stories = () => {
                         </div>
                     </article>
                 </div>
-                <div className='container success-story_main'>
+                <div className='container success-story_main title-title'>
                     <article>
                         <div className='row mt-4'>
                             <div className="col-lg-5 col-md-12 mt-5 d-flex story-profile">
@@ -84,22 +66,13 @@ const Stories = () => {
                             <div className="col-lg-7 col-md-12 mt-5">
                                 <h3 style={{ marginTop: '35px' }}>Samcung Okulus Rivt PC - Powered VR  Gaming Headset</h3>
                                 <p className='mt-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit au</p>
-                                <h2 className='text-success mt-4'>$ 24,553,852.24</h2>
+                                <h2 className='text-success mt-4 total-founded'>$ 24,553,852.24</h2>
                                 <h5 className='mt-3'>Total funded</h5>
-                                <div className='d-flex mt-5 success_story_main__right__author'>
-                                    <img src='./image/page10_author.svg' />
-                                    <div>
-                                        <div className='d-flex'>
-                                            <h5 className='mx-3'>Hendric Anderson</h5>
-                                            <img src='/image/page5_project_star.svg' />
-                                            <img src='/image/page5_project_star.svg' className='mx-1' />
-                                            <img src='/image/page5_project_star.svg' />
-                                        </div>
-                                        <div className='d-flex mx-3 mt-2'>
-                                            <div className='author-campaign'>12 Campaign</div>
-                                            <img src='/image/page_8_dot.svg' className='mx-3' />
-                                            <div className='author-city'>New York, London</div>
-                                        </div>
+                                <div className='d-flex mt-5 title'>
+                                    <img src='/image/page10_author.svg' />
+                                    <div className='mx-3'>
+                                        <h5>Hendric Anderson</h5>
+                                        <div className='author-city text-start'>New York, London</div>
                                     </div>
                                 </div>
                             </div>

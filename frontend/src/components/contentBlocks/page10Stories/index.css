@@ -16,3 +16,9 @@
         justify-content: center;
     }
 }
+
+@media(max-width: 385px) {
+    .total-founded {
+        font-size: 30px;
+    }
+}

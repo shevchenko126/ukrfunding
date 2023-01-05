@@ -12,3 +12,30 @@
 .team-member-job {
     color: #717579;
 }
+
+.team-item {
+    position: relative;
+}
+
+.team-icons {
+    position: absolute;
+    top: 240px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; 
+}
+
+.team-btn {
+    width: 65px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    background: initial;
+}
+
+.team-icon {
+    fill: white;
+    width: 32px;
+    height: 32px;
+}

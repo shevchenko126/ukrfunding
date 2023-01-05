@@ -57,24 +57,32 @@ export const HomePage_01 = () => {
 
     const team = [
         {
-            img: '../image/page_1_team_member_profile.svg',
-            name: 'Kaylynn Donin',
-            job: 'Managing Director'
+            name: 'Jason Krash',
+            job: 'Managing Director',
+            img: '/image/page_1_team_member_profile.svg',
+            twitter: 'https://trello.com/b/WNCXT7vu/ukrfunding',
+            facebook: 'https://trello.com/b/WNCXT7vu/ukrfunding',
         },
         {
-            img: '../image/page_1_team_member_profile.svg',
-            name: 'Lindsey Botosh',
-            job: 'National Web Assistant'
+            name: 'Jason Krash',
+            job: 'Managing Director',
+            img: '/image/page_1_team_member_profile.svg',
+            twitter: 'https://trello.com/b/WNCXT7vu/ukrfunding',
+            facebook: 'https://trello.com/b/WNCXT7vu/ukrfunding',
         },
         {
-            img: '../image/page_1_team_member_profile.svg',
-            name: 'Phillip Schleifer',
-            job: 'National Intranet Specialist'
+            name: 'Jason Krash',
+            job: 'Managing Director',
+            img: '/image/page_1_team_member_profile.svg',
+            twitter: 'https://trello.com/b/WNCXT7vu/ukrfunding',
+            facebook: 'https://trello.com/b/WNCXT7vu/ukrfunding',
         },
         {
-            img: '../image/page_1_team_member_profile.svg',
-            name: 'Jakob Ekstrom Bothman',
-            job: 'District Accounts Analyst'
+            name: 'Jason Krash',
+            job: 'Managing Director',
+            img: '/image/page_1_team_member_profile.svg',
+            twitter: 'https://trello.com/b/WNCXT7vu/ukrfunding',
+            facebook: 'https://trello.com/b/WNCXT7vu/ukrfunding',
         },
     ];
 
