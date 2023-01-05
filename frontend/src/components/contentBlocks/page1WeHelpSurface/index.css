@@ -2,14 +2,22 @@
     margin-top: 100px;
 }
 
-.we_help_surface__text {
-    max-width: 669px;
-}
-
-.we_help_surface__our_partners {
-    color: #717579;
-}
-
-.we_help_surface__logotypes {
+.logotypes {
     max-width: 555px;
+}
+
+@media(max-width: 991px) {
+    .help-panel {
+        display: none;
+    }
+    .title, .btn-center {
+        display: flex;
+        justify-content: center;
+    }
+    .title-tile, .partners {
+        text-align: center;
+    }
+    .logotypes {
+        margin: auto;
+    }
 }
