@@ -2,15 +2,15 @@
 
 const Details = () => {
     return (
-        <div>
-            <div className="container-fluid text-center project-details">
-                <h2 className="text-white pt-5">Project Details</h2>
+        <div className=''>
+            <div className="text-center project-details container-fluid py-4">
+                <h2 className="text-white">Project Details</h2>
                 <div className="text-white mt-3">
                     <b>Home / Projects / </b>
                     <span>Samcung Okulus Rivt PC - Powered VR Gaming Headset</span>
                 </div>
             </div>
-            <div className="container mt-5 project-details-main">
+            <div className="mt-5 project-details-main container">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="mt-3">

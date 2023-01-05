@@ -92,7 +92,6 @@ button:hover {
 }
 
 .progress {
-    max-width: 345px;
     height: 12px;
     border: 1px solid #D7D7D7;
     border-radius: 14px;
