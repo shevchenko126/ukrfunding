@@ -9,7 +9,7 @@ const RecentProjects = (props) => {
                 <h2>Recent Projects</h2>
                 <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
             </div>
-            <div className="row my-5">
+            <div className="row">
                 {props.projects.map((project) => (
                     <OneProject col='3' project={project} />
                 ))}

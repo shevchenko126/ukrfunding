@@ -22,17 +22,13 @@ const OneProject = ({ project, col }) => {
                     <p className="mx-3 my-0">{project.daysLeft}</p>
                 </div>
                 <div className="pb-4">
-                    <div className="row d-flex">
-                        <div className='col-lg-2 col-sm-12 mt-4'>
+                    <div className="d-flex">
+                        <div className=' mt-4'>
                             <img alt="" src="/image/page1_recent_projects_icon.svg" className="mx-3" />
                         </div>
-                        <div className='col-lg-10 col-sm-12 mt-4'>
-                            <div className="d-flex">
-                                <h5 className="mx-4">{project.author}</h5>
-                            </div>
-                            <div className="d-flex mx-4">
-                                <div className="author-city">{project.location}</div>
-                            </div>
+                        <div className='mt-4 mx-1'>
+                            <h5 className="">{project.author}</h5>
+                            <div className="author-city">{project.location}</div>
                         </div>
                     </div>
                 </div>
