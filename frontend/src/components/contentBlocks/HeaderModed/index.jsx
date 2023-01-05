@@ -1,7 +1,7 @@
 import './index.css';
 import background from './bg.svg';
 
-const HeaderModed = () => {
+const HeaderModed = (props) => {
     return (
         <section>
             <section style={{ backgroundColor: '#1B8271' }}>
@@ -73,7 +73,7 @@ const HeaderModed = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className='mb-5'>
                 <div className='header-bg'>
                     <div className='container'>
                         <div style={{ backgroundImage: `url(${background})` }} className='header-bg-picture'>
@@ -81,25 +81,11 @@ const HeaderModed = () => {
                         </div>
                     </div>
                 </div>
-                <div className='header-input-container row'>
-                    <div className='col-lg-3 col-sm-12 d-flex align-items-center justify-content-center px-5'>
-                        <select>
-                            <option value="All Category">All Category</option>
-                        </select>
-                    </div>
-                    <div className='col-lg-8 col-sm-12 d-flex align-items-center'>
-                        <input className='header-input' placeholder='Find Projects' type='text' min='3' max='50' />
-                    </div>
-                    <div className='col-lg-1 col-sm-12 d-flex align-items-center justify-content-center'>
-                        <img alt="search" src='../image/header_bottom_search_moded.svg' />
+                <div className='header-input-container'>
+                    <div className='d-flex align-items-center'>
+                        <input className='header-input' placeholder='Find Projects...' value={props.value} onChange={props.onChange} />
                     </div>
                 </div>
-            </section>
-            <section className='header-popular-search text-center row'>
-                <h5 className='col-lg-3 col-md-12 mt-3'>Popular Search:</h5>
-                <h5 className='col-lg-3 col-md-4 mt-3 text-success'>Technology Projects</h5>
-                <h5 className='col-lg-3 col-md-4 mt-3 text-success'>Cancer Charity Programs</h5>
-                <h5 className='col-lg-3 col-md-4 mt-3 text-success'>Design Interior</h5>
             </section>
         </section>
     )

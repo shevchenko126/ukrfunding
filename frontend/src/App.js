@@ -5,7 +5,7 @@ import './App.css';
 /* Pages */
 import { HomePage_01 } from './components/pages/01_HomePage';
 import { AboutUs_02 } from './components/pages/02_AboutUs';
-import { Project3Col_04 } from './components/pages/03_Project3Col';
+import { Projects } from './components/pages/03_Projects';
 import { ProjectDetails_05 } from './components/pages/04_ProjectDetails';
 import { ContactUs_06 } from './components/pages/05_ContactUs';
 import { LatestNews_07 } from './components/pages/06_LatestNews';
@@ -26,8 +26,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage_01 />} />
           <Route path="/about" element={<AboutUs_02 />} />
-          <Route path="/projects" element={<Project3Col_04 />} />
-          <Route path="/project/:project" element={<ProjectDetails_05 />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:project" element={<ProjectDetails_05 />} />
           <Route path="/contact-us" element={<ContactUs_06 />} />
           <Route path="/news" element={<LatestNews_07 />} />
           <Route path="/news/:news" element={<NewsDetails_08 />} />

@@ -31,9 +31,20 @@ const FilterCategory = () => {
 					<h5 className="filter-category">Fashion</h5>
 				</div>
 				<hr className='filter-line' />
-				<label className="filter-see-more">See More Categories
-					<select></select>
-				</label>
+				<div className="d-flex filter-item">
+					<input type="checkbox" className="filter-checkbox" />
+					<h5 className="filter-category">Fashion</h5>
+				</div>
+				<hr className='filter-line' />
+				<div className="d-flex filter-item">
+					<input type="checkbox" className="filter-checkbox" />
+					<h5 className="filter-category">Fashion</h5>
+				</div>
+				<hr className='filter-line' />
+				<div className="d-flex filter-item">
+					<input type="checkbox" className="filter-checkbox" />
+					<h5 className="filter-category">Fashion</h5>
+				</div>
 				<hr className='filter-line' />
 				<button className='filter-category-btn'>SEARCH PROJECTS</button>
 			</div>
