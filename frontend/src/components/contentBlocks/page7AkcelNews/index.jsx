@@ -15,19 +15,12 @@ const AkcelNews_page7 = (props) => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-xl-6 col-lg-12 mt-5 d-flex'>
-                            <input type='text' placeholder='Search Articles' min='5' max='50' className='color1 filter-input px-4' />
+                            <input value={props.value} onChange={props.onChange} type='text' placeholder='Search Articles' min='5' max='50' className='color1 filter-input px-4' />
                         </div>
                         <div className='col-xl-6 col-lg-12 p-0 row'>
                             <div className="col-xl-8 col-lg-12 mt-5 d-flex filters__right-col">
                                 <Select
-                                    options={[
-                                        { value: 'all', label: 'All Categories' },
-                                        { value: 'technology', label: 'Technology' },
-                                        { value: 'education', label: 'Education' },
-                                        { value: 'videos', label: 'Videos' },
-                                        { value: 'medical', label: 'Medical' },
-                                    ]}
-                                    defaultValue={{ value: 'all', label: 'All Categories' }}
+                                    options={props.selectValues}
                                     styles={{
                                         control: (baseStyles, state) => ({
                                             ...baseStyles,
@@ -37,6 +30,8 @@ const AkcelNews_page7 = (props) => {
                                             paddingLeft: '10px'
                                         }),
                                     }}
+                                    value={props.selectValue}
+                                    onChange={props.changeSelectValue}
                                 />
                             </div>
                             <div className="col-xl-4 col-lg-12 mt-5 p-0 d-flex filters__right-col">

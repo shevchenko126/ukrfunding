@@ -10,7 +10,7 @@ const OneNews = ({ news }) => {
                     <div className="text-uppercase news-category">{news.category}</div>
                 </div>
                 <div className="aksel-news-main">
-                    <Link to={'/news-details/' + news.slug} className='item-title'>
+                    <Link to={'/news/' + news.slug} className='item-title'>
                         <h4 className="e">{news.title}</h4>
                     </Link>
                     <p className="mt-2">{news.description}</p>
