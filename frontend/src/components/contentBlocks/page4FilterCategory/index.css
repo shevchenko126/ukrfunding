@@ -60,7 +60,7 @@
 
 @media(max-width: 991px) {
     .filter {
-        margin: 0 auto;
+        margin: 40px auto;
     }
     .filter-title {
         text-align: center;

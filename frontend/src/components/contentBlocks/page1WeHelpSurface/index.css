@@ -2,10 +2,6 @@
     margin-top: 100px;
 }
 
-.logotypes {
-    max-width: 555px;
-}
-
 @media(max-width: 991px) {
     .help-panel {
         display: none;

@@ -107,7 +107,7 @@ export const Projects = () => { // page 3
             <HeaderModed value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
             <div className='container' style={{ maxWidth: '1620px' }}>
                 <div className='row'>
-                    <div className='col-xxl-3 col-lg-6 col-md-12'>
+                    <div className='col-xxl-3 col-md-12'>
                         <FilterCategory
                             technologyChecked={checkboxes.technologyChecked}
                             setTechnologyCheckbox={() => setCheckboxes({ ...checkboxes, technologyChecked: !checkboxes.technologyChecked })}
@@ -131,7 +131,7 @@ export const Projects = () => { // page 3
                         />
                         <Donate />
                     </div>
-                    <div className='col-xxl-9 col-lg-6 col-md-12 px-5'>
+                    <div className='col-xxl-9 col-md-12 px-5'>
                         <PageProjects projects={filteredProjects} />
                     </div>
                 </div>

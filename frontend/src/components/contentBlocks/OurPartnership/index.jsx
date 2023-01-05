@@ -21,7 +21,7 @@ const OurPartnership = () => {
 	]
 
 	return (
-		<div className="container logotypes text-center">
+		<div className="container logotypes text-center mx-auto">
 			<h3>Our Partnership</h3>
 			<div className="row">
 				{partners.map(({ src }) => (
