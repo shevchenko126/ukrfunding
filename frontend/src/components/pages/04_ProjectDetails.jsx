@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import PopupDonate from '../contentBlocks/page5ProjectDetails/PopupDonate';
 import Header from '../Header';
 import Details from '../contentBlocks/page5ProjectDetails';
 import Page5Projects from '../contentBlocks/page5Projects';
@@ -39,10 +41,13 @@ export const ProjectDetails = () => { // page 4
         },
     ];
 
+    const [popupState, setPopupState] = useState(false);
+
     return (
-        <section>
+        <section className={`${popupState ? 'bg-gray' : ''}`}>
+            {popupState ? <PopupDonate donateTo={'Samcung Okulus Rivt PC - Powered VR Gaming Headset'} closePopup={() => setPopupState(false)} /> : ''}
             <Header />
-            <Details />
+            <Details openPopup={() => setPopupState(true)} />
             <Page5Projects projects={projects} />
             <DontMiss />
             <Footer />

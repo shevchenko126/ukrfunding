@@ -1,8 +1,9 @@
 ﻿import './index.css';
 
-const Details = () => {
+const Details = (props) => {
+
     return (
-        <div className=''>
+        <div>
             <div className="text-center project-details container-fluid py-4">
                 <h2 className="text-white">Project Details</h2>
                 <div className="text-white mt-3">
@@ -13,25 +14,7 @@ const Details = () => {
             <div className="mt-5 project-details-main container">
                 <div className="row d-flex justify-content-between">
                     <div className="col-lg-6">
-                        <div className="mt-3">
-                            <iframe title='video' className="main-video" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
-
-                            {/* <img src="/image/page_1_team_member_profile.svg" className="main-video" /> */}
-                        </div>
-                        <div className="row text-center mt-4">
-                            <div className="col">
-                                <iframe title='video' width="176" height="150" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
-                            </div>
-                            <div className="col">
-                                <iframe title='video' width="176" height="150" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
-                            </div>
-                            <div className="col">
-                                <iframe title='video' width="176" height="150" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
-                            </div>
-                            <div className="col">
-                                <iframe title='video' width="176" height="150" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
-                            </div>
-                        </div>
+                        {/* <SliderExample /> */}
                     </div>
 
                     <div className="col-lg-6 mt-3">
@@ -75,7 +58,7 @@ const Details = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4 mt-3 col-md-12">
-                                <button className="text-white h5 project-details-btn">Fund This Project</button>
+                                <button onClick={props.openPopup} className="text-white h5 project-details-btn">Fund This Project</button>
                             </div>
                         </div>
                         <hr className="mt-3" />

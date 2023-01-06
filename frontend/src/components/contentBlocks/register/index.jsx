@@ -27,7 +27,7 @@ const RegisterPage = () => {
 				</div>
 			</form>
 		</div>
-	)
-}
+	);
+};
 
 export default RegisterPage;

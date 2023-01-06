@@ -4,8 +4,11 @@
 
 .project-details-main {
     border-radius: 14px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     margin-bottom: 20px;
+    transition: 0.4s;
+}
+.project-details-main:hover {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,4 +51,28 @@
     height: 12px;
     border: 1px solid #D7D7D7;
     border-radius: 14px;
+}
+
+.popup-donate {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.close-popup {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon {
+    width: 25px;
+    height: 25px;
 }
