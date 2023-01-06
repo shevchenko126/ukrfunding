@@ -19,9 +19,6 @@ const AddProjectBlock = () => {
                 <h5 className="register-text" for="found">Project Found</h5>
                 <input className="input-login-register" id="found" name="found" placeholder="Write Number to Found" type="number" />
 
-                <h5 className="register-text" for="notes">Project Notes</h5>
-                <textarea className="input-login-register" id="notes" name="notes" placeholder="Write Your Project Notes" />
-
                 <h5 className="register-text" for="about">About Project</h5>
                 <textarea className="input-login-register" id="about" name="about" placeholder="Write All Information About Project" />
 

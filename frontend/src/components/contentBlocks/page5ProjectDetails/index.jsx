@@ -34,30 +34,18 @@ const Details = () => {
 
                     <div className="col-lg-6 mt-3">
                         <div className="row">
-                            <div className="col-lg-9 col-sm-12 text-center">
+                            <div className="col-lg-9 col-sm-12">
                                 <div className="d-flex">
                                     <img alt="#" src="/image/page_5_icon.svg" />
                                     <div style={{ marginLeft: ' 20px' }}>
-                                        <div className="d-flex">
-                                            <div className="h5">Hendric Anderson</div>
-                                            <div style={{ marginLeft: ' 15px' }}>
-                                                <img alt="#" src="/image/page_5_star.svg" />
-                                                <img alt="#" src="/image/page_5_star.svg" className='px-1' />
-                                                <img alt="#" src="/image/page_5_star.svg" />
-                                            </div>
-                                        </div>
-                                        <div className="d-flex mt-2">
-                                            <div className="text-success author-campaign">12 Campaign</div>
-                                            <img alt="#" src="/image/page_5_dot.svg" style={{ margin: '-3px 10px 0 10px' }} />
-                                            <div className='author-city' style={{ marginTop: '-1px' }}>New York, London</div>
-                                        </div>
+                                        <div className="h5">Hendric Anderson</div>
+                                        <p className='author-city'>New York, London</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-sm-12 mt-3">
-                                <img alt="#" src="/image/page_5_heart.svg" />
-                                <img alt="#" src="/image/page_5_share.svg" className='mx-5' />
-                                <img alt="#" src="/image/page_5_flag.svg" />
+                            <div className="col-lg-3 col-sm-12 mt-3 d-flex justify-content-end">
+                                <img alt="#" src="/image/page_5_heart.svg" className='share-icon' />
+                                <img alt="#" src="/image/page_5_share.svg" className='share-icon' style={{ marginLeft: '45px' }} />
                             </div>
                         </div>
                         <h3 className="mt-4">Samcung Okulus Rivt PC - Powered VR  Gaming Headset</h3>
@@ -89,8 +77,6 @@ const Details = () => {
                             </div>
                         </div>
                         <hr className="mt-5" />
-                        <div className="mt-5 h5">Project Notes:</div>
-                        <div className="project-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
                     </div>
                 </div>
             </div>
