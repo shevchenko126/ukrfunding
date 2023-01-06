@@ -74,7 +74,7 @@ export const Projects = () => { // page 3
     ];
 
     const [inputValue, setInputValue] = useState('');
-    const [projects, setProjects] = useState(projectsAll);
+    const [projects, _] = useState(projectsAll);
     const [filteredProjects, setFilteredProjects] = useState(projects);
     const [checkboxes, setCheckboxes] = useState({
         technologyChecked: false,

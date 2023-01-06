@@ -45,7 +45,7 @@ export const ProjectDetails = () => { // page 4
         <section>
             <Header />
             <Details />
-            <div className='container' style={{ maxWidth: '1620px' }}>
+            {/* <div className='container' style={{ maxWidth: '1620px' }}>
                 <div className='row'>
                     <div className='col-lg-8 col-md-12'>
                         <AboutProject />
@@ -54,7 +54,7 @@ export const ProjectDetails = () => { // page 4
                         <Support />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Page5Projects projects={projects} />
             <DontMiss />
             <Footer />

@@ -15,6 +15,8 @@ const Details = () => {
                     <div className="col-lg-6">
                         <div className="mt-3">
                             <iframe title='video' className="main-video" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
+
+                            {/* <img src="/image/page_1_team_member_profile.svg" className="main-video" /> */}
                         </div>
                         <div className="row text-center mt-4">
                             <div className="col">
@@ -76,7 +78,11 @@ const Details = () => {
                                 <button className="text-white h5 project-details-btn">Fund This Project</button>
                             </div>
                         </div>
-                        <hr className="mt-5" />
+                        <hr className="mt-3" />
+                        <h4 className='about-title-active text-center pt-2'>About Project</h4>
+                        <div className='project-notes mt-4'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+import Select from 'react-select'
+
 const AddProjectBlock = () => {
     return (
         <div className="container">
@@ -11,7 +13,27 @@ const AddProjectBlock = () => {
                 <input className="input-login-register" id="name" name="name" placeholder="Write Your Project Name" />
 
                 <h5 className="register-text" for="category">Project Category</h5>
-                <input className="input-login-register" id="category" name="category" placeholder="Write Your Project Category" />
+                <Select
+                    options={[
+                        { value: 'technology', label: 'Technology' },
+                        { value: 'education', label: 'Education' },
+                        { value: 'videos', label: 'Videos' },
+                        { value: 'medical', label: 'Medical' },
+                    ]}
+                    styles={{
+                        control: (baseStyles, state) => ({
+                            ...baseStyles,
+                            border: 'none',
+                            background: 'rgba(163, 163, 163, 0.15)',
+                            width: '100%',
+                            paddingLeft: '10px',
+                            height: '56px',
+                            marginTop: '20px',
+                            cursor: 'pointer',
+                            backgroundColor: 'rgb(251, 251, 251)'
+                        }),
+                    }}
+                />
 
                 <h5 className="register-text" for="category">Project Description</h5>
                 <textarea className="input-login-register" id="description" name="description" placeholder="Write Your Project Description" />
@@ -22,10 +44,10 @@ const AddProjectBlock = () => {
                 <h5 className="register-text" for="about">About Project</h5>
                 <textarea className="input-login-register" id="about" name="about" placeholder="Write All Information About Project" />
 
-                <h5 className="register-text" for="mainPhoto">Project Main Photo</h5>
+                <h5 className="register-text" for="mainPhoto">Project Main Photo (max 1)</h5>
                 <input className="input-login-register" id="mainPhoto" name="found" type="file" max="1" />
 
-                <h5 className="register-text" for="additionalsPhoto">Project Additional Photos</h5>
+                <h5 className="register-text" for="additionalsPhoto">Project Additional Photos (max 4)</h5>
                 <input className="input-login-register" id="additionalsPhoto" name="additionalsPhoto" type="file" max="4" />
 
                 <div className="row register__bottom">
