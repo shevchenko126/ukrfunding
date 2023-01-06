@@ -11,7 +11,7 @@ const Details = () => {
                 </div>
             </div>
             <div className="mt-5 project-details-main container">
-                <div className="row">
+                <div className="row d-flex justify-content-between">
                     <div className="col-lg-6">
                         <div className="mt-3">
                             <iframe title='video' className="main-video" src="https://www.youtube.com/embed/nybtOIxlku8" style={{ borderRadius: '14px' }}></iframe>
