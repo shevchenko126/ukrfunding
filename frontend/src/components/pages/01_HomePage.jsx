@@ -93,6 +93,7 @@ export const HomePage = () => { // page 1
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             author: 'Hawkins Junior',
             date: 'November 21th, 2020',
+            slug: '321dsd',
         },
         {
             category: 'business',
@@ -100,6 +101,7 @@ export const HomePage = () => { // page 1
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             author: 'Hawkins Junior',
             date: 'November 21th, 2020',
+            slug: '321dsd',
         },
         {
             category: 'design',
@@ -107,6 +109,7 @@ export const HomePage = () => { // page 1
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             author: 'Melinda Humbles',
             date: 'November 21th, 2020',
+            slug: '321dsd',
         },
     ];
 

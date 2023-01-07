@@ -3,7 +3,7 @@ import './index.css';
 const WeHelpSurface = () => {
     return (
         <div className="container we_help_surface">
-            <div className="row">
+            <div className="row d-flex align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="d-flex align-items-center title">
                         <img src="/image/page1_we_help_surface_panel.svg" alt="" />

@@ -40,9 +40,9 @@ const Header = () => {
             <div className='container mt-4 pb-4'>
                 <div className='row d-flex align-items-center'>
                     <div className='col-lg-3 col-6'>
-                        <a href="/">
+                        <Link to="/">
                             <img className='logo-icon' src="/image/logo_Akcel.png" alt="logo" />
-                        </a>
+                        </Link>
                     </div>
                     <div className='col-lg-6 header-refs'>
                         <div className='row text-center d-flex justify-content-center align-items-center'>
