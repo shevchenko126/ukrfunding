@@ -33,7 +33,7 @@
     .burger-menu, .btn-top {
         display: none;
     }
-}
+} /* logo-icon */
 
 @media(max-width: 991px) {
     .header-refs, .header-bottom__button, .contacts {
@@ -43,3 +43,4 @@
         margin-top: 20px;
     }
 }
+
