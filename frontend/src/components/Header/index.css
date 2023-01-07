@@ -9,9 +9,37 @@
 }
 
 .header-bottom__button {
+    display: flex;
     justify-content: end;
 }
 
 .header-top-email-phone {
     justify-content: end;
+}
+
+
+.burger-menu-col {
+    display: flex;
+    justify-content: end;
+}
+
+.burger-menu {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media(min-width: 991px) {
+    .burger-menu, .btn-top {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .header-refs, .header-bottom__button, .contacts {
+        display: none;
+    }
+    .btn-top {
+        margin-top: 20px;
+    }
 }
