@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 import './index.css';
 
-
 const Header = () => {
 
     const user = 'loginned'; /* registered, unregistered */
@@ -79,7 +78,7 @@ const Header = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default Header;

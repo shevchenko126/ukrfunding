@@ -29,7 +29,7 @@ const WeHelpSurface = () => {
                     </div>
                     <div className='partners'>
                         <h5 className="mt-5">Our Partners</h5>
-                        <div className="mt-1 text-center row logotypes">
+                        <div className="mt-1 row logotypes">
                             <div className="col">
                                 <img src="/image/page1_we_help_surface_highlow.svg" className="mt-3" alt="" />
                             </div>
@@ -42,7 +42,7 @@ const WeHelpSurface = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-12 d-flex justify-content-center">
+                <div className="col-lg-6 col-md-12 d-flex justify-content-end">
                     <img src="./image/page1_we_help_surface_panels.svg" className="img-fluid mt-5 help-panel" alt="" />
                 </div>
             </div>
