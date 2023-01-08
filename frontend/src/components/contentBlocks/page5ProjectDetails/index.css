@@ -3,6 +3,7 @@
 }
 
 .project-details-main {
+    background: #FFFFFF;
     border-radius: 14px;
     padding-bottom: 15px;
     margin-bottom: 20px;
@@ -75,4 +76,33 @@
 .close-icon {
     width: 25px;
     height: 25px;
+}
+
+.slider-additional-img {
+    width: 150px;
+    margin: auto;
+}
+
+.slider-main-img {
+    width: 840px;
+    margin: 30px auto;
+}
+
+.slider-arrow {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    background: #e5e5e5;
+    transition: 0.4s;
+}
+.slider-arrow:hover {
+    box-shadow: 0px 10px 15px rgba(68, 68, 68, 0.357);
+}
+
+.slider-arrow > svg {
+    width: 40px;
 }

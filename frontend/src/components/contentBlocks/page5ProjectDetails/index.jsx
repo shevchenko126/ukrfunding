@@ -2,7 +2,6 @@
 import SliderExample from './Slider';
 
 const Details = (props) => {
-
     return (
         <div>
             <div className="text-center project-details container-fluid py-4">
@@ -13,12 +12,12 @@ const Details = (props) => {
                 </div>
             </div>
             <div className="mt-5 project-details-main container">
-                <div className="row d-flex justify-content-between">
-                    <div className="col-lg-6">
+                <div className="row d-flex align-items-center justify-content-between">
+                    <div className="col-lg-7">
                         <SliderExample />
                     </div>
 
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-5 mt-3">
                         <div className="row">
                             <div className="col-lg-9 col-sm-12">
                                 <div className="d-flex">

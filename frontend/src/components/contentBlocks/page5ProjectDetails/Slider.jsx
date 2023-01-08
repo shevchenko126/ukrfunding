@@ -1,78 +1,92 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
-export default class SliderExample extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            nav1: null,
-            nav2: null
-        };
-    }
+const SliderExample = () => {
 
-    componentDidMount() {
-        this.setState({
-            nav1: this.slider1,
-            nav2: this.slider2
-        });
-    }
+    let slider1 = undefined;
+    let slider2 = undefined;
 
-    render() {
+    function SampleNextArrow({ onClick }) {
         return (
-            <div>
-                <h2>Slider Syncing (AsNavFor)</h2>
-                <h4>First Slider</h4>
-                <Slider
-                    asNavFor={this.state.nav2}
-                    ref={slider => (this.slider1 = slider)}
-                >
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                </Slider>
-                <h4>Second Slider</h4>
-                <Slider
-                    asNavFor={this.state.nav1}
-                    ref={slider => (this.slider2 = slider)}
-                    slidesToShow={3}
-                    swipeToSlide={true}
-                    focusOnSelect={true}
-                >
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                </Slider>
+            <div
+                className="slider-arrow"
+                onClick={onClick}
+            >
+                <AiOutlineArrowRight />
             </div>
         );
     }
+
+    function SamplePrevArrow({ onClick }) {
+        return (
+            <div
+                className="slider-arrow"
+                onClick={onClick}
+            >
+                <AiOutlineArrowLeft />
+            </div>
+        );
+    }
+
+    const settings = {
+        infinite: true,
+        slidesToShow: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
+    };
+
+    const [nav1, setNav1] = useState(null);
+    const [nav2, setNav2] = useState(null);
+
+    useEffect(() => {
+        setNav1(slider1);
+        setNav2(slider2);
+    }, []);
+
+    return (
+        <div>
+            <Slider
+                {...settings}
+                asNavFor={nav2}
+                ref={slider => (slider1 = slider)}
+                className="d-flex align-items-center justify-content-center"
+            >
+                <div>
+                    <img className='slider-main-img' src="/image/page5_profile.svg" alt="" />
+                </div>
+                <div>
+                    <img className='slider-main-img' src="/image/page5_profile.svg" alt="" />
+                </div>
+                <div>
+                    <img className='slider-main-img' src="/image/page5_profile.svg" alt="" />
+                </div>
+                <div>
+                    <img className='slider-main-img' src="/image/page5_profile.svg" alt="" />
+                </div>
+            </Slider>
+            <Slider
+                asNavFor={nav1}
+                ref={slider => (slider2 = slider)}
+                slidesToShow={4}
+                swipeToSlide={true}
+                focusOnSelect={true}
+            >
+                <div>
+                    <img className='slider-additional-img' src="/image/img.svg" alt="" />
+                </div>
+                <div>
+                    <img className='slider-additional-img' src="/image/img.svg" alt="" />
+                </div>
+                <div>
+                    <img className='slider-additional-img' src="/image/img.svg" alt="" />
+                </div>
+                <div>
+                    <img className='slider-additional-img' src="/image/img.svg" alt="" />
+                </div>
+            </Slider>
+        </div>
+    );
 }
+
+export default SliderExample;
