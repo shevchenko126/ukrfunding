@@ -1,4 +1,5 @@
 ﻿import './index.css';
+import SliderExample from './Slider';
 
 const Details = (props) => {
 
@@ -14,7 +15,7 @@ const Details = (props) => {
             <div className="mt-5 project-details-main container">
                 <div className="row d-flex justify-content-between">
                     <div className="col-lg-6">
-                        {/* <SliderExample /> */}
+                        <SliderExample />
                     </div>
 
                     <div className="col-lg-6 mt-3">

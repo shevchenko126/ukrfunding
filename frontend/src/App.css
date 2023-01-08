@@ -1,15 +1,11 @@
+/* React Slider */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/*  */
+
 body {
     background-color: #FBFBFB;
-}
-
-.support {
-    margin-left: 8%;
-}
-
-@media(max-width: 990px) {
-    .support {
-        margin-left: 0;
-    }
 }
 
 /* Typography */
@@ -218,6 +214,16 @@ input:hover {
 }
 .input-login-register:hover {
     border: 2px solid gray;
+}
+
+.support {
+    margin-left: 8%;
+}
+
+@media(max-width: 990px) {
+    .support {
+        margin-left: 0;
+    }
 }
 
 /* Centering elements */
