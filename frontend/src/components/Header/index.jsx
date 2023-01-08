@@ -84,19 +84,19 @@ const Header = () => {
                                             </h5>
                                             <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
                                             <h5>
-                                                <Link to='/' className='header-bottom__ref'>About Us</Link>
+                                                <Link to='/about' className='header-bottom__ref'>About Us</Link>
                                             </h5>
                                             <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
                                             <h5>
-                                                <Link to='/' className='header-bottom__ref'>Projects</Link>
+                                                <Link to='/projects' className='header-bottom__ref'>Projects</Link>
                                             </h5>
                                             <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
                                             <h5>
-                                                <Link to='/' className='header-bottom__ref'>News</Link>
+                                                <Link to='/news' className='header-bottom__ref'>News</Link>
                                             </h5>
                                             <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
                                             <h5>
-                                                <Link to='/' className='header-bottom__ref'>Contact Us</Link>
+                                                <Link to='/contact' className='header-bottom__ref'>Contact Us</Link>
                                             </h5>
                                             <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
                                             <div className=' mt-3'>

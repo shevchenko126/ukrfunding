@@ -45,6 +45,10 @@
     margin: -50px auto;
 }
 
+.burger-white {
+    background: rgb(187, 187, 187);
+}
+
 .header-input {
     outline: none;
     width: 100%;
