@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 import './index.css';
@@ -5,6 +6,7 @@ import './index.css';
 const Header = () => {
 
     const user = 'loginned'; /* registered, unregistered */
+    const [burgerMenu, setBurgerMenu] = useState(false);
 
     return (
         <section>
@@ -37,7 +39,7 @@ const Header = () => {
             </div>
             <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} className='mt-4' />
             <div className='container mt-4 pb-4'>
-                <div className='row d-flex align-items-center'>
+                <div className='row d-flex refs-col'>
                     <div className='col-lg-3 col-6'>
                         <Link to="/">
                             <img className='logo-icon' src="/image/logo_Akcel.png" alt="logo" />
@@ -49,7 +51,7 @@ const Header = () => {
                                 <Link to='/' className='header-bottom__ref'>Home</Link>
                             </h5>
                             <h5 className='col'>
-                                <Link to='/about' className='header-bottom__ref'>About</Link>
+                                <Link to='/about' className='header-bottom__ref'>About Us</Link>
                             </h5>
                             <h5 className='col'>
                                 <Link to='/projects' className='header-bottom__ref'>Projects</Link>
@@ -72,7 +74,41 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className='burger-menu-col'>
-                            <AiOutlineMenu className='burger-menu' />
+                            <div>
+                                <AiOutlineMenu className='burger-menu mt-3' onClick={() => setBurgerMenu(!burgerMenu)} />
+                                {burgerMenu ? (
+                                    <div className='burger-content'>
+                                        <div className='text-center p-3'>
+                                            <h5 className='mt-3'>
+                                                <Link to='/' className='header-bottom__ref'>Home</Link>
+                                            </h5>
+                                            <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
+                                            <h5>
+                                                <Link to='/' className='header-bottom__ref'>About Us</Link>
+                                            </h5>
+                                            <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
+                                            <h5>
+                                                <Link to='/' className='header-bottom__ref'>Projects</Link>
+                                            </h5>
+                                            <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
+                                            <h5>
+                                                <Link to='/' className='header-bottom__ref'>News</Link>
+                                            </h5>
+                                            <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
+                                            <h5>
+                                                <Link to='/' className='header-bottom__ref'>Contact Us</Link>
+                                            </h5>
+                                            <hr style={{ width: '100%', color: 'rgba(0, 0, 0, 0.5)' }} />
+                                            <div className=' mt-3'>
+                                                <h6>394-091-3312</h6>
+                                            </div>
+                                            <div className='mt-1'>
+                                                <h6>support@akcel.com</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ) : ''}
+                            </div>
                         </div>
                     </div>
                 </div>

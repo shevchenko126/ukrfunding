@@ -83,7 +83,7 @@ const HeaderModed = (props) => {
                 </div>
                 <div className='header-input-container'>
                     <div className='d-flex align-items-center'>
-                        <input className='header-input' placeholder='Find Projects...' value={props.value} onChange={props.onChange} />
+                        <input className='input-login-register mt-0' placeholder='Find Projects...' value={props.value} onChange={props.onChange} />
                     </div>
                 </div>
             </section>

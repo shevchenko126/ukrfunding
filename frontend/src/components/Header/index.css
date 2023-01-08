@@ -27,6 +27,15 @@
     height: 30px;
     width: 30px;
     cursor: pointer;
+    margin-left: 170px;
+}
+
+.refs-col {
+    align-items: center;
+}
+
+.burger-content {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06), 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 @media(min-width: 991px) {
@@ -41,6 +50,9 @@
     }
     .btn-top {
         margin-top: 20px;
+    }
+    .refs-col {
+        align-items: flex-start;
     }
 }
 
