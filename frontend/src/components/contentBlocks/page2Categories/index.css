@@ -1,0 +1,26 @@
+﻿
+.categories-main__part {
+    max-width: 791px;
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+    border-radius: 14px;
+    transition: 0.4s;
+}
+
+.categories-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.categories-main__part__logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 3%;
+}
+
+@media(max-width: 991px) {
+    .categories-main__part {
+        margin: auto;
+    }
+}

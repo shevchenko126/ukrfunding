@@ -1,0 +1,68 @@
+﻿.filter {
+    max-width: 381px;
+    margin: 75px 8%;
+}
+
+.filter-categories {
+    margin-top: 58px;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.filter-category-title {
+    color: #715779;
+    margin: 10% 0 0 10%;
+}
+
+.filter-checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+.filter-category {
+    margin-left: 7%;
+}
+
+.filter-item {
+    height: 24px;
+    margin: 30px 0 0 10%;
+    align-items: center;
+}
+
+.filter-line {
+    color: #715779;
+    max-width: 333px;
+    margin: 15px auto 0 auto;
+}
+
+.filter-see-more {
+    font-family: 'Open Sans';
+    color: var(--green);
+    margin: 15px 0 0 7%;
+}
+
+.filter-category-btn {
+    width: 88%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background: var(--green);
+    border-radius: 8px;
+    border: 2px solid white;
+    margin: 30px 6% 20px 6%;
+}
+.filter-category-btn:hover {
+    box-shadow: 0px 25px 50px rgba(15, 70, 34, 0.2);
+}
+
+@media(max-width: 991px) {
+    .filter {
+        margin: 40px auto;
+    }
+    .filter-title {
+        text-align: center;
+    }
+}

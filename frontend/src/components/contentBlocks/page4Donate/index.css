@@ -1,0 +1,34 @@
+﻿.donate_to {
+    max-width: 381px;
+    background: var(--primary);
+    border: 1px solid white;
+    border-radius: 14px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 100% 99%;
+    margin-left: 8%;
+}
+
+.donate-title {
+    font-weight: 800;
+    font-size: 24px;
+    padding: 20px 0 0 7%;
+}
+
+.donate-text {
+    max-width: 296px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 16px 0 0 7%;
+}
+
+.donate-btn {
+    margin: 40px 0 30px 7%;
+}
+
+@media(max-width: 991px) {
+    .donate_to {
+        margin: 0 auto;
+    }
+}

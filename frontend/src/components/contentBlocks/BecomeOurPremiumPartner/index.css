@@ -1,0 +1,32 @@
+.become-partner {
+    margin-top: 100px;
+}
+
+.become-partner-content {
+    min-height: 335px;
+    margin: auto;
+}
+
+.become-partner-btn {
+    width: 221px;
+    height: 78px;
+    background: #121E31;
+}
+.become-partner-btn:hover {
+    box-shadow: 0px 45px 35px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+}
+
+.become-partner-btn-col {
+    justify-content: end;
+}
+
+@media(max-width: 991px) {
+    .become-partner-btn-col {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .become-partner-content {
+        text-align: center;
+    }
+}

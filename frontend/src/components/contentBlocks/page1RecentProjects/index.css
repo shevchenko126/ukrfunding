@@ -1,0 +1,10 @@
+.recent_projects-text {
+    max-width: 669px;
+}
+
+.project-img {
+    max-width: 379px;
+    min-height: 172px;
+    background: #C4C4C4;
+    border-radius: 14px 14px 0px 0px;
+}

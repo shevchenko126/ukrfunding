@@ -1,0 +1,15 @@
+.we_help_surface {
+    margin-top: 100px;
+}
+
+@media(max-width: 991px) {
+    .help-panel {
+        display: none;
+    }
+    .partners {
+        text-align: center;
+    }
+    .logotypes {
+        margin: auto;
+    }
+}

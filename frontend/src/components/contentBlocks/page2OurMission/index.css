@@ -1,0 +1,9 @@
+﻿.our_mission {
+    margin-top: 100px;
+}
+
+@media(max-width: 991px) {
+    .our-mission-panel {
+        display: none;
+    }
+}

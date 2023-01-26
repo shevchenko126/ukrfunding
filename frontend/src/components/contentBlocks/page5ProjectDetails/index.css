@@ -1,0 +1,108 @@
+﻿.project-details {
+    background: rgb(27, 130, 113);
+}
+
+.project-details-main {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.project-details-main:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.share-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.main-video {
+    width: 100%;
+    min-height: 556px;
+}
+
+.project-number {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.project-details-btn {
+    background: var(--green);
+    border: 2px solid white;
+    width: 97%;
+    height: 60px;
+    margin: auto;
+}
+.project-details-btn:hover {
+    box-shadow: 0px 10px 15px rgba(12, 73, 43, 0.357);
+}
+
+.project-notes {
+    width: 100%;
+    background: #EEEEEE;
+    border: 1px solid #D7D7D7;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.progress.details {
+    max-width: 99%;
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}
+
+.popup-donate {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.close-popup {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.slider-additional-img {
+    width: 150px;
+    margin: auto;
+}
+
+.slider-main-img {
+    width: 840px;
+    margin: 30px auto;
+}
+
+.slider-arrow {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    background: #e5e5e5;
+    transition: 0.4s;
+}
+.slider-arrow:hover {
+    box-shadow: 0px 10px 15px rgba(68, 68, 68, 0.357);
+}
+
+.slider-arrow > svg {
+    width: 40px;
+}

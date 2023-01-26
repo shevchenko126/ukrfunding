@@ -1,0 +1,26 @@
+.we_have_done__view-more {
+    width: 258px;
+    height: 60px;
+    background: #F6FBFA;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+.btn-col {
+    justify-content: end;
+}
+
+@media(max-width: 991px) {
+    .btn-col {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .projects-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}

@@ -1,5 +1,219 @@
+/* React Slider */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/*  */
+
 body {
     background-color: #FBFBFB;
+}
+
+/* Typography */
+
+:root {
+    --primary: #121E31;
+    --green: #1B8271;
+    --pink: #FF7468;
+    --gray: #717579;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+    margin-bottom: 0;
+}
+
+body {
+    color: var(--primary);
+    font-family: 'Poppins';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button {
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    border: 2px solid rgba(255, 255, 255, 0.1)
+}
+button:hover {
+   border: 2px solid black; 
+}
+
+/* Items */
+
+.progress {
+    height: 12px;
+    border: 1px solid #D7D7D7;
+    border-radius: 14px;
+}
+
+.progress-bar {
+    background-color: var(--pink);
+}
+
+.author-name {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.author-campaign {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--green)
+}
+.author-city {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--gray);
+}
+
+.item {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+    border-radius: 14px;
+}
+.item:hover {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.item-category {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--green)
+}
+
+.item-title {
+    transition: 0.3s;
+    color: var(--primary);
+}
+.item-title:hover {
+    color: rgba(18, 30, 49, 0.7)
+}
+
+.container {
+    max-width: 1620px;
+}
+
+/* Buttons */
+
+.button-bg-green-text-white {
+    background: var(--green);
+    padding: 8px 19px;
+    color: white;
+}
+.button-bg-green-text-white:hover {
+    box-shadow: 0px 25px 50px rgba(27, 130, 113, 0.2);
+}
+
+.button-bg-white-text-pink {
+    background: none;
+    padding: 16px 30px;
+    color: var(--pink);
+    border: 2px solid var(--pink);
+} 
+.button-bg-white-text-pink:hover {
+    box-shadow: 0px 25px 50px rgba(88, 88, 88, 0.2);
+}
+
+.button-bg-white-text-gray {
+    background: none;
+    padding: 16px 50px;
+    color: var(--gray);
+    border: 2px solid #D7D7D7;
+}
+.button-bg-white-text-gray:hover {
+    box-shadow: 0px 25px 50px rgba(82, 82, 82, 0.36);
+}
+
+.button-bg-pink-text-white {
+    background: var(--pink);
+    padding: 16px 35px;
+    color: white;
+}
+.button-bg-pink-text-white:hover {
+    box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+}
+
+.btn-back {
+    height: 60px;
+    width: 200px;
+}
+
+/* Inputes */
+
+input:hover {
+    cursor: pointer;
+}
+
+.input-login-register {
+    width: 100%;
+    font-weight: 600;
+    padding: 18px 0 18px 10px;
+    margin-top: 18px;
+    background: #fbfbfb;
+    border: 2px solid #EEEEEE;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.input-login-register:focus {
+    outline: none;
+    border: 2px solid gray;
+}
+.input-login-register:hover {
+    border: 2px solid gray;
 }
 
 .support {
@@ -9,5 +223,18 @@ body {
 @media(max-width: 990px) {
     .support {
         margin-left: 0;
+    }
+}
+
+/* Centering elements */
+
+@media(max-width: 991px) {
+    .title, .btn-center {
+        display: flex;
+        justify-content: center;
+    }
+    .title-title {
+        text-align: center;
+        margin: 0 auto;
     }
 }

@@ -1,0 +1,12 @@
+﻿.about_our_company_container {
+	height: 601px;
+    background: var(--green);
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+.about-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}

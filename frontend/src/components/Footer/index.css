@@ -1,6 +1,5 @@
 .footer {
-    background: #121E31;
-    height: auto;
+    background: var(--primary);
 }
 
 .footer__first-col__text {

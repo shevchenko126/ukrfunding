@@ -1,0 +1,21 @@
+.view-more {
+    width: 258px;
+    height: 60px;
+    background: #F6FBFA;
+    border: 2px solid var(--green);
+    margin-left: 66%;
+}
+
+@media(max-width: 991px) {
+    .view-more {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 450px) {
+    .we-have-title {
+        font-size: 35px;
+        line-height: 55px;
+    }
+}

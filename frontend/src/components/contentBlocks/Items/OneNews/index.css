@@ -1,0 +1,19 @@
+.aksel_news-main__logo {
+    position: relative;
+}
+
+.news-category {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    padding: 18px 18px 18px 22px;
+    background: #FF7468;
+    border-radius: 14px;
+    position: absolute;
+    margin: -60% 0 0 13px;
+}
+
+.aksel-news-main {
+    padding: 20px 30px;
+
+}

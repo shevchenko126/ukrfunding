@@ -1,0 +1,18 @@
+.success_story {
+    margin-top: 100px;
+}
+.success_story__button-col {
+    justify-content: end;
+}
+
+@media (max-width: 990px) {
+    .success_story__button-col {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 380px) {
+    .success-story-founded {
+        font-size: 30px;
+    }
+}

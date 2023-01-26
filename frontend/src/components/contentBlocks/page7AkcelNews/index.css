@@ -1,0 +1,38 @@
+.akcel_news {
+    min-height: 200px;
+    background: rgba(27, 130, 113, 1);
+}
+
+.news-text {
+    max-width: 805px;
+}
+
+.filters {
+    max-width: 1620px;
+}
+
+.filter-input {
+    width: 100%;
+    min-height: 58px;
+    background: #f0f0f0;
+    border: 2px solid #EEEEEE;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.filter-input:focus {
+    outline: none;
+    border: 2px solid gray;
+}
+
+.filters__right-col {
+    justify-content: end;
+}
+
+@media(max-width: 1200px) {
+    .filters__right-col {
+        justify-content: center;
+    }
+}

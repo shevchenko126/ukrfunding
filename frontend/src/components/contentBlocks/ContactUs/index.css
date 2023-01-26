@@ -1,0 +1,87 @@
+﻿.contact-text {
+    max-width: 805px;
+}
+
+.contact_main {
+    background: #C4C4C4;
+    border-radius: 14px;
+}
+
+.contact-form {
+    max-width: 773px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    min-height: 818px;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+.contact-form:hover {
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+}
+
+.contact-item-text {
+    color: #717579;
+}
+
+.contact-input {
+    width: 100%;
+    font-weight: 600;
+    background: white;
+    border: 2px solid #EEEEEE;
+    border-radius: 8px;
+    padding: 17px 20px 13px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact-message {
+    width: 100%;
+    height: 109px;
+    padding: 15px 0 60px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #06040A;
+    background: white;
+    border: 2px solid #EEEEEE;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn-contact {
+    width: 75%;
+}
+
+.contact-checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-input:hover,
+.contact-message:hover {
+    cursor: pointer;
+    border: 2px solid #00000085;
+}
+
+.contact-input:focus, 
+.contact-message:focus {
+    border: 2px solid #00000085;
+}
+
+.contact_main__form {
+    margin: 70px auto 0 auto;
+}
+
+@media (max-width: 385px) {
+    .contact_main__form__input {
+        max-width: 200px;
+        padding: 17px 0 13px 5px;
+    }
+}
+
+@media(max-width: 991px) {
+    .btn-contact {
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

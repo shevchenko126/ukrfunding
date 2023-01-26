@@ -1,0 +1,20 @@
+﻿.who_we_are {
+    margin-top: 100px;
+}
+
+.who-title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+@media(max-width: 400px) {
+    .who-we-are-title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
+@media(max-width: 991px) {
+    .who-panel {
+        display: none;
+    }
+}

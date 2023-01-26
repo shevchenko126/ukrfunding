@@ -1,0 +1,71 @@
+﻿.news_details_background {
+    min-height: 750px;
+    background: #C4C4C4;
+}
+
+.btn-share {
+    width: 180px;
+    height: 55px;
+    border: 2px solid #E4F0F7;
+    border-radius: 14px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+
+
+.share-viber {
+    border: none;
+    width: 68px;
+    height: 68px;
+    background: #4CAF50;
+    border-radius: 14px;
+}
+
+.comment-comment {
+    max-width: 1267px;
+    margin: 90px 0 0 auto;
+}
+
+.comment {
+    margin-left: 4%;
+}
+
+.comment-title {
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 38px;
+    color: #06040A;
+    margin-top: 40px;
+}
+
+.comment-text {
+    font-family: 'Lora';
+    font-size: 24px;
+    line-height: 46px;
+    margin-top: 40px;
+}
+
+.share-title {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 57px;
+}
+
+.btn-share-col {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 991px) {
+    .btn-share-col {
+        justify-content: start;
+    }
+    .share-viber {
+        margin-top: 10px;
+    }
+}
